@@ -28,7 +28,7 @@ KOR: 랫킨 종족 확장모드. 히드코어 SK 모드팩 전용. Vanilla Facti
 + 그 외에 추가해야 할 것들이 많지만, 하고싶은 게 너무나도 많아서 개발에 차질이 생길 수 있는점을 양해바랍니다.....
 + "하드코어 SK" 모드팩 전용으로 개발된 랫킨 종족 모드의 콘텐츠 확장모드입니다! 절대로 일반적인 림월드 모드에 추가하지 마세요!!!
 
-ENG: Ratkin race expansion mod. Exclusive to the Heathcore SK modpack. Requires Vanilla Factions Expanded mod!
+ENG: Ratkin race expansion mod. Exclusive to the Hardcore SK modpack. Requires Vanilla Factions Expanded mod!
 
 {List of Added Expansion Content}
 - Factions: The Rebel faction has been added. The Revolutionary Army aims to overthrow the monarchy and establish a new regime that fosters an egalitarian and citizen-centered society. The Warlords, while initially sharing the same goals as the Rebels, have now become corrupt and unethical.

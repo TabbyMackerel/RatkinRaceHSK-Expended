@@ -51,7 +51,7 @@ We plan to add the "Refugee League," a loose coalition of refugee ratkins seekin
 + There are many other things that need to be added, but please understand that there may be delays in development because there are so many things I want to do.....
 + This is a content expansion mod for the Ratkin race mod developed exclusively for the "Hardcore SK" modpack! Please do not add this to a Vanilla RimWorld mod!!!
 
-RUS: Мод расширения расы Раткин. Эксклюзивно для модпака Heathcore SK. Требуется мод Vanilla Factions Expanded!
+RUS: Мод расширения расы Раткин. Эксклюзивно для модпака Hardcore SK. Требуется мод Vanilla Factions Expanded!
 
 {Список добавленного контента}
 - Фракции: Добавлена ​​фракция «Повстанцы». Революционная армия стремится свергнуть монархию и установить новый режим, способствующий построению равноправного общества, ориентированного на граждан. «Военачальники», изначально разделявшие цели Повстанцев, теперь стали коррумпированными и безнравственными.

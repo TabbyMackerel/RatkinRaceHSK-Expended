@@ -56,7 +56,7 @@
 			<li>RK_BulletProofHelmet</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_OutdoorBackpack</li>
+			<li>Apparel_Backpack</li>
 			<li>Apparello_Ammobelt</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -122,7 +122,7 @@
 			<li>RK_OrderUniform</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_OutdoorBackpack</li>
+			<li>Apparel_Backpack</li>
 			<li>Apparello_Ammobelt</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -173,7 +173,7 @@
 			<li>PaH_StahlhelmS</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_OutdoorBackpack</li>
+			<li>Apparel_Backpack</li>
 			<li>CE_Apparel_TacVest</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -270,7 +270,7 @@
 			<li>PaH_StahlhelmS</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_OutdoorBackpack</li>
+			<li>Apparel_Backpack</li>
 			<li>CE_Apparel_TacVest</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -321,7 +321,7 @@
 			<li>RK_BulletProofHelmet</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_OutdoorBackpack</li>
+			<li>Apparel_Backpack</li>
 			<li>Apparello_Ammobelt</li>
 		</apparelRequired>
 		<apparelMoney>

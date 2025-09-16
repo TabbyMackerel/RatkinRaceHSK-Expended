@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_Backpack"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_Rebel</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_BulletProofHelmet"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_Rebel</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_OrderUniform"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_Rebel</li> 
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_OrderUniformB"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_Rebel</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparello_Beret"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_RebelSquad</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparello_ViperGas"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_RebelSquad</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparello_Gas"]/apparel/tags</xpath>
+	  <value>
+		  <li>RK_RebelSquad</li>
+      </value>
+	</Operation>
+
+</Patch>

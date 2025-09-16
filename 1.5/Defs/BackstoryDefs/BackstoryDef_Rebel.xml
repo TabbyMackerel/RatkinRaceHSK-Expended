@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- 랫킨 반군 유년기 -->
+
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory" Name="BaseRatkinBackStoryExpended">
+		<defName>RatkinEX_Rebel_RevolutionaryChild</defName>
+		<title>랫킨 혁명적인 아이</title>
+		<titleShort>혁명 꿈나무</titleShort>
+		<description>[PAWN_nameDef]은 왕정에서 지냈을 때 농부였습니다. 귀족들이 자신을 부모님과 함께 천박하다고 모욕을 하며 무시했으며, 그동안 노동 착취를 당한 것에 분노를 느꼈습니다. 이런 일을 더 이상 참을 수 없었던 [PAWN_pronoun]은 왕정 체제를 무너뜨리고 공화정을 세우려는 반군 세력에게 가담했으며, 받은 권총과 단검으로 그동안 차별하고 무시한 귀족들을 죽인 다음에 도망치면서 부모님과 같이 반란군 집단에 합류했습니다.</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+            <Shooting>2</Shooting>
+			<Melee>2</Melee>
+            <Plants>4</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>RatkinEX_Rebel</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory" Name="BaseRatkinBackStoryExpended">
+		<defName>RatkinEX_Rebel_YoungMilitia</defName>
+		<title>랫킨 어린 민병대원</title>
+		<titleShort>민병대 훈련병</titleShort>
+		<description>[PAWN_nameDef]</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+            <Shooting>2</Shooting>
+			<Melee>2</Melee>
+            <Plants>4</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>RatkinEX_Rebel</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory" Name="BaseRatkinBackStoryExpended">
+		<defName>RatkinEX_Rebel_Student</defName>
+		<title>랫킨 반란군 소속 학생</title>
+		<titleShort>반군 학생</titleShort>
+		<description>[PAWN_nameDef]</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+            <Shooting>2</Shooting>
+			<Melee>2</Melee>
+            <Plants>4</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>RatkinEX_Rebel</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory" Name="BaseRatkinBackStoryExpended">
+		<defName>RatkinEX_Rebel_StudentSoldier</defName>
+		<title>랫킨 학도병</title>
+		<titleShort>학생 의용병</titleShort>
+		<description>[PAWN_nameDef]</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+            <Shooting>2</Shooting>
+			<Melee>2</Melee>
+            <Plants>4</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>RatkinEX_Rebel</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory" Name="BaseRatkinBackStoryExpended">
+		<defName>RatkinEX_Rebel_SupportFarmer</defName>
+		<title>랫킨 혁명 지원 농부</title>
+		<titleShort>반군 소속 농부</titleShort>
+		<description>[PAWN_nameDef]</description>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+            <Shooting>2</Shooting>
+			<Melee>2</Melee>
+            <Plants>4</Plants>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>RatkinEX_Rebel</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

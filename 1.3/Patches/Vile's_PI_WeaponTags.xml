@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod"> 
+	<mods>
+		<li>HMC Vile's Pre-Industrial Overhaul</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/PawnKindDef[defName="RatkinGuerrilla"]/weaponTags</xpath>
+				  <value>
+					<li>RK_GuerrillaPI</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Gun_Pistolet"]/weaponTags</xpath>
+				  <value>
+					<li>RK_GuerrillaPI</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Gun_Charleville"]/weaponTags</xpath>
+				  <value>
+					<li>RK_GuerrillaPI</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Gun_BrownBess"]/weaponTags</xpath>
+				  <value>
+					<li>RK_GuerrillaPI</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Gun_Springfield"]/weaponTags</xpath>
+				  <value>
+					<li>RK_GuerrillaPI</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/PawnKindDef[defName="RatkinGuerrillaElite"]/weaponTags</xpath>
+				  <value>
+					<li>RK_EliteGuerrillaPI</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Gun_ColtPeacemaker"]/weaponTags</xpath>
+				  <value>
+					<li>RK_EliteGuerrillaPI</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Gun_Winchester"]/weaponTags</xpath>
+				  <value>
+					<li>RK_EliteGuerrillaPI</li>
+				  </value>
+				</li>
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+    	<mods>
+	  	  <li>Parabellum</li>
+		</mods>
+    
+    	<match Class="PatchOperationSequence">
+   			<operations>
+
+				<!-- 왕실군 소속 참호전 병과 의상 및 방어구 -->
+				<!-- 왕실군 소속 방어구 -->	
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_Sappenpanzer"]/apparel/tags</xpath>
+				  <value>
+					<li>RK_TrenchWarRakiniaSapper</li>
+					<li>RK_TrenchWarRakiniaLSW</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaH_StahlhelmS"]/apparel/tags</xpath>
+				  <value>
+                    <li>RK_TrenchWarRakiniaSapper</li>
+					<li>RK_TrenchWarRakiniaLSW</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_MB"]/apparel/tags</xpath>
+				  <value>
+		    	    <li>RK_TrenchWarRakiniaInfantry</li>
+					<li>RK_TrenchWarRakiniaSniper</li>
+                    <li>RK_TrenchWarRakiniaSapper</li>
+					<li>RK_TrenchWarRakiniaLSW</li>
+                    <li>RK_TrenchWarRakiniaCQB</li>
+				  </value>
+				</li>
+
+			<!-- 왕실군 소속 참호전 무기 -->
+
+				<li Class="PatchOperationAdd">
+	  			<xpath>Defs/ThingDef[defName="Pa_Lewis"]/weaponTags</xpath>
+	  			  <value>
+					<li>RK_TrenchWarRakiniaWeapon_LSW</li>
+	  			  </value>
+				</li>
+
+			</operations>
+    	</match>
+  </Operation>
+</Patch>

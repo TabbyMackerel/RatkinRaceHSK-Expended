@@ -8,7 +8,7 @@ An add-on mod exclusively for HSK that adds content from the Ratkin race mode in
 "War does not have a Ratkin's face"
 "전쟁은 랫킨의 얼굴을 하지 않았다"
 
-KOR: 랫킨 종족 확장모드. 히드코어 SK 모드팩 전용. Vanilla Factions Expanded 모드 필수!
+KOR: 랫킨 종족 확장모드. 하드코어 SK 모드팩 전용. Vanilla Factions Expanded 모드 필수!
 
 {추가되는 확장 콘텐츠들 목록}
 - 세력: 반란군 세력을 추가합니다. 왕정 체제를 뒤엎고 평등하고 시민 중심의 사회를 세우려는 신체제 세력인 혁명군 세력과 함께 같은 목적을 가지고 있었지만 지금은 변질되면서 부패한 비윤리적인 군벌 세력이 추가됩니다.

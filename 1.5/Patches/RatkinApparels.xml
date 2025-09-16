@@ -30,7 +30,7 @@
       <xpath>Defs/ThingDef[defName="RK_OutdoorBackpack"]/apparel/tags</xpath>
 	  <value>
 		  <li>RK_Rebel</li>
-<!--		  <li>RK_TrenchWarRebel</li>
+<!--	  <li>RK_TrenchWarRebel</li>
 		  <li>RK_TrenchWarRebelInfantry</li>
 		  <li>RK_TrenchWarRebelSapper</li>
 		  <li>RK_TrenchWarRebelHeavygunner</li>

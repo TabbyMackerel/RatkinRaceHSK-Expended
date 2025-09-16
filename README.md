@@ -1,12 +1,10 @@
 # RatkinRaceHSK-Expended
 An add-on mod exclusively for HSK that adds content from the Ratkin race mode included in the Rimworld Hardcore SK mod pack.
 
+<img width="1024" height="1024" alt="RatkinHSK_Expended_thumbnail" src="https://github.com/user-attachments/assets/452b6765-db51-4160-b352-033005ef3b79" />
 "У войны не раткино лицо"
 "War does not have a Ratkin's face"
 "전쟁은 랫킨의 얼굴을 하지 않았다"
-
-<img width="1024" height="1024" alt="RatkinHSK_Expended_thumbnail" src="https://github.com/user-attachments/assets/452b6765-db51-4160-b352-033005ef3b79" />
-
 
 KOR: 랫킨 종족 확장모드. 히드코어 SK 모드팩 전용. Vanilla Factions Expanded 모드 필수!
 

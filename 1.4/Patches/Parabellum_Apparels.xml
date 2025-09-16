@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod"> 
+		<mods>
+		  <li>Parabellum</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>
+			<operations>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaH_Stahlhelm"]/tags</xpath>
+				  <value>
+					<li>RK_MilitiaAdvanced</li>
+					<li>RK_VolunteerArmy</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaH_StahlhelmS"]/tags</xpath>
+				  <value>
+					<li>RK_MilitiaAdvanced</li>
+					<li>RK_VolunteerArmy</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_SN46B"]/tags</xpath>
+				  <value>
+					<li>RK_MilitiaAdvanced</li>
+					<li>RK_VolunteerArmy</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_Sappenpanzer"]/tags</xpath>
+				  <value>
+					<li>RK_MilitiaAdvanced</li>
+					<li>RK_VolunteerArmy</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="RK_Rebel_AntiTanker"]/apparelRequired/li[3]</xpath>
+				  <value>
+					<li>PaH_StahlhelmS</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_MB"]/tags</xpath>
+				  <value>
+				    <li>RK_VolunteerArmy</li>
+					<li>RK_Rebel</li>
+					<li>RK_RebelElite_Light</li>
+					<li>RK_RebelElite</li>
+				  </value>
+				</li>
+				
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_NIJIIA"]/tags</xpath>
+				  <value>
+				    <li>RK_VolunteerArmy</li>
+					<li>RK_RebelElite_Light</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_6B5BV"]/tags</xpath>
+				  <value>
+					<li>RK_RebelElite</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_IOTV"]/tags</xpath>
+				  <value>
+					<li>RK_RebelElite</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_BNC"]/tags</xpath>
+				  <value>
+					<li>RK_RebelElite</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_BAPS"]/tags</xpath>
+				  <value>
+					<li>RK_RebelElite</li>
+					<li>RK_RebelElite_Light</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_LBBPS"]/tags</xpath>
+				  <value>
+					<li>RK_RebelElite</li>
+					<li>RK_RebelElite_Light</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_TP"]/tags</xpath>
+				  <value>
+				    <li>RK_VolunteerArmy</li>
+					<li>RK_RebelSquad</li>
+				  </value>
+				</li>	
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_BPI"]/tags</xpath>
+				  <value>
+				    <li>RK_RebelElite_Light</li>
+				  </value>
+				</li>	
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_BPII"]/tags</xpath>
+				  <value>
+				    <li>RK_RebelElite</li>
+				    <li>RK_RebelElite_Light</li>
+				  </value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

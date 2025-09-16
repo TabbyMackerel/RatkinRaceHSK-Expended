@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod"> 
+		<mods>
+		  <li>Parabellum</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- 반군 소속 참호전 병과 의상 및 방어구 -->
+				<!-- 반군 소속 방어구 -->
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_Sappenpanzer"]/apparel/tags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelInfantry</li>
+					<li>RK_TrenchWarRebelSapper</li>
+					<li>RK_TrenchWarRebelHeavygunner</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaH_Stahlhelm"]/apparel/tags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelInfantry</li>
+					<li>RK_TrenchWarRebelShockTrooper</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaH_StahlhelmS"]/apparel/tags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelSapper</li>
+					<li>RK_TrenchWarRebelHeavygunner</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="PaB_MB"]/apparel/tags</xpath>
+				  <value>
+				    <li>RK_TrenchWarRebelInfantry</li>
+					<li>RK_TrenchWarRebelShockTrooper</li>
+					<li>RK_TrenchWarRebelSapper</li>
+					<li>RK_TrenchWarRebelHeavygunner</li>
+				  </value>
+				</li>
+
+				<!-- 반군/왕국군 참호전 공통 근접무기 및 투척무기 -->
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_S8498III"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarMelee</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_GrenadePotatoM"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarGrenade</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_GrenadeM24S"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarGrenadeAdvanced</li>
+				  </value>
+				</li>
+
+				<!-- 반군 소속 참호전 병과 장비 -->
+				<!-- 반군 소속 무기 -->
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_G88M"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelWeapon_Infantry</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_MP18B"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelWeapon_ShockTrooper</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_MG0815L"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelWeapon_NoMansLandMaker</li>
+				  </value>
+				</li>
+
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Pa_W1897T"]/weaponTags</xpath>
+				  <value>
+					<li>RK_TrenchWarRebelWeapon_TrenchCQB</li>
+				  </value>
+				</li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

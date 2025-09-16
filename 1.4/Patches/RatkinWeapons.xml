@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_Crossbow"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RioterRanged</li>
+      </value>
+	</Operation>
+	 
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_EnhanceCrossBow"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RioterRanged</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_Deringer"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Militiaman</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_AT2K"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Militiaman</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_VektorCP"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Militiaman</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_M37A2_USCM"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_MilitiamanAdvanced</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_MilitiamanAdvanced</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_GreaseGun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_MilitiamanAdvanced</li>
+		  <li>RK_RebelSMG</li>
+		  <li>RK_Warload</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MeleeWeapon_Machete"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_WarloadMelee</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_MilitiamanAdvanced</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_TMP"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_MilitiamanAdvanced</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_AK47Gun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_VolunteerArmy</li>
+		  <li>RK_Warload</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_VolunteerArmy</li>
+		  <li>RK_RebelRifle</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelRifle</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_RPG"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelAntitank</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSMG</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelST</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_Revolver"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelPT</li>
+      </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_Deringer"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelPT</li>
+      </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_AT2K"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelPT</li>
+      </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_VektorCP"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelPT</li>
+      </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_SniperRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleader</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleader</li>
+		  <li>RK_RebelRifleElite</li>
+      </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_M4A1Gun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelRifleElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_FAMAS"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelRifleElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_MarineSturmRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelRifleElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_SG553Gun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleader</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_SCAR_H"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleader</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSTElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_TacticalShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSTElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_AssaultShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSTElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_TacticalAutoShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSTElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_Vector"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSMGElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_MP5Gun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSMGElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_UMP45Gun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSMGElite</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_HecateII"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleaderElite</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_ATR"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleaderElite</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_BFR"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelSquadleaderElite</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_LAW"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelAntitankElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelAntitankElite</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_M5_USCM"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_RebelAntitankElite</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_HeavyCombatRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_Heavyweaponer</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_HHMG"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_Heavyweaponer</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_PrototypePulseRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_Sniper</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_RailgunMKI"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_Sniper</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_BFR"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_Sniper</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RF_Gun_HecateII"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_Sniper</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_TacticalCombatRifle"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_PM</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_SCAR_H"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_PM</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_TacticalShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_PM</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_AssaultShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_PM</li>
+      </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_TacticalAutoShotgun"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_Juggernaut_PM</li>
+      </value>
+	</Operation>
+
+<!--<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RK_Fork"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_PartisanMelee</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MeleeWeapon_Dagger"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_PartisanMelee</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_PartisanMelee</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_GuerrillaMelee</li>
+      </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="MeleeWeapon_Morningstar"]/weaponTags</xpath>
+	  <value>
+		  <li>RK_GuerrillaMelee</li>
+      </value>
+	</Operation> -->
+</Patch>

@@ -1,6 +1,9 @@
 # RatkinRaceHSK-Expended
 An add-on mod exclusively for HSK that adds content from the Ratkin race mode included in the Rimworld Hardcore SK mod pack.
 
+<img width="1024" height="1024" alt="RatkinHSK_Expended_thumbnail" src="https://github.com/user-attachments/assets/29e4752d-7c15-48ea-98d7-b74a4b57e77e" />
+
+
 "У войны не раткино лицо"
 "War does not have a Ratkin's face"
 "전쟁은 랫킨의 얼굴을 하지 않았다"
@@ -39,7 +42,9 @@ ENG: Ratkin race expansion mod. Exclusive to the Hardcore SK modpack. Requires V
 3. The story begins from the perspective of the Ratkins, who have become refugees after their homes were destroyed by fighting between the Ratkin Kingdom, the Republic Army (Revolutionary Army), and the warlords. They begin the scenario as if they were real civilians in a war situation. They are likely to start with negative traits and may suffer from severe malnutrition.
 
 + Some Ratkins become bandits because they have nothing to lose, while others desert and join pirate groups, and they appear in space pirate raids.
-+ The Ratkin Rebels scenario begins with permanent hostility with the Ratkin Kingdom (and therefore requires the Vanilla Faction Expanded mod). The Refugee scenario grants additional supplies if you own the HSK more content mod.
++ The Ratkin Rebels scenario begins with permanent hostility with the Ratkin Kingdom (and therefore requires the Vanilla Faction Expanded mod). The Refugee scenario grants additional supplies if you own the HSK more content mod.<img width="1024" height="1024" alt="RatkinHSK_Expended_thumbnail" src="https://github.com/user-attachments/assets/bac0e56e-0316-4d2c-a1d7-12d019530bee" />
+<img width="1024" height="1024" alt="RatkinHSK_Expended_thumbnail" src="https://github.com/user-attachments/assets/64823d35-40d2-4cb8-9bfd-2106e248832c" />
+
 
 {to be added}
 - The highly trained "Paratrooper" unit of the rebels (revolutionary army) and the most powerful special forces unit, the "Juggernaut" unit, will be added, and additional patches will be made in the form of drop pod raids.

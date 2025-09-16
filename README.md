@@ -6,6 +6,7 @@ An add-on mod exclusively for HSK that adds content from the Ratkin race mode in
 "War does not have a Ratkin's face"
 "전쟁은 랫킨의 얼굴을 하지 않았다"
 
+
 KOR: 랫킨 종족 확장모드. 히드코어 SK 모드팩 전용. Vanilla Factions Expanded 모드 필수!
 
 {추가되는 확장 콘텐츠들 목록}

@@ -28,7 +28,7 @@
 		<defName>RatkinEX_Rebel_YoungMilitia</defName>
 		<title>랫킨 어린 민병대원</title>
 		<titleShort>민병대 훈련병</titleShort>
-		<description>[PAWN_nameDef]</description>
+		<description>[PAWN_nameDef]은 귀족들의 부당한 대우와 착취, 그리고 많은 랫킨들이 성공한 삶을 살아갈 수 없는 더 높은 계층으로 올라오지 못하게 막아버리는는 사회 제도에 저항하기로 결정했습니다. 그리고 [PAWN_nameDef]은 혁명군에게 우호적인 마을에서 자신을 포함한 구체제의 몰락을 원하는 랫킨 주민들과 함께 스스로를 지키는 전투 훈련을 했습니다.</description>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -49,7 +49,7 @@
 		<defName>RatkinEX_Rebel_Student</defName>
 		<title>랫킨 반란군 소속 학생</title>
 		<titleShort>반군 학생</titleShort>
-		<description>[PAWN_nameDef]</description>
+		<description>[PAWN_nameDef]은 혁명군 소속의 학교에서 교육을 받았습니다. 기초적인 교육을 받았으며, 특히 랫킨 왕국의 체제의 대하여 모순에 의문점을 가졌습니다. "모든 랫킨들은 평등하지만, 귀족 랫킨들은 평범반 랫킨들보다 더 평등하면서 그들을 섬겨야 하는 점"이 이상했습니다.</description>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -67,10 +67,10 @@
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="BaseRatkinBackStory" Name="BaseRatkinBackStoryExpended">
-		<defName>RatkinEX_Rebel_StudentSoldier</defName>
-		<title>랫킨 학도병</title>
-		<titleShort>학생 의용병</titleShort>
-		<description>[PAWN_nameDef]</description>
+		<defName>RatkinEX_Rebel_FallenNoble</defName>
+		<title>랫킨 몰락 귀족</title>
+		<titleShort>몰락한 귀족</titleShort>
+		<description>[PAWN_nameDef]은 원래 상류층에 속하는 귀족었으며, 가족들과 함께 귀족으로써의 권리를 누릴 수 있는 행복한 삶을 지냈지만, 불행하게도 다른 귀족 계층에서 [PAWN_nameDef]의 자신을 포함한 가족들을 위협이 될 경쟁자로 취급했습니다. 결국 커다란 비리를 저질렀다는 조작된 증거와 함께 누명을 당한 이후에는, 더 이상 귀족으로 돌아갈 수 없는 몰락하는 피해를 받았습니다. 가족들과 함께 어두운 나날을 보내야만 했던 [PAWN_nameDef]은 자신과 가족의 인생을 망친 왕국과 귀족들을 증오했습니다. 혁명군에게 가족과 함께 거두어진 이후에는 다른 평민 출신 랫킨들과 지냈으며, 그들의 삶에 대한 사연에 대해 위로하면서 공감했습니다.</description>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -91,7 +91,7 @@
 		<defName>RatkinEX_Rebel_SupportFarmer</defName>
 		<title>랫킨 혁명 지원 농부</title>
 		<titleShort>반군 소속 농부</titleShort>
-		<description>[PAWN_nameDef]</description>
+		<description>[PAWN_nameDef]는 혁명군에게 중요한 전투식량이 될 곡물을 생산하고 공급하는 새로운 체제에 동조하는 농부입니다. 물론 쉴 수 있다면 사냥을 하면서, 잡은 사냥감과 수확한 곡물로 만든 스튜를 요리해서 배를 채웠습니다.</description>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Childhood</slot>

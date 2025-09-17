@@ -39,23 +39,28 @@
 		</structureMemeWeights>
 		<settlementTexturePath>Icon/RK_DefaultColony</settlementTexturePath>
 		<apparelStuffFilter>
-			<stuffCategoriesToAllow>
-				<li>WeaponMetallic</li>
-				<li>Fabric</li>
-				<li>Leathery</li>
-				<li>Woody</li>
-			</stuffCategoriesToAllow>
+			<categories>
+				<li>Leathers</li>
+			</categories>
 			<thingDefs>
+				<li>Cloth</li>
+				<li>WoolMuffalo</li>
+				<li>WoolDromedary</li>
+				<li>WoolAlpaca</li>
+				<li>HempCloth</li>
+				<li>WoolSheep</li>
+				<li>RK_Wool_KingHamster</li>
 				<li>DevilstrandCloth</li>
+				<li>CopperBar</li>
 				<li>Kevlar</li>
-				<li>AluminiumBar</li>
 				<li>Bronze</li>
 				<li>SteelBar</li>
+				<li>Plasteel</li>
+				<li>AluminiumBar</li>
+				<li>Bronze</li>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
 			</thingDefs>
-			<disallowedThingDefs>
-				<li>Chitin</li>
-				<li>Velour</li>
-			</disallowedThingDefs>
 		</apparelStuffFilter>
 		<allowedCultures>
 			<li>RatkiniaTraditionCulture</li>

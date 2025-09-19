@@ -54,12 +54,14 @@
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Childhood</slot>
 		<skillGains>
-            <Shooting>2</Shooting>
-			<Melee>2</Melee>
-            <Plants>4</Plants>
+            <Shooting>-2</Shooting>
+			<Melee>-2</Melee>
+			<Mining>2</Mining>
+            <Plants>2</Plants>
+			<Crafting>2</Crafting>
 		</skillGains>
 		<workDisables>
-			<li>Intellectual</li>
+			<li></li>
 		</workDisables>
 		<spawnCategories>
 			<li>RatkinEX_Rebel</li>
@@ -75,12 +77,12 @@
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<slot>Childhood</slot>
 		<skillGains>
-            <Shooting>2</Shooting>
-			<Melee>2</Melee>
-            <Plants>4</Plants>
+            <Shooting>-3</Shooting>
+			<Melee>-2</Melee>
+            <Social>4</Social>
 		</skillGains>
 		<workDisables>
-			<li>Intellectual</li>
+			<li></li>
 		</workDisables>
 		<spawnCategories>
 			<li>RatkinEX_Rebel</li>
@@ -110,11 +112,4 @@
 
 <!-- 랫킨 반군 성년기 -->
 
-<!-- 랫킨 군벌 유년기 -->
-
-<!-- 랫킨 군벌 성년기 -->
-
-<!-- 랫킨 난민 연합 유년기 -->
-
-<!-- 랫킨 난민 연합 성년기 -->
 </Defs>

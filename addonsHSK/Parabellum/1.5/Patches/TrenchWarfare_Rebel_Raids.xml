@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod"> 
+		<mods>
+		  <li>Parabellum</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+
+            <li Class="PatchOperationAdd">
+              <xpath>Defs/FactionDef[defName="RatkinRebel"]/pawnGroupMakers</xpath>
+	            <value>
+	              <li>
+		            <!-- 랫킨 반란군(= 혁명군) 일반 참호전 병과 습격(일반보병 한정) -->
+		            <kindDef>Combat</kindDef>
+		            <commonality>70</commonality>
+                    <disallowedStrategies>
+                	    <li>Siege</li>
+					    <li>ImmediateAttackSmart</li>
+					    <li>ImmediateAttackSappers</li>
+					    <li>ImmediateAttackBreaching</li>
+					    <li>ImmediateAttackBreachingSmart</li>	
+                    </disallowedStrategies>
+		            <options>
+		               <RK_Rebel_Trenchwar_Infantry>10</RK_Rebel_Trenchwar_Infantry>
+		            </options>
+	              </li>
+	            </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+              <xpath>Defs/FactionDef[defName="RatkinRebel"]/pawnGroupMakers</xpath>
+	            <value>
+	              <li>
+		            <!-- 랫킨 반란군 일반 참호전 병과 습격(추가병종 포함) -->
+		            <kindDef>Combat</kindDef>
+		            <commonality>45</commonality>
+                    <disallowedStrategies>
+                	    <li>Siege</li>
+					    <li>ImmediateAttackSmart</li>
+					    <li>ImmediateAttackSappers</li>
+					    <li>ImmediateAttackBreaching</li>
+					    <li>ImmediateAttackBreachingSmart</li>	
+                    </disallowedStrategies>
+		            <options>
+		               <RK_Rebel_Trenchwar_Infantry>6</RK_Rebel_Trenchwar_Infantry>
+                       <RK_Rebel_Trenchwar_ShockTrooper>2</RK_Rebel_Trenchwar_ShockTrooper>
+                       <RK_Kingdom_Trenchwar_Sapper>2</RK_Kingdom_Trenchwar_Sapper>
+                       <RK_Rebel_Trenchwar_NoMansLandGunner>1</RK_Rebel_Trenchwar_NoMansLandGunner>
+		            </options>
+	              </li>
+	            </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+              <xpath>Defs/FactionDef[defName="RatkinRebel"]/pawnGroupMakers</xpath>
+	            <value>
+	              <li>
+		            <!-- 랫킨 반란군 돌격 및 근접전 위주 참호전 병과 습격 -->
+		            <kindDef>Combat</kindDef>
+		            <commonality>35</commonality>
+                    <disallowedStrategies>
+                	    <li>Siege</li>
+					    <li>ImmediateAttackSmart</li>
+					    <li>ImmediateAttackSappers</li>
+					    <li>ImmediateAttackBreaching</li>
+					    <li>ImmediateAttackBreachingSmart</li>	
+                    </disallowedStrategies>
+		            <options>
+		               <RK_Rebel_Trenchwar_Infantry>6</RK_Rebel_Trenchwar_Infantry>
+                       <RK_Rebel_Trenchwar_Sapper>2</RK_Rebel_Trenchwar_Sapper>
+                       <RK_Rebel_Trenchwar_NoMansLandGunner>2</RK_Rebel_Trenchwar_NoMansLandGunner>
+                       <RK_Rebel_Trenchwar_Trench_CQB>3</RK_Rebel_Trenchwar_Trench_CQB>
+		            </options>
+	              </li>
+	            </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+              <xpath>Defs/FactionDef[defName="RatkinRebel"]/pawnGroupMakers</xpath>
+	            <value>
+	              <li>
+		            <!-- 랫킨 반란군 공병 및 정면돌파 위주 참호전 병과 습격 -->
+		            <kindDef>Combat</kindDef>
+		            <commonality>20</commonality>
+                    <disallowedStrategies>
+                	    <li>Siege</li>
+                        <li>StageThenAttack</li>
+                        <li>ImmediateAttack</li>
+					    <li>ImmediateAttackSmart</li>
+					    <li>ImmediateAttackBreachingSmart</li>	
+                    </disallowedStrategies>
+		            <options>
+		               <RK_Rebel_Trenchwar_Infantry>4</RK_Rebel_Trenchwar_Infantry>
+                       <RK_Rebel_Trenchwar_Sapper>3</RK_Rebel_Trenchwar_Sapper>
+                       <RK_Rebel_Trenchwar_NoMansLandGunner>1</RK_Rebel_Trenchwar_NoMansLandGunner>
+                       <RK_Rebel_Trenchwar_Trench_CQB>2</RK_Rebel_Trenchwar_Trench_CQB>
+		            </options>
+	              </li>
+	            </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+              <xpath>Defs/FactionDef[defName="RatkinRebel"]/pawnGroupMakers</xpath>
+	            <value>
+	              <li>
+		            <!-- 랫킨 반란군 포격전 위주의 참호전 병과 습격 -->
+		            <kindDef>Combat</kindDef>
+		            <commonality>20</commonality>
+                    <disallowedStrategies>
+                        <li>StageThenAttack</li>
+                        <li>ImmediateAttack</li>
+				    	<li>ImmediateAttackSmart</li>
+				    	<li>ImmediateAttackSappers</li>
+				    	<li>ImmediateAttackBreaching</li>
+				    	<li>ImmediateAttackBreachingSmart</li>
+                    </disallowedStrategies>
+		            <options>
+		               <RK_Rebel_Trenchwar_Infantry>4</RK_Rebel_Trenchwar_Infantry>
+                       <RK_Rebel_Trenchwar_ShockTrooper>3</RK_Rebel_Trenchwar_ShockTrooper>
+                       <RK_Rebel_Trenchwar_Sapper>1</RK_Rebel_Trenchwar_Sapper>
+                       <RK_Rebel_Trenchwar_NoMansLandGunner>2</RK_Rebel_Trenchwar_NoMansLandGunner>
+                       <RK_Rebel_Trenchwar_Trench_CQB>1</RK_Rebel_Trenchwar_Trench_CQB>
+		            </options>
+	              </li>
+	            </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+              <xpath>Defs/FactionDef[defName="RatkinRebel"]/pawnGroupMakers</xpath>
+	            <value>
+	              <li>
+		            <!-- 랫킨 반란군 화력지원 위주 참호전 병과 습격 -->
+		            <kindDef>Combat</kindDef>
+		            <commonality>15</commonality>
+                    <disallowedStrategies>
+                        <li>Siege</li>
+				    	<li>ImmediateAttackSmart</li>
+				    	<li>ImmediateAttackSappers</li>
+				    	<li>ImmediateAttackBreaching</li>
+				    	<li>ImmediateAttackBreachingSmart</li>
+                    </disallowedStrategies>
+		            <options>
+		               <RK_Rebel_Trenchwar_Infantry>4</RK_Rebel_Trenchwar_Infantry>
+                       <RK_Rebel_Trenchwar_ShockTrooper>3</RK_Rebel_Trenchwar_ShockTrooper>
+                       <RK_Rebel_Trenchwar_NoMansLandGunner>3</RK_Rebel_Trenchwar_NoMansLandGunner>
+		            </options>
+	              </li>
+	            </value>
+            </li>
+
+			</operations>
+		</match>
+    </Operation>
+	
+</Patch>

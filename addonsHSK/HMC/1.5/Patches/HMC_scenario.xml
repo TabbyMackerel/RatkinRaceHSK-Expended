@@ -8,6 +8,30 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
+			<!-- 랫킨 특수부대 시나리오 장비 변경 -->
+
+				<li Class="PatchOperationReplace">	
+				<xpath>Defs/ScenarioDef[defName="RK_Scenario_Rebel_SpecOpts"]/scenario/parts/li[@Class="ScenPart_StartingThing_Defined"][8]</xpath>
+				<value>
+				  <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+                    <thingDef>Spas12_HMC</thingDef>
+					<count>2</count>
+                  </li>
+				</value>
+				</li>
+
+				<li Class="PatchOperationReplace">	
+				<xpath>Defs/ScenarioDef[defName="RK_Scenario_Rebel_SpecOpts"]/scenario/parts/li[@Class="ScenPart_StartingThing_Defined"][12]</xpath>
+				<value>
+				  <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+                    <thingDef>Gun_AEK973_HMC</thingDef>
+					<count>2</count>
+                  </li>
+				</value>
+				</li>
+
 			<!-- 랫킨 난민 시나리오 추가 보급품 -->
 			
 				<li Class="PatchOperationAdd">	

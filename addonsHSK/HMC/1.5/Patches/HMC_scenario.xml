@@ -11,7 +11,7 @@
 			<!-- 랫킨 특수부대 시나리오 장비 변경 -->
 
 				<li Class="PatchOperationReplace">	
-				<xpath>Defs/ScenarioDef[defName="RK_Scenario_Rebel_SpecOpts"]/scenario/parts/li[@Class="ScenPart_StartingThing_Defined"][8]/def/thingDef/Gun_TacticalShotgun/count/2</xpath>
+				<xpath>Defs/ScenarioDef[defName="RK_Scenario_Rebel_SpecOpts"]/scenario/parts/li[@Class="ScenPart_StartingThing_Defined"][8]</xpath>
 				<value>
 				  <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -22,7 +22,7 @@
 				</li>
 
 				<li Class="PatchOperationReplace">	
-				<xpath>Defs/ScenarioDef[defName="RK_Scenario_Rebel_SpecOpts"]/scenario/parts/li[@Class="ScenPart_StartingThing_Defined"][12]/def/thingDef/Gun_AK47Gun/count/2</xpath>
+				<xpath>Defs/ScenarioDef[defName="RK_Scenario_Rebel_SpecOpts"]/scenario/parts/li[@Class="ScenPart_StartingThing_Defined"][12]</xpath>
 				<value>
 				  <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>

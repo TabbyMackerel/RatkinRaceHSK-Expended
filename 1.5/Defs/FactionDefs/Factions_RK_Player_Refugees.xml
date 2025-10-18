@@ -7,8 +7,8 @@
 		<description>내전으로 인한 참화로 일부 랫킨들이 숨어살기로 한 구역입니다.</description>
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>RK_Rebel_Militiaman_Crossbow</basicMemberKind>
-		<pawnSingular>랫킨</pawnSingular>
-		<pawnsPlural>랫킨들</pawnsPlural>
+		<pawnSingular>랫킨 난민</pawnSingular>
+		<pawnsPlural>랫킨 난민들</pawnsPlural>
 		<techLevel>Medieval</techLevel>
 		<backstoryCategories>
 			<li>Offworld</li>

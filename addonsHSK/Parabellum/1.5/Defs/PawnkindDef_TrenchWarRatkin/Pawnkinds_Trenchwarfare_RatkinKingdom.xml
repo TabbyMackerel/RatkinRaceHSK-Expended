@@ -165,7 +165,6 @@
 <!-- 참호전 공병 -->
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase" Name="RK_Kingdom_Parabellum_TrenchWarfareSapperBase" Abstract="True">
 		<label>랫킨 왕실군 소속 참호전 공병</label>
-		<race>Ratkin</race>
 		<defaultFactionType>Rakinia</defaultFactionType>
 		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>		

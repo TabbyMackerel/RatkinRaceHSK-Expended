@@ -196,7 +196,6 @@
 <!-- 참호전 공병 -->
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase" Name="RK_RebelBase_Parabellum_TrenchWarfareSapperBase" Abstract="True">
 		<label>랫킨 반군 소속 참호전 공병</label>
-		<race>Ratkin</race>
 		<defaultFactionType>RatkinRebel</defaultFactionType>
 		<combatPower>110</combatPower>
 		<isFighter>true</isFighter>		

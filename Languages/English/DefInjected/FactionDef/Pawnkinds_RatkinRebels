@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- 랫킨 혁명군(공화국군) -->
+<!-- 랫킨 민간인 -->
+<RK_Rebel_Civilian.label>ratkin civilian<.RK_Rebel_Civilian.label>
+<RK_Rebel_Civilian.labelPlural>ratkin civilians<.RK_Rebel_Civilian.labelPlural>
+<RK_Rebel_Civilian.labelMale>male ratkin civilian<.RK_Rebel_Civilian.labelMale>
+<RK_Rebel_Civilian.labelMalePlural>male ratkin civilians<.RK_Rebel_Civilian.labelMalePlural>
+<RK_Rebel_Civilian.labelFemale>female ratkin civilian<.RK_Rebel_Civilian.labelFemale>
+<RK_Rebel_Civilian.labelFemalePlural>female ratkin civilians</RK_Rebel_Civilian.labelFemalePlural>
+
+<!-- 랫킨 자유 무역상 -->
+<RK_Rebel_Trader.label>ratkin freedom trader</RK_Rebel_Trader.label>
+<RK_Rebel_Trader.labelPlural>ratkin freedom traders</RK_Rebel_Trader.labelPlural>
+<RK_Rebel_Trader.labelMale>male ratkin freedom trader</RK_Rebel_Trader.labelMale>
+<RK_Rebel_Trader.labelMalePlural>male ratkin freedom traders</RK_Rebel_Trader.labelMalePlural>
+<RK_Rebel_Trader.labelFemale>female ratkin trader</RK_Rebel_Trader.labelFemale>
+<RK_Rebel_Trader.labelFemalePlural>female ratkin traders</RK_Rebel_Trader.labelFemalePlural>
+
+<!-- 랫킨 난민 시나리오 (플레이어) -->
+<RK_Rebel_Militiaman_Crossbow_player.label>ratkin armed refugee</RK_Rebel_Militiaman_Crossbow_player.label>
+<RK_Rebel_Militiaman_Crossbow_player.labelPlural>ratkin armed refugees</RK_Rebel_Militiaman_Crossbow_player.labelPlural>
+<RK_Rebel_Militiaman_Crossbow_player.labelMale>male armed ratkin refugee</RK_Rebel_Militiaman_Crossbow_player.labelMale>
+<RK_Rebel_Militiaman_Crossbow_player.labelMalePlural>male armed ratkin refugees</RK_Rebel_Militiaman_Crossbow_player.labelMalePlural>
+<RK_Rebel_Militiaman_Crossbow_player.labelFemale>female armed ratkin refugee</RK_Rebel_Militiaman_Crossbow_player.labelFemale>
+<RK_Rebel_Militiaman_Crossbow_player.labelFemalePlural>female armed ratkin refugees</RK_Rebel_Militiaman_Crossbow_player.labelFemalePlural>
+
+<!-- 랫킨 석궁 민병대원 -->
+<RK_Rebel_Militiaman_Crossbow.label>ratkin crossbow militiaman</RK_Rebel_Militiaman_Crossbow.label>
+<RK_Rebel_Militiaman_Crossbow.labelPlural>ratkin crossbow militiamen</RK_Rebel_Militiaman_Crossbow.labelPlural>
+<RK_Rebel_Militiaman_Crossbow.labelMale>male ratkin crossbow militiaman</RK_Rebel_Militiaman_Crossbow.labelMale>
+<RK_Rebel_Militiaman_Crossbow.labelMalePlural>male ratkin crossbow militiamen</RK_Rebel_Militiaman_Crossbow.labelMalePlural>
+<RK_Rebel_Militiaman_Crossbow.labelFemale>female ratkin crossbow militiaman</RK_Rebel_Militiaman_Crossbow.labelFemale>
+<RK_Rebel_Militiaman_Crossbow.labelFemalePlural>female ratkin crossbow militiamen</RK_Rebel_Militiaman_Crossbow.labelFemalePlural>
+
+<!-- 랫킨 민병대원(근접무기) -->
+<RK_Rebel_Militiaman_Melee.label>ratkin close combat militiaman</RK_Rebel_Militiaman_Melee.label>
+<RK_Rebel_Militiaman_Melee.labelPlural>ratkin close combat militiamen</RK_Rebel_Militiaman_Melee.labelPlural>
+<RK_Rebel_Militiaman_Melee.labelMale>male close combat ratkin militiaman</RK_Rebel_Militiaman_Melee.labelMale>
+<RK_Rebel_Militiaman_Melee.labelMalePlural>male close combat ratkin militiamen</RK_Rebel_Militiaman_Melee.labelMalePlural>
+<RK_Rebel_Militiaman_Melee.labelFemale>female close combat ratkin militiaman</RK_Rebel_Militiaman_Melee.labelFemale>
+<RK_Rebel_Militiaman_Melee.labelFemalePlural>female close combat ratkin militiamen</RK_Rebel_Militiaman_Melee.labelFemalePlural>
+
+<!-- 랫킨 총잡이 민병대원 -->
+<RK_Rebel_Militiaman_Gunner.label>ratkin gunner militiaman</RK_Rebel_Militiaman_Gunner.label>
+<RK_Rebel_Militiaman_Gunner.labelPlural>ratkin gunner militiamen</RK_Rebel_Militiaman_Gunner.labelPlural>
+<RK_Rebel_Militiaman_Gunner.labelMale>male ratkin gunner militiaman</RK_Rebel_Militiaman_Gunner.labelMale>
+<RK_Rebel_Militiaman_Gunner.labelMalePlural>male ratkin gunner militiamen</RK_Rebel_Militiaman_Gunner.labelMalePlural>
+<RK_Rebel_Militiaman_Gunner.labelFemale>female ratkin gunner militiaman</RK_Rebel_Militiaman_Gunner.labelFemale>
+<RK_Rebel_Militiaman_Gunner.labelFemalePlural>female ratkin gunner militiamen</RK_Rebel_Militiaman_Gunner.labelFemalePlural>
+
+<!-- 랫킨 숙련된 총잡이 민병대원 -->
+<RK_Rebel_Militiaman_GunnerAdvanced.label>ratkin advanced gunner militiaman</RK_Rebel_Militiaman_GunnerAdvanced.label>
+<RK_Rebel_Militiaman_GunnerAdvanced.labelPlural>ratkin advanced gunner militiamen</RK_Rebel_Militiaman_GunnerAdvanced.labelPlural>
+<RK_Rebel_Militiaman_GunnerAdvanced.labelMale>male ratkin advanced gunner militiaman</RK_Rebel_Militiaman_GunnerAdvanced.labelMale>
+<RK_Rebel_Militiaman_GunnerAdvanced.labelMalePlural>male ratkin advanced gunner militiamen</RK_Rebel_Militiaman_GunnerAdvanced.labelMalePlural>
+<RK_Rebel_Militiaman_GunnerAdvanced.labelFemale>female ratkin advanced gunner militiaman</RK_Rebel_Militiaman_GunnerAdvanced.labelFemale>
+<RK_Rebel_Militiaman_GunnerAdvanced.labelFemalePlural>female ratkin advanced gunner militiamen</RK_Rebel_Militiaman_GunnerAdvanced.labelFemalePlural>
+
+<!-- 랫킨 의용병 -->
+<RK_Rebel_VolunteerArmy.label>ratkin volunteer army</RK_Rebel_VolunteerArmy.label>
+<RK_Rebel_VolunteerArmy.labelPlural>ratkin volunteer armies</RK_Rebel_VolunteerArmy.labelPlural>
+<RK_Rebel_VolunteerArmy.labelMale>male ratkin volunteer army</RK_Rebel_VolunteerArmy.labelMale>
+<RK_Rebel_VolunteerArmy.labelMalePlural>male ratkin volunteer armies</RK_Rebel_VolunteerArmy.labelMalePlural>
+<RK_Rebel_VolunteerArmy.labelFemale>female ratkin volunteer army</RK_Rebel_VolunteerArmy.labelFemale>
+<RK_Rebel_VolunteerArmy.labelFemalePlural>female ratkin volunteer armies</RK_Rebel_VolunteerArmy.labelFemalePlural>
+
+<!-- 랫킨 반란군 시나리오(플레이어) -->
+<RK_Rebel_VolunteerArmy_Player.label>ratkin volunteer army</RK_Rebel_VolunteerArmy_Player.label>
+<RK_Rebel_VolunteerArmy_Player.labelPlural>ratkin volunteer armies</RK_Rebel_VolunteerArmy_Player.labelPlural>
+<RK_Rebel_VolunteerArmy_Player.labelMale>male ratkin volunteer army</RK_Rebel_VolunteerArmy_Player.labelMale>
+<RK_Rebel_VolunteerArmy_Player.labelMalePlural>male ratkin volunteer armies</RK_Rebel_VolunteerArmy_Player.labelMalePlural>
+<RK_Rebel_VolunteerArmy_Player.labelFemale>female ratkin volunteer army</RK_Rebel_VolunteerArmy_Player.labelFemale>
+<RK_Rebel_VolunteerArmy_Player.labelFemalePlural>female ratkin volunteer armies</RK_Rebel_VolunteerArmy_Player.labelFemalePlural>
+
+<!-- 정규 반군 계열 -->
+<!-- 랫킨 소총병 -->
+<RK_Rebel_Rifleman.label>ratkin rebel rifleman</RK_Rebel_Rifleman.label>
+<RK_Rebel_Rifleman.labelPlural>ratkin rebel riflemen</RK_Rebel_Rifleman.labelPlural>
+<RK_Rebel_Rifleman.labelMale>male ratkin rebel rifleman</RK_Rebel_Rifleman.labelMale>
+<RK_Rebel_Rifleman.labelMalePlural>male ratkin rebel riflemen</RK_Rebel_Rifleman.labelMalePlural>
+<RK_Rebel_Rifleman.labelFemale>female ratkin rebel rifleman</RK_Rebel_Rifleman.labelFemale>
+<RK_Rebel_Rifleman.labelFemalePlural>female ratkin rebel riflemen</RK_Rebel_Rifleman.labelFemalePlural>
+
+<!-- 랫킨 돌격병 -->
+<RK_Rebel_Charger.label>ratkin rebel assault trooper</RK_Rebel_Charger.label>
+<RK_Rebel_Charger.labelPlural>ratkin rebel assault troops</RK_Rebel_Charger.labelPlural>
+<RK_Rebel_Charger.labelMale>male ratkin rebel assault trooper</RK_Rebel_Charger.labelMale>
+<RK_Rebel_Charger.labelMalePlural>male ratkin rebel assault troops</RK_Rebel_Charger.labelMalePlural>
+<RK_Rebel_Charger.labelFemale>female ratkin rebel assault trooper</RK_Rebel_Charger.labelFemale>
+<RK_Rebel_Charger.labelFemalePlural>female ratkin rebel assault troops</RK_Rebel_Charger.labelFemalePlural>
+
+<!-- 반군 대전차병-->
+<RK_Rebel_AntiTanker.label>ratkin rebel anti tanker</RK_Rebel_AntiTanker.label>
+<RK_Rebel_AntiTanker.labelPlural>ratkin rebel anti tanker troops</RK_Rebel_AntiTanker.labelPlural>
+<RK_Rebel_AntiTanker.labelMale>male ratkin rebel anti tanker</RK_Rebel_AntiTanker.labelMale>
+<RK_Rebel_AntiTanker.labelMalePlural>male ratkin rebel anti tanker troops</RK_Rebel_AntiTanker.labelMalePlural>
+<RK_Rebel_AntiTanker.labelFemale>female ratkin rebel anti tanker</RK_Rebel_AntiTanker.labelFemale>
+<RK_Rebel_AntiTanker.labelFemalePlural>female ratkin rebel anti tanker troops</RK_Rebel_AntiTanker.labelFemalePlural>
+
+<!-- 반군 화염방사병 -->
+<RK_Rebel_Flamethrower.label>ratkin rebel flamethrower</RK_Rebel_Flamethrower.label>
+<RK_Rebel_Flamethrower.labelPlural>ratkin rebel flamethrowers</RK_Rebel_Flamethrower.labelPlural>
+<RK_Rebel_Flamethrower.labelMale>male ratkin rebel flamethrower</RK_Rebel_Flamethrower.labelMale>
+<RK_Rebel_Flamethrower.labelMalePlural>male ratkin rebel flamethrowers</RK_Rebel_Flamethrower.labelMalePlural>
+<RK_Rebel_Flamethrower.labelFemale>female ratkin rebel flamethrower</RK_Rebel_Flamethrower.labelFemale>
+<RK_Rebel_Flamethrower.labelFemalePlural>female ratkin rebel flamethrowers</RK_Rebel_Flamethrower.labelFemalePlural>
+
+<!-- 랫킨 경보병 -->
+<RK_Rebel_Light.label>ratkin rebel light infantry</RK_Rebel_Light.label>
+<RK_Rebel_Light.labelPlural>ratkin rebel light infantry</RK_Rebel_Light.labelPlural>
+<RK_Rebel_Light.labelMale>male ratkin rebel light infantry</RK_Rebel_Light.labelMale>
+<RK_Rebel_Light.labelMalePlural>male ratkin rebel light infantry</RK_Rebel_Light.labelMalePlural>
+<RK_Rebel_Light.labelFemale>female ratkin rebel light infantry</RK_Rebel_Light.labelFemale>
+<RK_Rebel_Light.labelFemalePlural>female ratkin rebel light infantry</RK_Rebel_Light.labelFemalePlural>
+
+<!-- 반군 중대장 -->
+<RK_Rebel_AntiTanker.label>ratkin rebel anti tanker</.label>
+<RK_Rebel_AntiTanker.labelPlural>ratkin rebel anti tanker troops</.labelPlural>
+<RK_Rebel_AntiTanker.labelMale>male ratkin rebel anti tanker</.labelMale>
+<RK_Rebel_AntiTanker.labelMalePlural>male ratkin rebel </.labelMalePlural>
+<RK_Rebel_AntiTanker.labelFemale>female ratkin rebel </.labelFemale>
+<RK_Rebel_AntiTanker.labelFemalePlural>female ratkin rebel </.labelFemalePlural>
+
+
+</LanguageData>

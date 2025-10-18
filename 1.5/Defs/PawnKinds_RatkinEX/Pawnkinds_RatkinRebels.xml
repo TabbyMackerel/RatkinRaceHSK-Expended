@@ -113,7 +113,7 @@
 	    <isFighter>true</isFighter>
 	</PawnKindDef>
 
-<!-- 플레이어 소속 민병대원 -->
+<!-- 플레이어 소속 민병대원(난민 시나리오) -->
 	<PawnKindDef ParentName="RK_Rebel_MilitiaBase">
 		<defName>RK_Rebel_Militiaman_Crossbow_player</defName>
 		<label>랫킨 석궁 민병대원</label>
@@ -333,7 +333,7 @@
 		</apparelTags>
 	</PawnKindDef>	
 
-	<!--플레이어 소속 의용군--> 
+	<!-- 플레이어 소속 의용군 --> 
 	<PawnKindDef ParentName="RK_Rebel_MilitiaBase">
 		<defName>RK_Rebel_VolunteerArmy_Player</defName>
 		<label>랫킨 의용병</label>

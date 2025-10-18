@@ -40,7 +40,6 @@
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
-					    <li>ImmediateAttackSappers</li>
 					    <li>ImmediateAttackBreaching</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -64,7 +63,6 @@
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
-					    <li>ImmediateAttackSappers</li>
 					    <li>ImmediateAttackBreaching</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -88,7 +86,6 @@
                     <disallowedStrategies>
                 	    <li>Siege</li>
                         <li>StageThenAttack</li>
-                        <li>ImmediateAttack</li>
 					    <li>ImmediateAttackSmart</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -137,7 +134,6 @@
 		            <commonality>15</commonality>
                     <disallowedStrategies>
                         <li>Siege</li>
-				    	<li>ImmediateAttackSmart</li>
 				    	<li>ImmediateAttackSappers</li>
 				    	<li>ImmediateAttackBreaching</li>
 				    	<li>ImmediateAttackBreachingSmart</li>

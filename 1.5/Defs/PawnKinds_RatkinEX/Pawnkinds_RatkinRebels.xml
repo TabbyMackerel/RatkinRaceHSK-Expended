@@ -113,7 +113,7 @@
 	    <isFighter>true</isFighter>
 	</PawnKindDef>
 
-<!-- 플레이어 소속 민병대원 -->
+<!-- 플레이어 소속 민병대원(난민 시나리오) -->
 	<PawnKindDef ParentName="RK_Rebel_MilitiaBase">
 		<defName>RK_Rebel_Militiaman_Crossbow_player</defName>
 		<label>랫킨 석궁 민병대원</label>
@@ -333,7 +333,7 @@
 		</apparelTags>
 	</PawnKindDef>	
 
-	<!--플레이어 소속 의용군--> 
+	<!-- 플레이어 소속 의용군 --> 
 	<PawnKindDef ParentName="RK_Rebel_MilitiaBase">
 		<defName>RK_Rebel_VolunteerArmy_Player</defName>
 		<label>랫킨 의용병</label>
@@ -1710,6 +1710,7 @@
 		</weaponTags>
 	</PawnKindDef>
 	
+<!-- 랫킨 도적 및 약탈자 계열 -->
  	<PawnKindDef Name="RK_RebelUnethical_RaiderBase" Abstract="True">
 	    <race>Ratkin</race>
 		<defaultFactionType>RatkinRebel_Unethical</defaultFactionType>
@@ -2005,7 +2006,7 @@
 	
 	<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">
 		<defName>RK_RebelUnethical_WarloadAssaulter</defName>
-		<label>랫킨 군벌 돌격병</label>
+		<label>랫킨 군벌 근접 돌격병</label>
 		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
 		<canBeSapper>true</canBeSapper>

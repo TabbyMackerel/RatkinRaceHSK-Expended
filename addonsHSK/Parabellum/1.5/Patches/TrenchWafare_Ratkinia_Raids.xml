@@ -3,7 +3,7 @@
 	
 	<Operation Class="PatchOperationFindMod"> 
 		<mods>
-		  <li>Parabellum</li>
+		  <li>NewRatkinPlus</li>
 		</mods>
 		
 		<match Class="PatchOperationSequence">
@@ -40,7 +40,6 @@
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
-					    <li>ImmediateAttackSappers</li>
 					    <li>ImmediateAttackBreaching</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -64,7 +63,6 @@
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
-					    <li>ImmediateAttackSappers</li>
 					    <li>ImmediateAttackBreaching</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -87,8 +85,6 @@
 		            <commonality>20</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
-                        <li>StageThenAttack</li>
-                        <li>ImmediateAttack</li>
 					    <li>ImmediateAttackSmart</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -110,7 +106,7 @@
 		            <kindDef>Combat</kindDef>
 		            <commonality>20</commonality>
                     <disallowedStrategies>
-                        <li>StageThenAttack</li>
+						<li>StageThenAttack</li>
                         <li>ImmediateAttack</li>
 				    	<li>ImmediateAttackSmart</li>
 				    	<li>ImmediateAttackSappers</li>
@@ -137,7 +133,6 @@
 		            <commonality>15</commonality>
                     <disallowedStrategies>
                         <li>Siege</li>
-				    	<li>ImmediateAttackSmart</li>
 				    	<li>ImmediateAttackSappers</li>
 				    	<li>ImmediateAttackBreaching</li>
 				    	<li>ImmediateAttackBreachingSmart</li>

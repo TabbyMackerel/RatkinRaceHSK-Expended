@@ -179,7 +179,6 @@
 			<li>RK_GaurdenUniform</li>
 		</apparelRequired>
 		<isFighter>true</isFighter>
-
 		<apparelMoney>
 			<min>1000</min>
 			<max>2500</max>

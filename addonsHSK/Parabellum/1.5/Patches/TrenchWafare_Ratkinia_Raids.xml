@@ -3,7 +3,7 @@
 	
 	<Operation Class="PatchOperationFindMod"> 
 		<mods>
-		  <li>Parabellum</li>
+		  <li>NewRatkinPlus</li>
 		</mods>
 		
 		<match Class="PatchOperationSequence">

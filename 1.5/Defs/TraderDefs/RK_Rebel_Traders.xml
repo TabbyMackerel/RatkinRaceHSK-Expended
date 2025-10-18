@@ -228,6 +228,7 @@
 		</stockGenerators>
 	</TraderKindDef>
 	
+	<!-- 식량물자 상단 -->
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_FoodTrader</defName>
 		<label>식량 거래상</label>
@@ -388,6 +389,7 @@
 		</stockGenerators>
 	</TraderKindDef>
 	
+	<!-- 밀수품 거래상 -->
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_LootTrafficker</defName>
 		<label>밀매상</label>

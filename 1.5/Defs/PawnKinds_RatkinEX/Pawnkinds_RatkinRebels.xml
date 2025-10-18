@@ -1710,6 +1710,7 @@
 		</weaponTags>
 	</PawnKindDef>
 	
+<!-- 랫킨 도적 및 약탈자 계열 -->
  	<PawnKindDef Name="RK_RebelUnethical_RaiderBase" Abstract="True">
 	    <race>Ratkin</race>
 		<defaultFactionType>RatkinRebel_Unethical</defaultFactionType>
@@ -2005,7 +2006,7 @@
 	
 	<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">
 		<defName>RK_RebelUnethical_WarloadAssaulter</defName>
-		<label>랫킨 군벌 돌격병</label>
+		<label>랫킨 군벌 근접 돌격병</label>
 		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
 		<canBeSapper>true</canBeSapper>

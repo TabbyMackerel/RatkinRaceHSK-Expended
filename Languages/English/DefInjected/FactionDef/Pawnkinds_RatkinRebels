@@ -115,13 +115,108 @@
 <RK_Rebel_Light.labelFemale>female ratkin rebel light infantry</RK_Rebel_Light.labelFemale>
 <RK_Rebel_Light.labelFemalePlural>female ratkin rebel light infantry</RK_Rebel_Light.labelFemalePlural>
 
-<!-- 반군 중대장 -->
-<RK_Rebel_AntiTanker.label>ratkin rebel anti tanker</.label>
-<RK_Rebel_AntiTanker.labelPlural>ratkin rebel anti tanker troops</.labelPlural>
-<RK_Rebel_AntiTanker.labelMale>male ratkin rebel anti tanker</.labelMale>
-<RK_Rebel_AntiTanker.labelMalePlural>male ratkin rebel </.labelMalePlural>
-<RK_Rebel_AntiTanker.labelFemale>female ratkin rebel </.labelFemale>
-<RK_Rebel_AntiTanker.labelFemalePlural>female ratkin rebel </.labelFemalePlural>
+<!-- 랫킨 신병 -->
+<RK_Rebel_Recruit.label>ratkin rebel recruit</RK_Rebel_Recruit.label>
+<RK_Rebel_Recruit.labelPlural>ratkin rebel recruits</RK_Rebel_Recruit.labelPlural>
+<RK_Rebel_Recruit.labelMale>male ratkin rebel recruit</RK_Rebel_Recruit.labelMale>
+<RK_Rebel_Recruit.labelMalePlural>male ratkin rebel recruits</RK_Rebel_Recruit.labelMalePlural>
+<RK_Rebel_Recruit.labelFemale>female ratkin rebel recruit</RK_Rebel_Recruit.labelFemale>
+<RK_Rebel_Recruit.labelFemalePlural>female ratkin rebel recruits</RK_Rebel_Recruit.labelFemalePlural>
 
+<!-- 랫킨 중대장 -->
+<RK_Rebel_Squadleader.label>ratkin rebel squad leader</RK_Rebel_Squadleader.label>
+<RK_Rebel_Squadleader.labelPlural>ratkin rebel squad leaders</RK_Rebel_Squadleader.labelPlural>
+<RK_Rebel_Squadleader.labelMale>male ratkin rebel squad leader</.labelMale>
+<RK_Rebel_Squadleader.labelMalePlural>male ratkin rebel squad leaders</RK_Rebel_Squadleader.labelMalePlural>
+<RK_Rebel_Squadleader.labelFemale>female ratkin rebel squad leader</RK_Rebel_Squadleader.labelFemale>
+<RK_Rebel_Squadleader.labelFemalePlural>female ratkin rebel squad leaders</RK_Rebel_Squadleader.labelFemalePlural>
+
+<!-- 랫킨 특수부대 시나리오 (플레이어) -->
+<RK_Rebel_SpecOpts_Player.label>ratkin rebel spec ops soldier</RK_Rebel_SpecOpts_Player.label>
+<RK_Rebel_SpecOpts_Player.labelPlural>ratkin rebel spec ops soldiers</RK_Rebel_SpecOpts_Player.labelPlural>
+<RK_Rebel_SpecOpts_Player.labelMale>male ratkin rebel spec ops soldier</RK_Rebel_SpecOpts_Player.labelMale>
+<RK_Rebel_SpecOpts_Player.labelMalePlural>male ratkin rebel spec ops soldiers</RK_Rebel_SpecOpts_Player.labelMalePlural>
+<RK_Rebel_SpecOpts_Player.labelFemale>female ratkin rebel spec ops soldier</RK_Rebel_SpecOpts_Player.labelFemale>
+<RK_Rebel_SpecOpts_Player.labelFemalePlural>female ratkin rebel spec ops soldiers</RK_Rebel_SpecOpts_Player.labelFemalePlural>
+
+<!-- 랫킨 정예 소총병 -->
+<RK_RebelElite_Rifleman.label>ratkin rebel elite rifleman</RK_RebelElite_Rifleman.label>
+<RK_RebelElite_Rifleman.labelPlural>ratkin rebel elite rifleman</RK_RebelElite_Rifleman.labelPlural>
+<RK_RebelElite_Rifleman.labelMale>male ratkin rebel elite rifleman</RK_RebelElite_Rifleman.labelMale>
+<RK_RebelElite_Rifleman.labelMalePlural>male ratkin rebel elite rifleman</RK_RebelElite_Rifleman.labelMalePlural>
+<RK_RebelElite_Rifleman.labelFemale>female ratkin rebel elite rifleman</RK_RebelElite_Rifleman.labelFemale>
+<RK_RebelElite_Rifleman.labelFemalePlural>female ratkin rebel elite rifleman</RK_RebelElite_Rifleman.labelFemalePlural>
+
+<!-- 랫킨 정예 돌격병 -->
+<RK_RebelElite_Charger.label>ratkin rebel elite assault trooper</RK_RebelElite_Charger.label>
+<RK_RebelElite_Charger.labelPlural>ratkin rebel elite assault troops</RK_RebelElite_Charger.labelPlural>
+<RK_RebelElite_Charger.labelMale>male ratkin rebel elite assault trooper</RK_RebelElite_Charger.labelMale>
+<RK_RebelElite_Charger.labelMalePlural>male ratkin rebel elite assault troops</RK_RebelElite_Charger.labelMalePlural>
+<RK_RebelElite_Charger.labelFemale>female ratkin rebel elite assault trooper</RK_RebelElite_Charger.labelFemale>
+<RK_RebelElite_Charger.labelFemalePlural>female ratkin rebel elite assault troops</RK_RebelElite_Charger.labelFemalePlural>
+
+<!-- 랫킨 정예 대전차병 -->
+<RK_RebelElite_AntiTanker.label>ratkin rebel elite anti tanker</RK_RebelElite_AntiTanker.label>
+<RK_RebelElite_AntiTanker.labelPlural>ratkin rebel elite anti tanker troops</RK_RebelElite_AntiTanker.labelPlural>
+<RK_RebelElite_AntiTanker.labelMale>male ratkin rebel elite anti tanker</RK_RebelElite_AntiTanker.labelMale>
+<RK_RebelElite_AntiTanker.labelMalePlural>male ratkin rebel elite anti tanker troops</RK_RebelElite_AntiTanker.labelMalePlural>
+<RK_RebelElite_AntiTanker.labelFemale>female ratkin rebel elite anti tanker</RK_RebelElite_AntiTanker.labelFemale>
+<RK_RebelElite_AntiTanker.labelFemalePlural>female ratkin rebel elite anti tanker troops</RK_RebelElite_AntiTanker.labelFemalePlural>
+
+<!-- 랫킨 정예 경보병 -->
+<RK_RebelElite_Light.label>ratkin rebel elite light infantry</RK_RebelElite_Light.label>
+<RK_RebelElite_Light.labelPlural>ratkin rebel elite light infantry</RK_RebelElite_Light.labelPlural>
+<RK_RebelElite_Light.labelMale>male ratkin rebel elite light infantry</RK_RebelElite_Light.labelMale>
+<RK_RebelElite_Light.labelMalePlural>male ratkin rebel elite light infantry</RK_RebelElite_Light.labelMalePlural>
+<RK_RebelElite_Light.labelFemale>female ratkin rebel elite light infantry</RK_RebelElite_Light.labelFemale>
+<RK_RebelElite_Light.labelFemalePlural>female ratkin rebel elite light infantry</RK_RebelElite_Light.labelFemalePlural>
+
+<!-- 랫킨  -->
+<.label>ratkin rebel </.label>
+<.labelPlural>ratkin rebel </.labelPlural>
+<.labelMale>male ratkin rebel </.labelMale>
+<.labelMalePlural>male ratkin rebel </.labelMalePlural>
+<.labelFemale>female ratkin rebel </.labelFemale>
+<.labelFemalePlural>female ratkin rebel </.labelFemalePlural>
+
+<!-- 랫킨 정예 분대장 -->
+<RK_RebelElite_Squadleader.label>ratkin rebel squad leader</RK_RebelElite_Squadleader.label>
+<RK_RebelElite_Squadleader.labelPlural>ratkin rebel squad leaders</RK_RebelElite_Squadleader.labelPlural>
+<RK_RebelElite_Squadleader.labelMale>male ratkin rebel squad leader</RK_RebelElite_Squadleader.labelMale>
+<RK_RebelElite_Squadleader.labelMalePlural>male ratkin rebel squad leaders</RK_RebelElite_Squadleader.labelMalePlural>
+<RK_RebelElite_Squadleader.labelFemale>female ratkin rebel squad leader</RK_RebelElite_Squadleader.labelFemale>
+<RK_RebelElite_Squadleader.labelFemalePlural>female ratkin rebel squad leaders</RK_RebelElite_Squadleader.labelFemalePlural>
+
+<!-- 랫킨 공수부대원 -->
+<RK_Rebel_Paratrooper.label>ratkin rebel paratrooper</RK_Rebel_Paratrooper.label>
+<RK_Rebel_Paratrooper.labelPlural>ratkin rebel paratroopers</RK_Rebel_Paratrooper.labelPlural>
+<RK_Rebel_Paratrooper.labelMale>male ratkin rebel paratrooper</RK_Rebel_Paratrooper.labelMale>
+<RK_Rebel_Paratrooper.labelMalePlural>male ratkin rebel paratroopers</RK_Rebel_Paratrooper.labelMalePlural>
+<RK_Rebel_Paratrooper.labelFemale>female ratkin rebel paratrooper</RK_Rebel_Paratrooper.labelFemale>
+<RK_Rebel_Paratrooper.labelFemalePlural>female ratkin rebel paratroopers</RK_Rebel_Paratrooper.labelFemalePlural>
+
+<!-- 랫킨 저거넛 중화기병 -->
+<RK_Rebel_Juggernaut_Heavyweaponer.label>ratkin Juggernaut heavy weapon gunner</RK_Rebel_Juggernaut_Heavyweaponer.label>
+<RK_Rebel_Juggernaut_Heavyweaponer.labelPlural>ratkin Juggernaut heavy weapon gunners</RK_Rebel_Juggernaut_Heavyweaponer.labelPlural>
+<RK_Rebel_Juggernaut_Heavyweaponer.labelMale>male ratkin Juggernaut heavy weapon gunner</RK_Rebel_Juggernaut_Heavyweaponer.labelMale>
+<RK_Rebel_Juggernaut_Heavyweaponer.labelMalePlural>male ratkin Juggernaut heavy weapon gunners</RK_Rebel_Juggernaut_Heavyweaponer.labelMalePlural>
+<RK_Rebel_Juggernaut_Heavyweaponer.labelFemale>female ratkin Juggernaut heavy weapon gunner</RK_Rebel_Juggernaut_Heavyweaponer.labelFemale>
+<RK_Rebel_Juggernaut_Heavyweaponer.labelFemalePlural>female ratkin Juggernaut heavy weapon gunners</RK_Rebel_Juggernaut_Heavyweaponer.labelFemalePlural>
+
+<!-- 랫킨 저거넛 저격병 -->
+<RK_Rebel_Juggernaut_Sniper.label>ratkin Juggernaut sniper</RK_Rebel_Juggernaut_Sniper.label>
+<RK_Rebel_Juggernaut_Sniper.labelPlural>ratkin Juggernaut sniper</RK_Rebel_Juggernaut_Sniper.labelPlural>
+<RK_Rebel_Juggernaut_Sniper.labelMale>male ratkin Juggernaut sniper</RK_Rebel_Juggernaut_Sniper.labelMale>
+<RK_Rebel_Juggernaut_Sniper.labelMalePlural>male ratkin Juggernaut sniper</RK_Rebel_Juggernaut_Sniper.labelMalePlural>
+<RK_Rebel_Juggernaut_Sniper.labelFemale>female ratkin Juggernaut sniper</RK_Rebel_Juggernaut_Sniper.labelFemale>
+<RK_Rebel_Juggernaut_Sniper.labelFemalePlural>female ratkin Juggernaut sniper</RK_Rebel_Juggernaut_Sniper.labelFemalePlural>
+
+<!-- 랫킨 저거넛 포인트맨-->
+<RK_Rebel_Juggernaut_PM.label>ratkin Juggernaut pointman</RK_Rebel_Juggernaut_PM.label>
+<RK_Rebel_Juggernaut_PM.labelPlural>ratkin Juggernaut pointman</RK_Rebel_Juggernaut_PM.labelPlural>
+<RK_Rebel_Juggernaut_PM.labelMale>male ratkin Juggernaut pointman</RK_Rebel_Juggernaut_PM.labelMale>
+<RK_Rebel_Juggernaut_PM.labelMalePlural>male ratkin Juggernaut pointman</RK_Rebel_Juggernaut_PM.labelMalePlural>
+<RK_Rebel_Juggernaut_PM.labelFemale>female ratkin Juggernaut pointman</RK_Rebel_Juggernaut_PM.labelFemale>
+<RK_Rebel_Juggernaut_PM.labelFemalePlural>female ratkin Juggernaut pointman</RK_Rebel_Juggernaut_PM.labelFemalePlural>
 
 </LanguageData>

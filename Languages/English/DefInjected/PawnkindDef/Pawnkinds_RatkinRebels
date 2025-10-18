@@ -3,11 +3,11 @@
 
     <!-- 랫킨 혁명군(공화국군) -->
     <!-- 랫킨 민간인 -->
-    <RK_Rebel_Civilian.label>ratkin civilian<.RK_Rebel_Civilian.label>
-    <RK_Rebel_Civilian.labelPlural>ratkin civilians<.RK_Rebel_Civilian.labelPlural>
-    <RK_Rebel_Civilian.labelMale>male ratkin civilian<.RK_Rebel_Civilian.labelMale>
-    <RK_Rebel_Civilian.labelMalePlural>male ratkin civilians<.RK_Rebel_Civilian.labelMalePlural>
-    <RK_Rebel_Civilian.labelFemale>female ratkin civilian<.RK_Rebel_Civilian.labelFemale>
+    <RK_Rebel_Civilian.label>ratkin civilian</RK_Rebel_Civilian.label>
+    <RK_Rebel_Civilian.labelPlural>ratkin civilians</RK_Rebel_Civilian.labelPlural>
+    <RK_Rebel_Civilian.labelMale>male ratkin civilian</RK_Rebel_Civilian.labelMale>
+    <RK_Rebel_Civilian.labelMalePlural>male ratkin civilians</RK_Rebel_Civilian.labelMalePlural>
+    <RK_Rebel_Civilian.labelFemale>female ratkin civilian</RK_Rebel_Civilian.labelFemale>
     <RK_Rebel_Civilian.labelFemalePlural>female ratkin civilians</RK_Rebel_Civilian.labelFemalePlural>
 
     <!-- 랫킨 자유 무역상 -->

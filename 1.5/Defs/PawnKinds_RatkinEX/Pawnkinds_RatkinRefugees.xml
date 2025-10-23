@@ -38,7 +38,7 @@
 
 	<PawnKindDef ParentName="RK_RefugeeUnionMember_Base">
 		<defName>RK_RefugeeUnion_Member</defName>
-		<label>랫킨 난민 연합 일원</label>
+		<label>난민 연합 소속 랫킨</label>
 		<combatPower>25</combatPower>
 		<isFighter>false</isFighter>
 		<apparelMoney>
@@ -148,7 +148,49 @@
 			</li>
 		</skills>
 	</PawnKindDef>
-	
+
+	<PawnKindDef ParentName="RK_RefugeeUnionCombatant_Base">
+		<defName>RK_RefugeeUnionCombatant_ArcherMilitiaman</defName>
+		<label>랫킨 난민 연합 소속 궁수 민병대원</label>
+		<combatPower>30</combatPower>
+		<apparelRequired>
+			<li>RK_CrossBack</li>
+			<li>RK_ApronSkirt</li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>650</min>
+			<max>1000</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>280</min>
+			<max>500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>NeolithicRangedBasic</li>
+		</weaponTags>		
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>20</min>
+					<max>30</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+		<initialWillRange>1~1</initialWillRange>
+		<initialResistanceRange>5~9</initialResistanceRange>
+		<apparelTags>
+			<li>RK_1Tier</li>
+			<li>Tribal</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>2~4</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
 	<PawnKindDef ParentName="RK_RefugeeUnionCombatant_Base">
 		<defName>RK_RefugeeUnionCombatant_Skirmisher</defName>
 		<label>랫킨 난민 연합 소속 척후병</label>
@@ -159,8 +201,8 @@
 			<li>RK_ExplorerWear</li>
 		</apparelRequired>
 		<apparelMoney>
-			<min>800</min>
-			<max>1400</max>
+			<min>50</min>
+			<max>1500</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -188,7 +230,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>2~4</range>
+				<range>3~5</range>
 			</li>
 		</skills>
 	</PawnKindDef>
@@ -196,7 +238,7 @@
 	<PawnKindDef ParentName="RK_RefugeeUnionCombatant_Base">
 		<defName>RK_RefugeeUnionCombatant_CrossbowMan</defName>
 		<label>랫킨 난민 연합 석궁사수</label>
-		<combatPower>40</combatPower>
+		<combatPower>65</combatPower>
 		<apparelRequired>
 			<li>RK_CrossBack</li>
 			<li>RK_ExplorerHat</li>
@@ -232,7 +274,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>4~6</range>
+				<range>4~7</range>
 			</li>
 		</skills>
 	</PawnKindDef>

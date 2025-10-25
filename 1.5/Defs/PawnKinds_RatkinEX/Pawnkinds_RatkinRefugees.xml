@@ -2,6 +2,42 @@
 <Defs>
 
 <!-- 난민 연합 소속 랫킨 -->
+<!-- 들쥐, 땅쥐, 야인 랫킨(= 부족민 비슷한 랫킨들) -->
+ 	<PawnKindDef Name="RK_RefugeeUnionTribal_Base" Abstract="True">
+	    <race>Ratkin</race>
+		<defaultFactionType>RatkinRefugeeUnion</defaultFactionType>
+		<chemicalAddictionChance>0.02</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>14</minGenerationAge>
+		<maxGenerationAge>48</maxGenerationAge>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>RatkinStory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<itemQuality>Poor</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<techHediffsMoney>			
+			<min>200</min>
+			<max>500</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsMaxAmount>1</techHediffsMaxAmount>
+		<techHediffsChance>0.26</techHediffsChance>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>RoastedMeat</invFoodDef>
+		<xenotypeSet>
+		  <xenotypeChances>
+			<Baseline_Ratkin MayRequire="Ludeon.RimWorld.Biotech">999</Baseline_Ratkin>
+		  </xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+<!-- 일반 난민 연합 소속 랫킨들 -->
  	<PawnKindDef Name="RK_RefugeeUnionMember_Base" Abstract="True">
 	    <race>Ratkin</race>
 		<defaultFactionType>RatkinRefugeeUnion</defaultFactionType>

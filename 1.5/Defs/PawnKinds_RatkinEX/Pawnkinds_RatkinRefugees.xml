@@ -2,8 +2,8 @@
 <Defs>
 
 <!-- 난민 연합 소속 랫킨 -->
-<!-- 들쥐, 땅쥐, 야인 랫킨(= 부족민 비슷한 랫킨들) -->
- 	<PawnKindDef Name="RK_RefugeeUnionTribal_Base" Abstract="True">
+<!-- 들쥐, 땅쥐, 야인 랫킨(= 부족민 비슷한 랫킨들, 패럴 방어구 및 하코 부족 및 중세 방어구와 일부 랫킨 의류 착용) -->
+ 	<PawnKindDef Name="RK_RefugeeUnionTribalRatkin_Base" Abstract="True">
 	    <race>Ratkin</race>
 		<defaultFactionType>RatkinRefugeeUnion</defaultFactionType>
 		<chemicalAddictionChance>0.02</chemicalAddictionChance>
@@ -35,6 +35,106 @@
 			<Baseline_Ratkin MayRequire="Ludeon.RimWorld.Biotech">999</Baseline_Ratkin>
 		  </xenotypeChances>
 		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
+		<defName>RK_RefugeeUnion_FieldRat</defName>
+		<label>랫킨 들쥐</label>
+		<combatPower>25</combatPower>
+		<isFighter>false</isFighter>
+		<apparelMoney>
+			<min>250</min>
+			<max>500</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>150</min>
+			<max>300</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MeleeTools</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>3~8</initialResistanceRange>
+		<apparelTags>
+			<li>RK_1Tier</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
+		<defName>RK_RefugeeUnion_FeralLight</defName>
+		<label>랫킨 경무장 야생쥐</label>
+		<combatPower>50</combatPower>
+		<isFighter>false</isFighter>
+		<apparelMoney>
+			<min>350</min>
+			<max>700</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>150</min>
+			<max>300</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MeleeTools</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>3~8</initialResistanceRange>
+		<apparelTags>
+			<li>RK_1Tier</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
+		<defName>RK_RefugeeUnion_FeralMedium</defName>
+		<label>랫킨 야생쥐</label>
+		<combatPower>50</combatPower>
+		<isFighter>false</isFighter>
+		<apparelMoney>
+			<min>900</min>
+			<max>1300</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>500</min>
+			<max>850</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MeleeTools</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>3~8</initialResistanceRange>
+		<apparelTags>
+			<li>RK_1Tier</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
+		<defName>RK_RefugeeUnion_FeralHeavy</defName>
+		<label>랫킨 중무장 야생쥐</label>
+		<combatPower>50</combatPower>
+		<isFighter>false</isFighter>
+		<apparelMoney>
+			<min>1400</min>
+			<max>1850</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>500</min>
+			<max>1000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MeleeTools</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>3~8</initialResistanceRange>
+		<apparelTags>
+			<li>RK_1Tier</li>
+		</apparelTags>
 	</PawnKindDef>
 
 <!-- 일반 난민 연합 소속 랫킨들 -->
@@ -75,7 +175,7 @@
 	<PawnKindDef ParentName="RK_RefugeeUnionMember_Base">
 		<defName>RK_RefugeeUnion_Member</defName>
 		<label>난민 연합 소속 랫킨</label>
-		<combatPower>25</combatPower>
+		<combatPower>30</combatPower>
 		<isFighter>false</isFighter>
 		<apparelMoney>
 			<min>400</min>
@@ -100,7 +200,7 @@
 	<PawnKindDef ParentName="RK_RefugeeUnionMember_Base">
 		<defName>RK_RefugeeUnion_Trader</defName>
 		<label>랫킨 난민 연합 소속 상인</label>
-		<combatPower>25</combatPower>
+		<combatPower>30</combatPower>
 		<isFighter>false</isFighter>
 		<trader>true</trader>
 		<apparelRequired>

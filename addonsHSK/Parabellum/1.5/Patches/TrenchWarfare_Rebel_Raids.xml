@@ -15,7 +15,7 @@
 	              <li>
 		            <!-- 랫킨 반란군(= 혁명군) 일반 참호전 병과 습격(일반보병 한정) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>70</commonality>
+		            <commonality>68</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -36,7 +36,7 @@
 	              <li>
 		            <!-- 랫킨 반란군 일반 참호전 병과 습격(추가병종 포함) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>45</commonality>
+		            <commonality>30</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>

@@ -38,6 +38,7 @@
 			<li MayRequire="ViTech.MedievalOverhaul">PlayerLegion</li>
 			<li MayRequire="XxNelsonxX.Parabellum">PlayerParabellumIndustrial</li>
 			<li MayRequire="skyarkhangel.skynet">HumanResistance</li>
+			<li MayRequire="HSK.Watcher.content.Fallout2">Vaultec</li>
 			<li>RK_Shelter</li>
 			<li>RK_Rebel_Player</li>
 			<li>RK_Rebel_Player_SpecOpts</li>

@@ -4,36 +4,36 @@
    <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li[1]/options</xpath>
 	<value>
-		<Ratkin_Deviator>6</Ratkin_Deviator>
-		<Ratkin_Looter>2</Ratkin_Looter>
-		<Ratkin_Thug>2</Ratkin_Thug>
-		<RatkinCombatant_Deserter>1</RatkinCombatant_Deserter>
-		<RatkinSoldier_Deserter>1</RatkinSoldier_Deserter>
+		<Ratkin_Deviator MayRequire="Solaris.RatkinRaceMod">6</Ratkin_Deviator>
+		<Ratkin_Looter MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Looter>
+		<Ratkin_Thug MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Thug>
+		<RatkinCombatant_Deserter MayRequire="Solaris.RatkinRaceMod">1</RatkinCombatant_Deserter>
+		<RatkinSoldier_Deserter MayRequire="Solaris.RatkinRaceMod">1</RatkinSoldier_Deserter>
 	</value>
   </Operation>
   
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li[3]/options</xpath>
 	<value>
-		<Ratkin_Deviator>6</Ratkin_Deviator>
-		<Ratkin_Thug>2</Ratkin_Thug>
+		<Ratkin_Deviator MayRequire="Solaris.RatkinRaceMod">6</Ratkin_Deviator>
+		<Ratkin_Thug MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Thug>
 	</value>
   </Operation>
   
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li[4]/options</xpath>
 	<value>
-		<Ratkin_Looter>2</Ratkin_Looter>
-		<RatkinCombatant_Deserter>4</RatkinCombatant_Deserter>
-		<RatkinSoldier_Deserter>2</RatkinSoldier_Deserter>
+		<Ratkin_Looter MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Looter>
+		<RatkinCombatant_Deserter MayRequire="Solaris.RatkinRaceMod">4</RatkinCombatant_Deserter>
+		<RatkinSoldier_Deserter MayRequire="Solaris.RatkinRaceMod">2</RatkinSoldier_Deserter>
 	</value>
   </Operation> 
   
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li[5]/options</xpath>
 	<value>
-		<RatkinCombatant_Deserter>3</RatkinCombatant_Deserter>
-		<RatkinSoldier_Deserter>1</RatkinSoldier_Deserter>
+		<RatkinCombatant_Deserter MayRequire="Solaris.RatkinRaceMod">3</RatkinCombatant_Deserter>
+		<RatkinSoldier_Deserter MayRequire="Solaris.RatkinRaceMod">1</RatkinSoldier_Deserter>
 	</value>
   </Operation>
   
@@ -45,7 +45,7 @@
 		<kindDef>Combat</kindDef>
 		<commonality>45</commonality>
 		<options>
-		<Ratkin_Deviator>7</Ratkin_Deviator>
+		<Ratkin_Deviator MayRequire="Solaris.RatkinRaceMod">7</Ratkin_Deviator>
 		</options>
 		</li>
 	</value>
@@ -59,9 +59,9 @@
 		<kindDef>Combat</kindDef>
 		<commonality>27</commonality>
 		<options>
-		<Ratkin_Deviator>7</Ratkin_Deviator>
-  		<Ratkin_Looter>2</Ratkin_Looter>
-		<Ratkin_Thug>2</Ratkin_Thug>		
+		<Ratkin_Deviator MayRequire="Solaris.RatkinRaceMod">7</Ratkin_Deviator>
+  		<Ratkin_Looter MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Looter>
+		<Ratkin_Thug MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Thug>		
 		</options>
 	</li>
 	</value>
@@ -75,8 +75,8 @@
 		<kindDef>Combat</kindDef>
 		<commonality>30</commonality>
 		<options>
-		<Ratkin_Deviator>6</Ratkin_Deviator>
-		<Ratkin_Thug>2</Ratkin_Thug>
+		<Ratkin_Deviator MayRequire="Solaris.RatkinRaceMod">6</Ratkin_Deviator>
+		<Ratkin_Thug MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Thug>
 		</options>
 	</li>
 	</value>
@@ -90,7 +90,7 @@
 		<kindDef>Combat</kindDef>
 		<commonality>30</commonality>
 		<options>
-		<Ratkin_Looter>2</Ratkin_Looter>
+		<Ratkin_Looter MayRequire="Solaris.RatkinRaceMod">2</Ratkin_Looter>
 		</options>
 	</li>
 	</value>
@@ -104,8 +104,8 @@
 		<kindDef>Combat</kindDef>
 		<commonality>10</commonality>
 		<options>
-		<RatkinCombatant_Deserter>2</RatkinCombatant_Deserter>
-		<RatkinSoldier_Deserter>2</RatkinSoldier_Deserter>
+		<RatkinCombatant_Deserter MayRequire="Solaris.RatkinRaceMod">2</RatkinCombatant_Deserter>
+		<RatkinSoldier_Deserter MayRequire="Solaris.RatkinRaceMod">2</RatkinSoldier_Deserter>
 		</options>
 	</li>
 	</value>
@@ -119,7 +119,7 @@
 		<kindDef>Combat</kindDef>
 		<commonality>17</commonality>
 		<options> 		
-		<Ratkin_Deviator>10</Ratkin_Deviator>
+		<Ratkin_Deviator MayRequire="Solaris.RatkinRaceMod">10</Ratkin_Deviator>
 		</options>
 	</li>
 	</value>

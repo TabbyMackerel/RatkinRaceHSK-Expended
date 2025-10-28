@@ -56,7 +56,7 @@
 			<li>PaH_Stahlhelm</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_Backpack</li>
+			<li>RK_OutdoorBackpack</li>
 			<li>Apparello_Ammobelt</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -123,7 +123,7 @@
 			<li>PaH_Stahlhelm</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_Backpack</li>
+			<li>RK_OutdoorBackpack</li>
 			<li>Apparello_Ammobelt</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -196,6 +196,8 @@
 <!-- 참호전 공병 -->
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase" Name="RK_RebelBase_Parabellum_TrenchWarfareSapperBase" Abstract="True">
 		<label>랫킨 반군 소속 참호전 공병</label>
+		<race>Ratkin</race>
+		<defaultFactionType>RatkinRebel</defaultFactionType>
 		<combatPower>110</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
@@ -204,7 +206,7 @@
 			<li>PaH_StahlhelmS</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_Backpack</li>
+			<li>RK_OutdoorBackpack</li>
 			<li>CE_Apparel_TacVest</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -301,7 +303,7 @@
 			<li>PaH_StahlhelmS</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_Backpack</li>
+			<li>RK_OutdoorBackpack</li>
 			<li>CE_Apparel_TacVest</li>
 		</apparelRequired>
 		<apparelMoney>
@@ -352,7 +354,7 @@
 			<li>PaH_Stahlhelm</li>
 			<li>PaB_MB</li>
 			<li>Apparello_Workglove</li>
-			<li>RK_Backpack</li>
+			<li>RK_OutdoorBackpack</li>
 			<li>Apparello_Ammobelt</li>
 		</apparelRequired>
 		<apparelMoney>

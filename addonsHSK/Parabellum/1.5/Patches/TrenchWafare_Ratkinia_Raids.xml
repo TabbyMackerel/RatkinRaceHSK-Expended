@@ -3,19 +3,19 @@
 	
 	<Operation Class="PatchOperationFindMod"> 
 		<mods>
-		  <li>Parabellum</li>
+		  <li>NewRatkinPlus</li>
 		</mods>
 		
 		<match Class="PatchOperationSequence">
 			<operations>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 일반 참호전 병과 습격(일반보병 한정) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>70</commonality>
+		            <commonality>68</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -31,16 +31,15 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 일반 참호전 병과 습격(추가병종 포함) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>45</commonality>
+		            <commonality>30</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
-					    <li>ImmediateAttackSappers</li>
 					    <li>ImmediateAttackBreaching</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -55,7 +54,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 돌격 및 근접전 위주 참호전 병과 습격 -->
@@ -64,7 +63,6 @@
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
-					    <li>ImmediateAttackSappers</li>
 					    <li>ImmediateAttackBreaching</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -79,7 +77,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 공병 및 정면돌파 위주 참호전 병과 습격 -->
@@ -87,8 +85,6 @@
 		            <commonality>20</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
-                        <li>StageThenAttack</li>
-                        <li>ImmediateAttack</li>
 					    <li>ImmediateAttackSmart</li>
 					    <li>ImmediateAttackBreachingSmart</li>	
                     </disallowedStrategies>
@@ -103,14 +99,14 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 포격전 위주의 참호전 병과 습격 -->
 		            <kindDef>Combat</kindDef>
 		            <commonality>20</commonality>
                     <disallowedStrategies>
-                        <li>StageThenAttack</li>
+						<li>StageThenAttack</li>
                         <li>ImmediateAttack</li>
 				    	<li>ImmediateAttackSmart</li>
 				    	<li>ImmediateAttackSappers</li>
@@ -129,7 +125,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 화력지원 위주 참호전 병과 습격 -->
@@ -137,7 +133,6 @@
 		            <commonality>15</commonality>
                     <disallowedStrategies>
                         <li>Siege</li>
-				    	<li>ImmediateAttackSmart</li>
 				    	<li>ImmediateAttackSappers</li>
 				    	<li>ImmediateAttackBreaching</li>
 				    	<li>ImmediateAttackBreachingSmart</li>

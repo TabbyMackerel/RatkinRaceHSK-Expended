@@ -10,12 +10,12 @@
 			<operations>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 일반 참호전 병과 습격(일반보병 한정) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>70</commonality>
+		            <commonality>68</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -31,12 +31,12 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 일반 참호전 병과 습격(추가병종 포함) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>45</commonality>
+		            <commonality>30</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -54,7 +54,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 돌격 및 근접전 위주 참호전 병과 습격 -->
@@ -77,7 +77,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 공병 및 정면돌파 위주 참호전 병과 습격 -->
@@ -99,7 +99,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 포격전 위주의 참호전 병과 습격 -->
@@ -125,7 +125,7 @@
             </li>
 
             <li Class="PatchOperationAdd">
-              <xpath>Defs/FactionDef[defName="Rakinia" or "Rakiniville"]/pawnGroupMakers</xpath>
+              <xpath>Defs/FactionDef[@ParentName="RatkinFactionBase"]/pawnGroupMakers</xpath>
 	            <value>
 	              <li>
 		            <!-- 랫킨 왕정군 화력지원 위주 참호전 병과 습격 -->

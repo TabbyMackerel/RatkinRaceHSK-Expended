@@ -15,7 +15,7 @@
 	              <li>
 		            <!-- 랫킨 왕정군 일반 참호전 병과 습격(일반보병 한정) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>68</commonality>
+		            <commonality>35</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -36,7 +36,7 @@
 	              <li>
 		            <!-- 랫킨 왕정군 일반 참호전 병과 습격(추가병종 포함) -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>30</commonality>
+		            <commonality>25</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -59,7 +59,7 @@
 	              <li>
 		            <!-- 랫킨 왕정군 돌격 및 근접전 위주 참호전 병과 습격 -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>35</commonality>
+		            <commonality>25</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -82,7 +82,7 @@
 	              <li>
 		            <!-- 랫킨 왕정군 공병 및 정면돌파 위주 참호전 병과 습격 -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>20</commonality>
+		            <commonality>13</commonality>
                     <disallowedStrategies>
                 	    <li>Siege</li>
 					    <li>ImmediateAttackSmart</li>
@@ -104,7 +104,7 @@
 	              <li>
 		            <!-- 랫킨 왕정군 포격전 위주의 참호전 병과 습격 -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>20</commonality>
+		            <commonality>10</commonality>
                     <disallowedStrategies>
 						<li>StageThenAttack</li>
                         <li>ImmediateAttack</li>
@@ -130,7 +130,7 @@
 	              <li>
 		            <!-- 랫킨 왕정군 화력지원 위주 참호전 병과 습격 -->
 		            <kindDef>Combat</kindDef>
-		            <commonality>15</commonality>
+		            <commonality>8</commonality>
                     <disallowedStrategies>
                         <li>Siege</li>
 				    	<li>ImmediateAttackSappers</li>

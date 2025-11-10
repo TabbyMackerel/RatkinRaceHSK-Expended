@@ -113,8 +113,8 @@
               <tag>Artifact</tag>
             </li>
 
-<!-- 랫킨 비윤리적인 반군-->
-<!-- 노획 기술 밀수꾼 -->
+	<!-- 랫킨 비윤리적인 반군-->
+	<!-- 노획 기술 밀수꾼 -->
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebelUnethical_Technology_Smuggler</defName>
 		<label>노획 기술 밀수업자</label>

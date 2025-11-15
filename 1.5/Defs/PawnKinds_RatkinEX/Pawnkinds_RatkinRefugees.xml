@@ -610,6 +610,20 @@
 			<li>임시용</li>
 		</apparelTags>
 	</PawnKindDef>
+<!-- 난민 연합 공동체 트래퍼 계열 -->
+
+ 	<PawnKindDef ParentName="RK_RefugeeUnionMember_Base" Name="RK_RefugeeUnionTrapper_Base" Abstract="True">
+	    <race>Ratkin</race>
+		<defaultFactionType>RatkinRefugeeUnion</defaultFactionType>
+		<chemicalAddictionChance>0.15</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>14</minGenerationAge>
+		<maxGenerationAge>35</maxGenerationAge>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	    <isFighter>true</isFighter>
+	</PawnKindDef>
 
 <!-- 난민 연합 공동체 합동작전부대 계열 -->
  	<PawnKindDef ParentName="RK_RefugeeUnionMember_Base" Name="RK_RefugeeUnionJointOperationalUnit_Base" Abstract="True">

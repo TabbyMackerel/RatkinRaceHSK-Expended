@@ -27,7 +27,7 @@
 			<li>Poor</li>
 		</techHediffsTags>
 		<techHediffsMaxAmount>1</techHediffsMaxAmount>
-		<techHediffsChance>0.26</techHediffsChance>
+		<techHediffsChance>0.15</techHediffsChance>
 		<invNutrition>2</invNutrition>
 		<invFoodDef>RoastedMeat</invFoodDef>
 		<xenotypeSet>
@@ -43,8 +43,8 @@
 		<combatPower>25</combatPower>
 		<isFighter>false</isFighter>
 		<apparelMoney>
-			<min>250</min>
-			<max>500</max>
+			<min>340</min>
+			<max>560</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -59,81 +59,92 @@
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<apparelTags>
 			<li>RK_1Tier</li>
+			<li>Tribal</li>
 		</apparelTags>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
 		<defName>RK_RefugeeUnion_FeralLight</defName>
 		<label>랫킨 경무장 야생쥐</label>
-		<combatPower>50</combatPower>
-		<isFighter>false</isFighter>
+		<combatPower>45</combatPower>
+		<isFighter>true</isFighter>
 		<apparelMoney>
-			<min>350</min>
-			<max>700</max>
+			<min>400</min>
+			<max>800</max>
 		</apparelMoney>
-		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>150</min>
 			<max>300</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>MeleeTools</li>
 			<li>NeolithicMeleeBasic</li>
 		</weaponTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<apparelTags>
 			<li>RK_1Tier</li>
+			<li>Tribal</li>
 		</apparelTags>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
 		<defName>RK_RefugeeUnion_FeralMedium</defName>
 		<label>랫킨 야생쥐</label>
-		<combatPower>50</combatPower>
-		<isFighter>false</isFighter>
+		<combatPower>65</combatPower>
+		<isFighter>true</isFighter>
+		<apparelRequired>
+			<li>Apparello_Tribalpad</li>
+			<li>ShieldTribal</li>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
 		<apparelMoney>
-			<min>900</min>
-			<max>1300</max>
+			<min>750</min>
+			<max>1100</max>
 		</apparelMoney>
-		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
 		<weaponMoney>
-			<min>500</min>
-			<max>850</max>
+			<min>300</min>
+			<max>600</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>MeleeTools</li>
 			<li>NeolithicMeleeBasic</li>
 		</weaponTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<apparelTags>
 			<li>RK_1Tier</li>
+			<li>Tribal</li>
 		</apparelTags>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">
 		<defName>RK_RefugeeUnion_FeralHeavy</defName>
 		<label>랫킨 중무장 야생쥐</label>
-		<combatPower>50</combatPower>
-		<isFighter>false</isFighter>
+		<combatPower>75</combatPower>
+		<isFighter>true</isFighter>		
+		<apparelRequired>
+			<li>Apparello_Tribalpad</li>
+			<li>Apparello_Sheet</li>
+			<li>Apparel_WarMask</li>
+		</apparelRequired>
 		<apparelMoney>
-			<min>1400</min>
-			<max>1850</max>
+			<min>950</min>
+			<max>1450</max>
 		</apparelMoney>
-		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>500</min>
 			<max>1000</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>MeleeTools</li>
-			<li>NeolithicMeleeBasic</li>
+			<li>NeolithicMeleeBasic2H</li>
 		</weaponTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<apparelTags>
 			<li>RK_1Tier</li>
+			<li>Tribal</li>
 		</apparelTags>
 	</PawnKindDef>
 

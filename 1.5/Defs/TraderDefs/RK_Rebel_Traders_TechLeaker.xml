@@ -6,20 +6,13 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_ATLOU</defName>
 		<label>첨단 기술 유출 작전 소속 부대원들</label>
-		<commonality>0.1</commonality>
+		<commonality>0.12</commonality>
     	<requestable>false</requestable>
-    	<commonalityMultFromPopulationIntent>
-      	  <points>
-        	<li>(0.2, 0)</li>
-        	<li>(1,   1)</li>
-        	<li>(2,   3)</li>
-      	  </points>
-    	</commonalityMultFromPopulationIntent>
 		<stockGenerators>
 
             <li Class="StockGenerator_SingleDef">
               <thingDef>Silver</thingDef>
-              <countRange>2500~5000</countRange>
+              <countRange>2750~7500</countRange>
             </li>
 
       		<li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
@@ -118,20 +111,13 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebelUnethical_Technology_Smuggler</defName>
 		<label>노획 기술 밀수업자</label>
-		<commonality>0.4</commonality>
+		<commonality>0.2</commonality>
     	<requestable>false</requestable>
-    	<commonalityMultFromPopulationIntent>
-      	  <points>
-        	<li>(0.2, 0)</li>
-        	<li>(1,   1)</li>
-        	<li>(2,   3)</li>
-      	  </points>
-    	</commonalityMultFromPopulationIntent>
 		<stockGenerators>
 
             <li Class="StockGenerator_SingleDef">
               <thingDef>Silver</thingDef>
-              <countRange>1300~2600</countRange>
+              <countRange>1500~3000</countRange>
             </li>
 
       		<li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">

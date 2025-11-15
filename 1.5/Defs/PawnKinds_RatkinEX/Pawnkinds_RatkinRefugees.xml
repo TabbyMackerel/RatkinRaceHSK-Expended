@@ -610,6 +610,7 @@
 			<li>임시용</li>
 		</apparelTags>
 	</PawnKindDef>
+	
 <!-- 난민 연합 공동체 트래퍼 계열 -->
 
  	<PawnKindDef ParentName="RK_RefugeeUnionMember_Base" Name="RK_RefugeeUnionTrapper_Base" Abstract="True">

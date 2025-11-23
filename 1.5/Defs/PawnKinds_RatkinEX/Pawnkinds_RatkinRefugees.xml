@@ -78,7 +78,7 @@
 			<max>300</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>NeolithicMeleeBasic</li>
+			<li>NeolithicRangedBasic</li>
 		</weaponTags>
 		<initialWillRange>0~1</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
@@ -86,6 +86,14 @@
 			<li>RK_1Tier</li>
 			<li>Tribal</li>
 		</apparelTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>25</min>
+					<max>30</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="RK_RefugeeUnionTribalRatkin_Base">

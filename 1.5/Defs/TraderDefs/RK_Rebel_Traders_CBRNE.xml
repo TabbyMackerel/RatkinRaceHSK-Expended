@@ -4,7 +4,7 @@
 	<!-- 랫킨 반군 -->
 	<!-- 대량살상무기 방위산업체 -->
 	<TraderKindDef>
-		<defName>Caravan_RatkinRebel_CRBNE</defName>
+		<defName>Caravan_RatkinRebel_CBRNE</defName>
 		<label>대량살상무기 방위산업체</label>
 		<commonality>0.06</commonality>
     	<requestable>false</requestable>

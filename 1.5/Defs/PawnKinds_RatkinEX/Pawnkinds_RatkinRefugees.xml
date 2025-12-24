@@ -488,8 +488,8 @@
 			<li></li>
 		</apparelRequired>
 		<apparelMoney>
-			<min>1200</min>
-			<max>2450</max>
+			<min>1000</min>
+			<max>1300</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -517,7 +517,7 @@
 		</apparelRequired>
 		<apparelMoney>
 			<min>1200</min>
-			<max>2450</max>
+			<max>1500</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -544,8 +544,8 @@
 			<li></li>
 		</apparelRequired>
 		<apparelMoney>
-			<min>1200</min>
-			<max>2450</max>
+			<min>1500</min>
+			<max>1850</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -565,7 +565,7 @@
 
 	<PawnKindDef ParentName="RK_RefugeeUnionSurvivalist_Base">
 		<defName>RK_RefugeeUnionSurvivalist_BombThrower</defName>
-		<label>랫킨 폭탄 투척 생존주의자</label>
+		<label>랫킨 생존주의자 척탄병</label>
 		<combatPower>100</combatPower>
 		<apparelRequired>
 			<li>RK_CrossBack</li>
@@ -573,7 +573,7 @@
 		</apparelRequired>
 		<apparelMoney>
 			<min>1200</min>
-			<max>2450</max>
+			<max>1800</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -601,7 +601,7 @@
 		</apparelRequired>
 		<apparelMoney>
 			<min>1200</min>
-			<max>2450</max>
+			<max>2000</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
@@ -632,6 +632,91 @@
 			<li>Violent</li>
 		</requiredWorkTags>
 	    <isFighter>true</isFighter>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTrapper_Base">
+		<defName>RK_RefugeeUnion_TrapperRookie</defName>
+		<label>랫킨 신입 트래퍼</label>
+		<combatPower>100</combatPower>
+		<apparelRequired>
+			<li></li>
+			<li></li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>1850</min>
+			<max>2250</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>1250</min>
+			<max>1500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li></li>
+		</weaponTags>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>6~12</initialResistanceRange>
+		<apparelTags>
+			<li></li>
+			<li></li>
+		</apparelTags>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTrapper_Base">
+		<defName>RK_RefugeeUnion_Trapper</defName>
+		<label>랫킨 트래퍼</label>
+		<combatPower>150</combatPower>
+		<apparelRequired>
+			<li></li>
+			<li></li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>2300</min>
+			<max>2700</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>1850</min>
+			<max>2250</max>
+		</weaponMoney>
+		<weaponTags>
+			<li></li>
+		</weaponTags>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>6~12</initialResistanceRange>
+		<apparelTags>
+			<li></li>
+			<li></li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RK_RefugeeUnionTrapper_Base">
+		<defName>RK_RefugeeUnion_TrapperVeteran</defName>
+		<label>랫킨 베테랑 트래퍼</label>
+		<combatPower>150</combatPower>
+		<apparelRequired>
+			<li></li>
+			<li></li>
+		</apparelRequired>
+		<apparelMoney>
+			<min>2550</min>
+			<max>3000</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>2500</min>
+			<max>3000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li></li>
+		</weaponTags>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>6~12</initialResistanceRange>
+		<apparelTags>
+			<li></li>
+			<li></li>
+		</apparelTags>
 	</PawnKindDef>
 
 <!-- 난민 연합 공동체 합동작전부대 계열 -->

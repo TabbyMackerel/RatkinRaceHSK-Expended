@@ -4,7 +4,107 @@
 	<!-- 랫킨 난민 연맹 -->
 	<!-- 연맹 소속 광물자재 수출 협동조합 -->
 
+	<TraderKindDef>
+		<defName>Caravan_RatkinRefugeeUnion_OreExportCooperative</defName>
+		<label>광물 수출 협동조합</label>
+		<commonality>0.6</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>600~1250</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>100~250</countRange>
+			</li> 
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Nickel</thingDef>
+				<price>Expensive</price>
+				<countRange>45~90</countRange>
+			</li>
 
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Copper</thingDef>
+				<countRange>170~300</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Tin</thingDef>
+				<countRange>120~240</countRange>
+			</li>
+
+     		<li Class="StockGenerator_SingleDef">
+        	  <thingDef>Anglesite</thingDef>
+        	  <countRange>55~110</countRange>
+      		</li>
+
+     		<li Class="StockGenerator_SingleDef">
+        	    <thingDef>Aluminium</thingDef>
+				<price>Expensive</price>
+        	    <countRange>30~125</countRange>
+      		</li>
+
+     		<li Class="StockGenerator_SingleDef">
+        	    <thingDef>Ilmenite</thingDef>
+				<price>Expensive</price>
+        	    <countRange>25~50</countRange>
+      		</li>
+
+
+     		<li Class="StockGenerator_SingleDef">
+        	    <thingDef>Wolframite</thingDef>
+				<price>Expensive</price>
+        	    <countRange>15~40</countRange>
+      		</li>
+         
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Jade</thingDef>
+			</li>
+
+     		<li Class="StockGenerator_BuyTradeTag">
+       		    <tag>Art</tag>
+      		</li>
+
+     		<li Class="StockGenerator_BuyTradeTag">
+       		    <tag>HiTechArmor</tag>
+      		</li>
+
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Exotic</tag>
+			</li>
+
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>ExoticMisc</tag>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>AntidoteSafe</thingDef>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MedicalDrink</thingDef>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>MushroomTincture</thingDef>
+			</li>	
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>HealrootTincture</thingDef>
+			</li>
+
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Neutroae</thingDef>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
 
 	<!-- 연맹 소속 식자재 수출 협동조합 -->
 

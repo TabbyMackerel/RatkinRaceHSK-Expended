@@ -341,7 +341,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>2~4</range>
+				<range>2~5</range>
 			</li>
 		</skills>
 	</PawnKindDef>
@@ -381,6 +381,7 @@
 			<li>RK_1Tier</li>
 			<li>RK_LightArmor</li>
 			<li>RK_RefugeeUnionLight</li>
+			<li>BanditsLight</li>
 		</apparelTags>
 		<skills>
 			<li>
@@ -398,18 +399,19 @@
 			<li>RK_CrossBack</li>
 			<li>RK_ExplorerHat</li>
 			<li>RK_ExplorerWear</li>
+			<li>MedievalTimes_PaddedJacket</li>
 		</apparelRequired>
 		<apparelMoney>
-			<min>800</min>
-			<max>1400</max>
+			<min>1280</min>
+			<max>1700</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>300</min>
-			<max>600</max>
+			<max>550</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>임시용</li>
+			<li>RK_Crossbow</li>
 		</weaponTags>		
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
@@ -425,6 +427,8 @@
 			<li>RK_1Tier</li>
 			<li>RK_LightArmor</li>
 			<li>RK_RefugeeUnionLight</li>
+			<li>BanditsLight</li>
+			<li>Medieval</li>
 		</apparelTags>
 		<skills>
 			<li>
@@ -437,28 +441,32 @@
 	<PawnKindDef ParentName="RK_RefugeeUnionCombatant_Base">
 		<defName>RK_RefugeeUnionCombatant_Assaulter</defName>
 		<label>랫킨 난민 연합 돌격병</label>
-		<combatPower>55</combatPower>
+		<combatPower>70</combatPower>
 		<apparelRequired>
 			<li>RK_CrossBack</li>
 			<li>Apparel_Kufiya</li>
+			<li>Apparello_Sheet</li>
+			<li>Buckler</li>
 		</apparelRequired>
 		<apparelMoney>
-			<min>1000</min>
-			<max>2250</max>
+			<min>1250</min>
+			<max>1800</max>
 		</apparelMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
-			<min>250</min>
+			<min>400</min>
 			<max>800</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>임시용</li>
+			<li>MedievalMelee</li>
 		</weaponTags>
 		<initialWillRange>2~3</initialWillRange>
 		<initialResistanceRange>6~12</initialResistanceRange>
 		<apparelTags>
 			<li>RK_1Tier</li>
-			<li>임시용</li>
+			<li>BanditsLight</li>
+			<li>BanditsLight</li>
+			<li>Medieval</li>
 		</apparelTags>
 	</PawnKindDef>
 

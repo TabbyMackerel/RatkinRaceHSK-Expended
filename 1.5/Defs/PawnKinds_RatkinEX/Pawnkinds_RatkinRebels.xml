@@ -2219,6 +2219,65 @@
 		</modExtensions>
 	</PawnKindDef>
 
+	<!-- 플레이어 군벌 단원 -->
+
+		<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">
+		<defName>RK_RebelUnethical_WarloadMember_Player</defName>
+		<label>랫킨 군벌 단원</label>
+		<combatPower>130</combatPower>
+		<isFighter>true</isFighter>	
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<defaultFactionType>RK_Rebel_Player_Warlord</defaultFactionType>
+		<apparelTags>
+			<li>RK_Combatant</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>BanditsLight</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>2250</min>
+			<max>3200</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>Apparello_Bandit</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~17</initialResistanceRange>
+		<inventoryOptions>
+			<skipChance>0.6</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Yayo</thingDef>
+					<choiceChance>0.2</choiceChance>
+					<countRange>
+						<min>3</min>
+						<max>5</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>SmokeleafJoint</thingDef>
+					<choiceChance>0.5</choiceChance>
+					<countRange>
+						<min>8</min>
+						<max>16</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>3~9</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>8~14</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
 	<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">
 		<defName>RK_RebelUnethical_WarloadSoldier</defName>
 		<label>랫킨 군벌 전투원</label>

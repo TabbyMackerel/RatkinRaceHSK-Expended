@@ -47,56 +47,59 @@
 
 <!-- 반군 거점 이름 -->
 	<RulePackDef>
-    <defName>NamerSettlement_RatkinRebel</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>townend->노르베기스크</li>
-        <li>townend->로덴티아타운</li>
-		<li>townend->뮤러데이폴리스</li>
-		<li>townend->라투스빌</li>
-		<li>townend->벨라타운</li>
-		<li>townend->노보래키니아스크</li>
-		<li>townend->지니아그라드</li>
-		<li>townend->시티 오브 로스트라</li>
-		<li>townend->벨레르부르크</li>
-		<li>townend->로티스크</li>
-		<li>townend->마일던버러</li>
-		<li>townend->리버티랜드</li>
-		<li>townend->데모크라시 빌리지</li>
-		<li>townend->프리덤 시티</li>
-		<li>townend->하베스트필드</li>
-		<li>townend->로덴트홀름</li>
-		<li>townend->자유 랫킨들의 낙원</li>
-		<li>townend->로스트라슈타트</li>
-		<li>townend->반군 지원 랫킨 마을</li>
-		<li>townend->봉기의 마을</li>
-		<li>townend->분노한 혁명가들의 중심지</li>
-		<li>townend->신분제가 없는 정착지</li>
-		<li>townend->이퀄타운</li>
-		<li>townend->랫체스터</li>
-		<li>townend->피넛빌</li>
-        <li>townend->로즈버러</li>
-		<li>townend->전초기지 레볼루션</li>
-		<li>townend->전초기지 프리덤</li>
-		<li>townend->전초기지 레지스탕스</li>
-		<li>townend->전초기지 업라이징</li>
-		<li>townend->전초기지 벤전스</li>
-		<li>townend->전초기지 저지먼트</li>
-		<li>townend->전초기지 인저렉션</li>
-		<li>townend->헤븐홀름</li>
-		<li>townend->래트톤</li>
-		<li>townend->라이스톤</li>
-		<li>townend->세이프우드</li>
-		<li>townend->라드킨그라드</li>
-		<li>townend->하우스랫 타운</li>
-		<li>townend->테일빌</li>
-		<li>townend->베리버러</li>
-		<li>townend->렌틸</li>
-		<li>townend->세인트단델라이언</li>
-		<li>townend->로스 파블로</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
+ 	   <defName>NamerSettlement_RatkinRebel</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+		</include>
+ 	    <rulePack>
+  	    <rulesStrings>
+   		    <li>townend->노르베기스크</li>
+        	<li>townend->로덴티아타운</li>
+			<li>townend->뮤러데이폴리스</li>
+			<li>townend->라투스빌</li>
+			<li>townend->벨라타운</li>
+			<li>townend->노보래키니아스크</li>
+			<li>townend->지니아그라드</li>
+			<li>townend->시티 오브 로스트라</li>
+			<li>townend->벨레르부르크</li>
+			<li>townend->로티스크</li>
+			<li>townend->마일던버러</li>
+			<li>townend->리버티랜드</li>
+			<li>townend->데모크라시 빌리지</li>
+			<li>townend->프리덤 시티</li>
+			<li>townend->하베스트필드</li>
+			<li>townend->로덴트홀름</li>
+			<li>townend->자유 랫킨들의 낙원</li>
+			<li>townend->로스트라슈타트</li>
+			<li>townend->반군 지원 랫킨 마을</li>
+			<li>townend->봉기의 마을</li>
+			<li>townend->분노한 혁명가들의 중심지</li>
+			<li>townend->신분제가 없는 정착지</li>
+			<li>townend->이퀄타운</li>
+			<li>townend->랫체스터</li>
+			<li>townend->피넛빌</li>
+     	    <li>townend->로즈버러</li>
+			<li>townend->전초기지 레볼루션</li>
+			<li>townend->전초기지 프리덤</li>
+			<li>townend->전초기지 레지스탕스</li>
+			<li>townend->전초기지 업라이징</li>
+			<li>townend->전초기지 벤전스</li>
+			<li>townend->전초기지 저지먼트</li>
+			<li>townend->전초기지 인저렉션</li>
+			<li>townend->헤븐홀름</li>
+			<li>townend->래트톤</li>
+			<li>townend->라이스톤</li>
+			<li>townend->세이프우드</li>
+			<li>townend->라드킨그라드</li>
+			<li>townend->하우스랫 타운</li>
+			<li>townend->테일빌</li>
+			<li>townend->베리버러</li>
+			<li>townend->렌틸</li>
+			<li>townend->세인트단델라이언</li>
+			<li>townend->로스 파블로</li>
+    	 	 </rulesStrings>
+   		</rulePack>
+ 	</RulePackDef>
 
 <!-- 랫킨 비윤리적인 반군(군벌) 세력 이름 -->
 	<RulePackDef>
@@ -131,51 +134,54 @@
 
 <!-- 군벌 거점 이름 -->
 	<RulePackDef>
-    <defName>NamerSettlement_RatkinWarlord</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>townend->약쟁이들의 낙원</li>
-        <li>townend->부패한 기지</li>
-		<li>townend->약탈품 보관 거점</li>
-		<li>townend->억압당하는 마을</li>
-		<li>townend->과격파 수용소</li>
-		<li>townend->변절자들의 집결지</li>
-		<li>townend->막장스러운 기지</li>
-		<li>townend->노획물자 보관 거점지</li>
-		<li>townend->군벌 훈련 기지</li>
-		<li>townend->약물 제조공장</li>
-		<li>townend->반인륜적인 곳</li>
-		<li>townend->군벌 훈련 집결지</li>
-		<li>townend->강제징용의 중심지</li>
-		<li>townend->쾌락주의 전초기지</li>
-		<li>townend->부역자 마을</li>
-		<li>townend->불법 밀수 중심지</li>
-		<li>townend->군벌 점거 마을</li>
-		<li>townend->약탈자 요새</li>
-		<li>townend->흑사병의 땅</li>
-		<li>townend->군벌 처형장</li>
-		<li>townend->쓰레기 수용소</li>
-		<li>townend->불법 무기 제조공장</li>
-		<li>townend->갈취당하는 마을</li>
-		<li>townend->군벌 신병 훈련소</li>
-		<li>townend->프로파간다 요새</li>
-        <li>townend->군벌 협조자 모집소</li>
-		<li>townend->기술 유출 작전기지</li>
-		<li>townend->소년병 강제징집 수용소</li>
-		<li>townend->제 1 군벌 연병장</li>
-		<li>townend->제 2 군벌 연병장</li>
-		<li>townend->제 3 군벌 연병장</li>
-		<li>townend->제 4 군벌 연병장</li>
-		<li>townend->땅굴 암시장</li>
-		<li>townend->생화학무기 제조 거점</li>
-		<li>townend->노획품 보관 거점</li>
-		<li>townend->전쟁범죄의 수용소</li>
-		<li>townend->끔찍한 처형장</li>
-		<li>townend->역겨운 정신병자 소굴</li>
-		<li>townend->포로 노예화 수용소</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
+    	<defName>NamerSettlement_RatkinWarlord</defName>
+		<include>
+			<li>WarlordNameUtility</li>
+		</include>
+    	<rulePack>
+      	<rulesStrings>
+        	<li>townend->약쟁이들의 낙원</li>
+       		<li>townend->부패한 기지</li>
+			<li>townend->약탈품 보관 거점</li>
+			<li>townend->억압당하는 마을</li>
+			<li>townend->과격파 수용소</li>
+			<li>townend->변절자들의 집결지</li>
+			<li>townend->막장스러운 기지</li>
+			<li>townend->노획물자 보관 거점지</li>
+			<li>townend->군벌 훈련 기지</li>
+			<li>townend->약물 제조공장</li>
+			<li>townend->반인륜적인 곳</li>
+			<li>townend->군벌 훈련 집결지</li>
+			<li>townend->강제징용의 중심지</li>
+			<li>townend->쾌락주의 전초기지</li>
+			<li>townend->부역자 마을</li>
+			<li>townend->불법 밀수 중심지</li>
+			<li>townend->군벌 점거 마을</li>
+			<li>townend->약탈자 요새</li>
+			<li>townend->흑사병의 땅</li>
+			<li>townend->군벌 처형장</li>
+			<li>townend->쓰레기 수용소</li>
+			<li>townend->불법 무기 제조공장</li>
+			<li>townend->갈취당하는 마을</li>
+			<li>townend->군벌 신병 훈련소</li>
+			<li>townend->프로파간다 요새</li>
+		    <li>townend->군벌 협조자 모집소</li>
+			<li>townend->기술 유출 작전기지</li>
+			<li>townend->소년병 강제징집 수용소</li>
+			<li>townend->제 1 군벌 연병장</li>
+			<li>townend->제 2 군벌 연병장</li>
+			<li>townend->제 3 군벌 연병장</li>
+			<li>townend->제 4 군벌 연병장</li>
+			<li>townend->땅굴 암시장</li>
+			<li>townend->생화학무기 제조 거점</li>
+			<li>townend->노획품 보관 거점</li>
+			<li>townend->전쟁범죄의 수용소</li>
+			<li>townend->끔찍한 처형장</li>
+			<li>townend->역겨운 정신병자 소굴</li>
+			<li>townend->포로 노예화 수용소</li>
+   		</rulesStrings>
+   		</rulePack>
+ 	</RulePackDef>
 
 <!-- 랫킨 피난민 연합 세력 이름 -->
 	<RulePackDef>
@@ -212,47 +218,50 @@
 <!-- 피난민 거점 이름 -->
 <RulePackDef>
     <defName>NamerSettlement_RatkinRefugee</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>townend->새로운 희망</li>
-        <li>townend->내전의 피난처</li>
-		<li>townend->랫킨 난민 수용소</li>		
-		<li>townend->구원을 원하는 마을</li>
-		<li>townend->전쟁의 상흔이 남아있는 마을</li>
-        <li>townend->생존주의자 들쥐들의 중심지</li>
-		<li>townend->망명자들의 새로운 정착지</li>
-		<li>townend->전쟁난민의 새로운 터전</li>
-		<li>townend->난민 공동체의 피난처</li>
-		<li>townend->내전 피해자들의 난민촌</li>
-		<li>townend->시들어버린 정착지</li>
-		<li>townend->절망의 마을</li>
-		<li>townend->일상회복을 위한 정착지</li>
-		<li>townend->절망의 판자촌</li>
-		<li>townend->재건중인 마을</li>
-		<li>townend->절박한 피난처</li>
-		<li>townend->랫킨들의 재건된 마을</li>
-		<li>townend->망명자들의 터전</li>
-		<li>townend->이재민의 낙원</li>
-		<li>townend->땅쥐 타운</li>
-		<li>townend->랫킨 난민 부락</li>
-		<li>townend->내전 피해자들의 중심지</li>
-		<li>townend->난민 랫킨들의 새로운 정착지</li>
-		<li>townend->흉터의 촌락</li>
-		<li>townend->트라우마의 마을</li>
-		<li>townend->부랑자들의 새 정착촌</li>
-		<li>townend->썩은 땅콩의 부락</li>
-		<li>townend->상처받은 곳</li>
-		<li>townend->들쥐 정착지</li>
-		<li>townend->눈물의 땅</li>
-		<li>townend->메마른 폐허</li>
-		<li>townend->그을린 곳</li>
-		<li>townend->후유증이 남아있는 마을</li>
-		<li>townend->랫킨 난민 빈민가</li>
-		<li>townend->잃어버린 추억의 촌락</li>
-		<li>townend->생존본능뿐인 부락</li>
-		<li>townend->생기없는 정착촌</li>
-		<li>townend->우울한 랫킨 난민촌</li>
-      </rulesStrings>
-    </rulePack>
+		<include>
+			<li>RefugeeNameUtility</li>
+		</include>
+    	<rulePack>
+      	<rulesStrings>
+        	<li>townend->새로운 희망</li>
+        	<li>townend->내전의 피난처</li>
+			<li>townend->랫킨 난민 수용소</li>		
+			<li>townend->구원을 원하는 마을</li>
+			<li>townend->전쟁의 상흔이 남아있는 마을</li>
+        	<li>townend->생존주의자 들쥐들의 중심지</li>
+			<li>townend->망명자들의 새로운 정착지</li>
+			<li>townend->전쟁난민의 새로운 터전</li>
+			<li>townend->난민 공동체의 피난처</li>
+			<li>townend->내전 피해자들의 난민촌</li>
+			<li>townend->시들어버린 정착지</li>
+			<li>townend->절망의 마을</li>
+			<li>townend->일상회복을 위한 정착지</li>
+			<li>townend->절망의 판자촌</li>
+			<li>townend->재건중인 마을</li>
+			<li>townend->절박한 피난처</li>
+			<li>townend->랫킨들의 재건된 마을</li>
+			<li>townend->망명자들의 터전</li>
+			<li>townend->이재민의 낙원</li>
+			<li>townend->땅쥐 타운</li>
+			<li>townend->랫킨 난민 부락</li>
+			<li>townend->내전 피해자들의 중심지</li>
+			<li>townend->난민 랫킨들의 새로운 정착지</li>
+			<li>townend->흉터의 촌락</li>
+			<li>townend->트라우마의 마을</li>
+			<li>townend->부랑자들의 새 정착촌</li>
+			<li>townend->썩은 땅콩의 부락</li>
+			<li>townend->상처받은 곳</li>
+			<li>townend->들쥐 정착지</li>
+			<li>townend->눈물의 땅</li>
+			<li>townend->메마른 폐허</li>
+			<li>townend->그을린 곳</li>
+			<li>townend->후유증이 남아있는 마을</li>
+			<li>townend->랫킨 난민 빈민가</li>
+			<li>townend->잃어버린 추억의 촌락</li>
+			<li>townend->생존본능뿐인 부락</li>
+			<li>townend->생기없는 정착촌</li>
+			<li>townend->우울한 랫킨 난민촌</li>
+   		</rulesStrings>
+   	</rulePack>
   </RulePackDef>
 </Defs>

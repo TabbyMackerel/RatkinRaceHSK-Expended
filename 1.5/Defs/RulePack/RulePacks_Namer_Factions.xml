@@ -183,7 +183,7 @@
    		</rulePack>
  	</RulePackDef>
 
-<!-- 랫킨 피난민 연합 세력 이름 
+<!-- 랫킨 피난민 연합 세력 이름 -->
 	<RulePackDef>
 		<defName>NamerFaction_RatkinRefugeeUnion</defName>
 		<include>
@@ -213,9 +213,9 @@
 				<li>refugee->도망자</li>
 			</rulesStrings>
 		</rulePack>
-	</RulePackDef>-->
+	</RulePackDef>
 
-<!-- 피난민 거점 이름 
+<!-- 피난민 거점 이름 -->
 <RulePackDef>
     <defName>NamerSettlement_RatkinRefugee</defName>
 		<include>
@@ -263,5 +263,5 @@
 			<li>townend->우울한 랫킨 난민촌</li>
    		</rulesStrings>
    	</rulePack>
-  </RulePackDef>-->
+  </RulePackDef>
 </Defs>

@@ -178,25 +178,34 @@
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
 					<stuff>Plasteel</stuff>
-					<count>3</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
 					<stuff>Plasteel</stuff>
-					<count>3</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
 					<stuff>Plasteel</stuff>
-					<count>3</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Paxe</thingDef>
 					<stuff>Plasteel</stuff>
-					<count>4</count>
+					<count>6</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DeployableTentMedium</thingDef>
+					<stuff>Cloth</stuff>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>BagBed</thingDef>
+					<stuff>Cloth</stuff>
+					<count>8</count>
 				</li>
 
 				<!-- Player starting things -->		
@@ -204,7 +213,7 @@
 					<def>StartingAnimal</def>
 					<animalKind>GermanShepherd</animalKind>
 					<count>3</count>
-					<bondToRandomPlayerPawnChance>2</bondToRandomPlayerPawnChance>
+					<bondToRandomPlayerPawnChance>0.5</bondToRandomPlayerPawnChance>
 				</li>				
 				<!-- Scatter some things anywhere -->
 				<li Class="ScenPart_ScatterThingsAnywhere">

@@ -5,10 +5,10 @@
 		<label>랫킨 도적 떼거지들</label>
 		<description></description>
 		<scenario>
-			<summary>내전으로 인한 피해에서 살아남으려고 결국 강도 무리가 되어버린 랫킨들.....</summary>
+			<summary>내전으로 인한 참사에서 살아남으려고 결국 넘지 말아야 할 선을 넘어버린 강도 무리가 되어버린 랫킨들.....</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
-				<factionDef></factionDef>
+				<factionDef>RK_Bandits_Hideout</factionDef>
 			</playerFaction>
 			<parts>
 
@@ -35,59 +35,27 @@
 					<def>StartingResearch</def>
 					<project>Ratkin_Apparel_B1</project>
 				</li>
-				<li Class="ScenPart_StartingResearch">
-					<def>StartingResearch</def>
-					<project>Ratkin_Apparel_B2</project>
-				</li>
-				<li Class="ScenPart_StartingResearch">
-					<def>StartingResearch</def>
-					<project>Ratkin_Apparel_C1</project>
-				</li>
-				<li Class="ScenPart_StartingResearch">
-					<def>StartingResearch</def>
-					<project>Machining</project>
-				</li>
 
 				<!-- Other -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Silver</thingDef>
-					<count>400</count>
+					<count>650</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>BasicCannedFood</thingDef>
-					<count>300</count>
+					<count>180</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MealSurvivalPack</thingDef>
-					<count>10</count>
+					<count>15</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>PickledVeg</thingDef>
-					<count>450</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Plant_Potato</thingDef>
-					<count>30</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>RawPotatoes</thingDef>
-					<count>300</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>PlantCarrot</thingDef>
-					<count>30</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>RawCarrots</thingDef>
-					<count>300</count>
+					<count>125</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -99,49 +67,30 @@
 					<thingDef>RF_Gun_93R</thingDef>
 					<count>2</count>
 				</li>	
-                <li Class="ScenPart_StartingThing_Defined">
+				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>RK_BulletProofHelmet</thingDef>
-					<stuff>Plasteel</stuff>
-					<count>5</count>
-				</li>			
-                <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>RK_OrderUniform</thingDef>
-					<stuff>RK_Wool_KingHamster</stuff>
-					<count>3</count>
-				</li>
-                <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>RK_OrderUniformB</thingDef>
-					<stuff>RK_Wool_KingHamster</stuff>
-					<count>2</count>
-				</li>
-                <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>RK_OutdoorBackpack</thingDef>
-					<stuff>RK_Wool_KingHamster</stuff>
-					<count>5</count>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>12</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MedicineIndustrial</thingDef>
-					<count>15</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>HerbMedicine</thingDef>
-					<count>20</count>
+					<count>6</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>ComponentIndustrial</thingDef>
-					<count>30</count>
+					<count>15</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Plasteel</thingDef>
-					<count>400</count>
+					<count>80</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Bronze</thingDef>
+					<count>140</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -152,46 +101,39 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Bronze</stuff>
                     <count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Bronze</stuff>
                     <count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
-					<stuff>Plasteel</stuff>
-                    <count>2</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>TFJ_Tool_Sickle</thingDef>
-					<stuff>Plasteel</stuff>
-                    <count>2</count>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>TFJ_Tool_Hoe</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Bronze</stuff>
                     <count>2</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>Plasteel</thingDef>
-					<count>220</count>
+					<count>80</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Bronze</thingDef>
+					<count>175</count>
 				</li>
 
-				<!-- Player starting things -->
+				<!-- Player starting things 
 				<li Class="ScenPart_StartingAnimal">
 					<def>StartingAnimal</def>
 					<animalKind>Rottie</animalKind>
 					<count>1</count>
 					<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
-				</li>		
+				</li>		-->
 				
 				<!-- Scatter some things anywhere -->
 				<li Class="ScenPart_ScatterThingsAnywhere">

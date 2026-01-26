@@ -49,7 +49,7 @@
 	<RulePackDef>
  	   <defName>NamerSettlement_RatkinRebel</defName>
 		<include>
-			<li>EmpireNameUtility</li>
+			<li>RebelNameUtility</li>
 		</include>
  	    <rulePack>
   	    <rulesStrings>

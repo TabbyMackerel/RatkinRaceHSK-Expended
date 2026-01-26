@@ -171,13 +171,13 @@
 
 				<!-- Warload Ratkin Start with drugs! -->
 				<li Class="ScenPart_StartingThing_Defined">
-					<def>TobaccoCigar</def>
-					<thingDef>MedicineIndustrial</thingDef>
+					<def>StartingThing_Defined</def>
+					<thingDef>TobaccoCigar</thingDef>
 					<count>60</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
-					<def>TobaccoCigarette</def>
-					<thingDef>MedicineIndustrial</thingDef>
+					<def>StartingThing_Defined</def>
+					<thingDef>TobaccoCigarette</thingDef>
 					<count>60</count>
 				</li>				
 				<li Class="ScenPart_StartingThing_Defined">

@@ -80,6 +80,7 @@
 		<caravanTraderKinds>
 			<li>Caravan_RatkinRebel_DrugTrader</li>
 			<li>Caravan_RatkinRebel_LootTrafficker</li>
+			<li>Caravan_RatkinRebelUnethical_Technology_Smuggler</li>
 		</caravanTraderKinds>
 		<xenotypeSet>
 		  <xenotypeChances>
@@ -153,7 +154,7 @@
 					<li>Siege</li>
 					<li>ImmediateAttackSmart</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -162,7 +163,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_RebelUnethical_Rioter_Ranged>10</RK_RebelUnethical_Rioter_Ranged>
@@ -183,7 +184,7 @@
 					<li>Siege</li>
 					<li>ImmediateAttackSmart</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -192,7 +193,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_RebelUnethical_Raider>8</RK_RebelUnethical_Raider>
@@ -210,7 +211,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -219,7 +220,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_RebelUnethical_Raider>5</RK_RebelUnethical_Raider>
@@ -245,7 +246,7 @@
 				<disallowedStrategies>
 				    <li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--				<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -254,7 +255,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_RebelUnethical_WarloadAssaulter>12</RK_RebelUnethical_WarloadAssaulter>
@@ -274,7 +275,7 @@
 					<li>Siege</li>
 					<li>StageThenAttack</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -283,7 +284,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_RebelUnethical_WarloadAssaulter>25</RK_RebelUnethical_WarloadAssaulter>
@@ -301,7 +302,7 @@
 				<disallowedStrategies>
 					<li>Siege</li>
 					<li>ImmediateAttackSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -310,7 +311,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_RebelUnethical_Raider>4</RK_RebelUnethical_Raider>
@@ -325,7 +326,7 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>10</commonality>
-				<disallowedStrategies>
+<!--				<disallowedStrategies>
 					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
@@ -336,7 +337,7 @@
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage<li>
 					<li>RK_Juggernaut_SiegeDrop</li>
-                </disallowedStrategies>
+                </disallowedStrategies>-->
 				<options>
 					<RK_RebelUnethical_WarloadMember>4</RK_RebelUnethical_WarloadMember>
 					<RK_RebelUnethical_WarloadSoldier>12</RK_RebelUnethical_WarloadSoldier>
@@ -412,6 +413,8 @@
 		<caravanTraderKinds>
 			<li>Caravan_RatkinRebel_CombatTrader</li>
 			<li>Caravan_RatkinRebel_FoodTrader</li>
+			<li>Caravan_RatkinRebel_CBRNE</li>
+			<li>Caravan_RatkinRebel_ATLOU</li>
 		</caravanTraderKinds>
 		<xenotypeSet>
 		  <xenotypeChances>
@@ -481,7 +484,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-	 				<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--	 				<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -490,7 +493,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_Rebel_Militiaman_Crossbow>15</RK_Rebel_Militiaman_Crossbow>
@@ -508,7 +511,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -517,7 +520,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_Rebel_Militiaman_Melee>20</RK_Rebel_Militiaman_Melee>
@@ -533,7 +536,7 @@
        	        	<li>Siege</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--				<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -542,7 +545,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
 				</disallowedStrategies>
 				<options>
 					<RK_Rebel_Militiaman_Gunner>3</RK_Rebel_Militiaman_Gunner>
@@ -560,7 +563,7 @@
 					<li>ImmediateAttackSmart</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -569,7 +572,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_VolunteerArmy>30</RK_Rebel_VolunteerArmy>
@@ -584,7 +587,7 @@
 					<li>ImmediateAttackSmart</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -593,7 +596,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Militiaman_Melee>20</RK_Rebel_Militiaman_Melee>
@@ -605,7 +608,7 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>25</commonality>
-				<disallowedStrategies>
+<!--				<disallowedStrategies>
 					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
@@ -616,7 +619,7 @@
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
 					<li>RK_Juggernaut_SiegeDrop</li>
-                </disallowedStrategies>
+                </disallowedStrategies>-->
 				<options>
 					<RK_Rebel_Rifleman>12</RK_Rebel_Rifleman>
 					<RK_Rebel_Charger>6</RK_Rebel_Charger>
@@ -635,7 +638,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -644,7 +647,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Rifleman>14</RK_Rebel_Rifleman>
@@ -658,7 +661,7 @@
 				<disallowedStrategies>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -667,7 +670,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Rifleman>7</RK_Rebel_Rifleman>
@@ -685,7 +688,7 @@
 					<li>ImmediateAttackSmart</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -694,7 +697,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Recruit>21</RK_Rebel_Recruit>
@@ -710,7 +713,7 @@
                     <li>ImmediateAttack</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--				<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -719,7 +722,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_RebelElite_Rifleman>10</RK_RebelElite_Rifleman>
@@ -737,7 +740,7 @@
 				<disallowedStrategies>
 					<li>StageThenAttack</li>
                     <li>ImmediateAttack</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--				<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -746,7 +749,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_RebelElite_Rifleman>16</RK_RebelElite_Rifleman>
@@ -762,7 +765,7 @@
 				<disallowedStrategies>
                     <li>ImmediateAttack</li>
 					<li>ImmediateAttackSappers</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -771,7 +774,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_RebelElite_Light>12</RK_RebelElite_Light>
@@ -792,12 +795,12 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--				<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_Siege</li>
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Paratrooper>20</RK_Rebel_Paratrooper>
@@ -815,7 +818,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_StageThenAttack_Edge</li>
+<!--				<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
 					<li>RK_Paratrooper_Siege</li>
@@ -823,7 +826,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->	
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Paratrooper>20</RK_Rebel_Paratrooper>
@@ -841,7 +844,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -849,7 +852,7 @@
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Paratrooper>15</RK_Rebel_Paratrooper>
@@ -867,14 +870,14 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
 					<li>RK_Paratrooper_Failed</li>
 					<li>RK_Paratrooper_Siege</li>
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
-					<li>RK_Juggernaut_SiegeDrop</li>
+					<li>RK_Juggernaut_SiegeDrop</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Juggernaut_PM>5</RK_Rebel_Juggernaut_PM>
@@ -894,7 +897,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -902,7 +905,7 @@
 					<li>RK_Paratrooper_Failed</li>
 					<li>RK_Juggernaut_ImmediateAttack_Center</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
-					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
+					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Juggernaut_PM>2</RK_Rebel_Juggernaut_PM>
@@ -922,7 +925,7 @@
 					<li>ImmediateAttackSappers</li>
 					<li>ImmediateAttackBreaching</li>
 					<li>ImmediateAttackBreachingSmart</li>
-					<li>RK_Paratrooper_ImmediateAttack_Center</li>
+<!--					<li>RK_Paratrooper_ImmediateAttack_Center</li>
 					<li>RK_Paratrooper_StageThenAttack_Edge</li>
 					<li>RK_Paratrooper_Smart</li>
 					<li>RK_Paratrooper_Sappers</li>
@@ -930,7 +933,7 @@
 					<li>RK_Paratrooper_Failed</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Smart</li>
 					<li>RK_Juggernaut_StandardEdgeDrop_Stage</li>
-					<li>RK_Juggernaut_SiegeDrop</li>	
+					<li>RK_Juggernaut_SiegeDrop</li>	-->
                 </disallowedStrategies>
 				<options>
 					<RK_Rebel_Juggernaut_PM>10</RK_Rebel_Juggernaut_PM>

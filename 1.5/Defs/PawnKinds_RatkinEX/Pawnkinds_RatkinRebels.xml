@@ -113,7 +113,7 @@
 	    <isFighter>true</isFighter>
 	</PawnKindDef>
 
-<!-- 플레이어 소속 민병대원(난민 시나리오) -->
+<!-- 플레이어 소속 민병대원 -->
 	<PawnKindDef ParentName="RK_Rebel_MilitiaBase">
 		<defName>RK_Rebel_Militiaman_Crossbow_player</defName>
 		<label>랫킨 석궁 민병대원</label>
@@ -127,10 +127,6 @@
 			<min>800</min>
 			<max>1200</max>
 		</apparelMoney>
-		<gearHealthRange>
-			<min>0.4</min>
-			<max>1.0</max>
-		</gearHealthRange>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>250</min>
@@ -333,7 +329,7 @@
 		</apparelTags>
 	</PawnKindDef>	
 
-	<!-- 플레이어 소속 의용군 --> 
+	<!--플레이어 소속 의용군--> 
 	<PawnKindDef ParentName="RK_Rebel_MilitiaBase">
 		<defName>RK_Rebel_VolunteerArmy_Player</defName>
 		<label>랫킨 의용병</label>
@@ -847,7 +843,7 @@
 			<min>4000</min>
 			<max>6500</max>
 		</apparelMoney>
-<!--		<weaponTags>
+		<weaponTags>
 			<li>RK_RebelSquad</li>
 			<li>RK_RebelSMG</li>
 			<li>RK_RebelST</li>
@@ -858,7 +854,7 @@
 		<weaponMoney>
 			<min>2000</min>
 			<max>4500</max>
-		</weaponMoney>-->
+		</weaponMoney>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>15~25</initialResistanceRange>
@@ -1710,7 +1706,6 @@
 		</weaponTags>
 	</PawnKindDef>
 	
-<!-- 랫킨 도적 및 약탈자 계열 -->
  	<PawnKindDef Name="RK_RebelUnethical_RaiderBase" Abstract="True">
 	    <race>Ratkin</race>
 		<defaultFactionType>RatkinRebel_Unethical</defaultFactionType>
@@ -2006,7 +2001,7 @@
 	
 	<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">
 		<defName>RK_RebelUnethical_WarloadAssaulter</defName>
-		<label>랫킨 군벌 근접 돌격병</label>
+		<label>랫킨 군벌 돌격병</label>
 		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
 		<canBeSapper>true</canBeSapper>
@@ -2222,6 +2217,65 @@
 				</primaryMagazineCount>
 			</li>
 		</modExtensions>
+	</PawnKindDef>
+
+	<!-- 플레이어 군벌 단원 -->
+
+		<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">
+		<defName>RK_RebelUnethical_WarloadMember_Player</defName>
+		<label>랫킨 군벌 단원</label>
+		<combatPower>130</combatPower>
+		<isFighter>true</isFighter>	
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<defaultFactionType>RK_Rebel_Player_Warlord</defaultFactionType>
+		<apparelTags>
+			<li>RK_Combatant</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>BanditsLight</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>2250</min>
+			<max>3200</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>Apparello_Bandit</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~17</initialResistanceRange>
+		<inventoryOptions>
+			<skipChance>0.6</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Yayo</thingDef>
+					<choiceChance>0.2</choiceChance>
+					<countRange>
+						<min>3</min>
+						<max>5</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>SmokeleafJoint</thingDef>
+					<choiceChance>0.5</choiceChance>
+					<countRange>
+						<min>8</min>
+						<max>16</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>3~9</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>8~14</range>
+			</li>
+		</skills>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="RK_RebelUnethical_WarloadBase">

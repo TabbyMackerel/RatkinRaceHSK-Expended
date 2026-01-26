@@ -86,7 +86,7 @@
 				  </value>
 				</li>
 
-			<!-- 난민 연맹 소속 무징 -->
+			<!-- 난민 연맹 소속 무장 -->
 
 				<li Class="PatchOperationAdd">	
 				<xpath>Defs/ThingDef[defName="HMC_Sling"]/weaponTags</xpath>

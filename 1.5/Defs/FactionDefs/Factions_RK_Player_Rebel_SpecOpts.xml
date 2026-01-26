@@ -16,8 +16,8 @@
 		<settlementTexturePath>Icon/RK_DefaultColony</settlementTexturePath>
 		<factionIconPath>Icon/RK_Rebel</factionIconPath>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-		<factionNameMaker>NamerFaction_RatkinKingdom</factionNameMaker>
-		<settlementNameMaker>NamerSettlement_RatkinKingdom</settlementNameMaker>
+		<factionNameMaker>NamerFaction_RatkinRebel</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_RatkinRebel</settlementNameMaker>
 		<melaninRange>0~1</melaninRange>
 		<xenotypeSet>
 		  <xenotypeChances>

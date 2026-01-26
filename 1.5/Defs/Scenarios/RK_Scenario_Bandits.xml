@@ -127,13 +127,13 @@
 					<count>175</count>
 				</li>
 
-				<!-- Player starting things 
+				<!-- Player starting things -->
 				<li Class="ScenPart_StartingAnimal">
 					<def>StartingAnimal</def>
 					<animalKind>Rottie</animalKind>
 					<count>1</count>
 					<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
-				</li>		-->
+				</li>		
 				
 				<!-- Scatter some things anywhere -->
 				<li Class="ScenPart_ScatterThingsAnywhere">
@@ -195,5 +195,5 @@
 				</li>
 			</parts>
 		</scenario>
-	</ScenarioDef> -->
+	</ScenarioDef>
 </Defs>

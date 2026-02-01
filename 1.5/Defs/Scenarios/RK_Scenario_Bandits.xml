@@ -172,9 +172,9 @@
 				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
 					<factionDef>RatkinRebel</factionDef>
 					<affectStartingGoodwill>True</affectStartingGoodwill>
-					<startingGoodwillRange>-85~-45</startingGoodwillRange>
+					<startingGoodwillRange>-75~--100</startingGoodwillRange>
 					<affectNaturalGoodwill>True</affectNaturalGoodwill>
-					<naturalGoodwillRange>-55~25</naturalGoodwillRange>
+					<naturalGoodwillRange>-55~-100</naturalGoodwillRange>
 					<def>VFEC_ForcedFactionGoodwill</def>
 				</li>
 				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
@@ -182,15 +182,7 @@
 					<affectStartingGoodwill>True</affectStartingGoodwill>
 					<startingGoodwillRange>-85~-45</startingGoodwillRange>
 					<affectNaturalGoodwill>True</affectNaturalGoodwill>
-					<naturalGoodwillRange>-55~25</naturalGoodwillRange>
-					<def>VFEC_ForcedFactionGoodwill</def>
-				</li>
-				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
-					<factionDef>Rakiniville</factionDef>
-					<affectStartingGoodwill>True</affectStartingGoodwill>
-					<startingGoodwillRange>-85~-45</startingGoodwillRange>
-					<affectNaturalGoodwill>True</affectNaturalGoodwill>
-					<naturalGoodwillRange>-55~25</naturalGoodwillRange>
+					<naturalGoodwillRange>-55~-75</naturalGoodwillRange>
 					<def>VFEC_ForcedFactionGoodwill</def>
 				</li>
 			</parts>

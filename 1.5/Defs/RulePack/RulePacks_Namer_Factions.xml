@@ -94,7 +94,7 @@
 			<li>townend->하우스랫 타운</li>
 			<li>townend->테일빌</li>
 			<li>townend->베리버러</li>
-			<li>townend->렌틸</li>
+			<li>townend->렌틸스크</li>
 			<li>townend->세인트단델라이언</li>
 			<li>townend->로스 파블로</li>
     	 	 </rulesStrings>
@@ -119,7 +119,7 @@
 				<li>r_name->티니 군단</li>
 				<li>r_name->죽은 장미 군단</li>
 				<li>r_name->쾌락주의자 랫킨 연합</li>
-
+00
 				<li>group->집단</li>
 
 				<li>ofThing->분노</li>
@@ -140,6 +140,10 @@
 		</include>
     	<rulePack>
       	<rulesStrings>
+
+			<li>bunker->벙커</li>
+			<li>Tochka->토치카</li>
+
         	<li>townend->약쟁이들의 낙원</li>
        		<li>townend->부패한 기지</li>
 			<li>townend->약탈품 보관 거점</li>

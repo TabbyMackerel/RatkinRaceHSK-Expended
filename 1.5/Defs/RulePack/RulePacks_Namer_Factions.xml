@@ -97,7 +97,7 @@
 			<li>townend->렌틸스크</li>
 			<li>townend->세인트단델라이언</li>
 			<li>townend->로스 파블로</li>
-    	 	 </rulesStrings>
+    	  </rulesStrings>
    		</rulePack>
  	</RulePackDef>
 
@@ -119,7 +119,7 @@
 				<li>r_name->티니 군단</li>
 				<li>r_name->죽은 장미 군단</li>
 				<li>r_name->쾌락주의자 랫킨 연합</li>
-00
+
 				<li>group->집단</li>
 
 				<li>ofThing->분노</li>
@@ -141,8 +141,31 @@
     	<rulePack>
       	<rulesStrings>
 
-			<li>bunker->벙커</li>
+			<li>Bunker->벙커</li>
 			<li>Tochka->토치카</li>
+			<li>Base of Operations->작전기지</li>
+			<li>Off-limit Area->제한구역</li>
+
+			<!-- 쥐를 포함한 설치류가 매개체인 세균 및 바이러스 -->
+
+			<li>disease->Orthohanta<li>
+			<li>disease->Hantavirus<li>
+			<li>disease->Sin Nombre<li>
+			<li>disease->Seoul virus<li>
+			<li>disease->Andes virus<li>
+			<li>disease->New York virus<li>
+			<li>disease->Puumala virus<li>
+			<li>disease->Oxbow virus<li>
+			<li>disease->Hantaan virus<li>
+			<li>disease->Pest<li>
+			<li>disease->Typhoid<li>
+			<li>disease->Salmonella<li>
+			<li>disease->Leptospira<li>
+
+			<li>Full_Name->[Bunker] [disease]<li>
+			<li>Full_Name->[Tochka] [disease]<li>
+			<li>Full_Name->[Base of Operations] [disease]<li>
+			<li>Full_Name->[Off-limit Area] [disease]<li>
 
         	<li>townend->약쟁이들의 낙원</li>
        		<li>townend->부패한 기지</li>

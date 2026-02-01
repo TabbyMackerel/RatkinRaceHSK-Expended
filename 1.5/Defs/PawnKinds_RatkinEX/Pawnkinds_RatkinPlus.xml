@@ -131,8 +131,8 @@
 
 <!-- 플레이어 랫킨 도적 -->
  <PawnKindDef ParentName="RatkinBanditBase">
-		<defName>Ratkin_Looter</defName>
-		<label>랫킨 약탈자</label>
+		<defName>Ratkin_Bandit_Player</defName>
+		<label>랫킨 도적단 일원</label>
 		<combatPower>80</combatPower>
 		<apparelRequired>
 			<li>RK_Backpack</li>

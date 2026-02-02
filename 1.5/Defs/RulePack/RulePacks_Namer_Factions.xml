@@ -140,11 +140,6 @@
 		</include>
     	<rulePack>
       		<rulesStrings>
-		
-				<li>Bunker->벙커</li>
-				<li>Tochka->토치카</li>
-				<li>Base_of_Operations->작전기지</li>
-				<li>off_limit->제한구역</li>
 
 <!--				<li>Bunker->벙커</li>
 				<li>Tochka->토치카</li>

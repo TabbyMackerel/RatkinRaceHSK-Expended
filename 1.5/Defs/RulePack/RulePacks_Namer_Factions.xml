@@ -139,74 +139,74 @@
 			<li>WarlordNameUtility</li>
 		</include>
     	<rulePack>
-      	<rulesStrings>
+      		<rulesStrings>
 		
-			<li>Bunker->벙커</li>
-			<li>Tochka->토치카</li>
-			<li>Base of Operations->작전기지</li>
-			<li>Off-limit Area->제한구역</li>
+				<li>Bunker->벙커</li>
+				<li>Tochka->토치카</li>
+				<li>Base of Operations->작전기지</li>
+				<li>Off-limit Area->제한구역</li>
 
-			<!-- 쥐를 포함한 설치류가 매개체인 세균 및 바이러스 -->
+				<!-- 쥐를 포함한 설치류가 매개체인 세균 및 바이러스 -->
 
-			<li>disease->Orthohanta<li>
-			<li>disease->Hantavirus<li>
-			<li>disease->Sin Nombre<li>
-			<li>disease->Seoul virus<li>
-			<li>disease->Andes virus<li>
-			<li>disease->New York virus<li>
-			<li>disease->Puumala virus<li>
-			<li>disease->Oxbow virus<li>
-			<li>disease->Hantaan virus<li>
-			<li>disease->Pest<li>
-			<li>disease->Typhoid<li>
-			<li>disease->Salmonella<li>
-			<li>disease->Leptospira<li>
+				<li>disease->오르토한타<li> <!--Orthohanta-->
+				<li>disease->한타바이러스<li> <!--Hantavirus-->
+				<li>disease->신놈브레<li> <!--Sin Nombre-->
+				<li>disease->서울바이러스<li> <!--Seoul virus-->
+				<li>disease->안데스바이러스<li> <!--Andes virus-->
+				<li>disease->뉴욕바이러스<li> <!--New York virus-->
+				<li>disease->푸말라바이러스<li> <!--Puumala virus-->
+				<li>disease->옥스본바이러스<li> <!--Oxbow virus-->
+				<li>disease->한탄바이러스<li> <!--Hantaan virus-->
+				<li>disease->페스트<li> <!--Pest-->
+				<li>disease->장티푸스<li> <!--Typhoid-->
+				<li>disease->살모넬라<li> <!--Salmonella-->
+				<li>disease->렙토스피라<li> <!--Leptospira-->
 
-			<li>WarloadBase_Name1->[Bunker] [disease]<li>
-			<li>WarloadBase_Name2->[Tochka] [disease]<li>
-			<li>WarloadBase_Name3->[Base of Operations] [disease]<li>
-			<li>WarloadBase_Name4->[Off-limit Area] [disease]<li>
+				<li>WarloadBase_Name1->[Bunker] [disease]<li>
+				<li>WarloadBase_Name2->[Tochka] [disease]<li>
+				<li>WarloadBase_Name3->[Base of Operations] [disease]<li>
+				<li>WarloadBase_Name4->[Off-limit Area] [disease]<li>
 
-        	<li>townend->약쟁이들의 낙원</li>
-       		<li>townend->부패한 기지</li>
-			<li>townend->약탈품 보관 거점</li>
-			<li>townend->억압당하는 마을</li>
-			<li>townend->과격파 수용소</li>
-			<li>townend->변절자들의 집결지</li>
-			<li>townend->막장스러운 기지</li>
-			<li>townend->노획물자 보관 거점지</li>
-			<li>townend->군벌 훈련 기지</li>
-			<li>townend->약물 제조공장</li>
-			<li>townend->반인륜적인 곳</li>
-			<li>townend->군벌 훈련 집결지</li>
-			<li>townend->강제징용의 중심지</li>
-			<li>townend->쾌락주의 전초기지</li>
-			<li>townend->부역자 마을</li>
-			<li>townend->불법 밀수 중심지</li>
-			<li>townend->군벌 점거 마을</li>
-			<li>townend->약탈자 요새</li>
-			<li>townend->흑사병의 땅</li>
-			<li>townend->군벌 처형장</li>
-			<li>townend->쓰레기 수용소</li>
-			<li>townend->불법 무기 제조공장</li>
-			<li>townend->갈취당하는 마을</li>
-			<li>townend->군벌 신병 훈련소</li>
-			<li>townend->프로파간다 요새</li>
-		    <li>townend->군벌 협조자 모집소</li>
-			<li>townend->기술 유출 작전기지</li>
-			<li>townend->소년병 강제징집 수용소</li>
-			<li>townend->제 1 군벌 연병장</li>
-			<li>townend->제 2 군벌 연병장</li>
-			<li>townend->제 3 군벌 연병장</li>
-			<li>townend->제 4 군벌 연병장</li>
-			<li>townend->땅굴 암시장</li>
-			<li>townend->생화학무기 제조 거점</li>
-			<li>townend->노획품 보관 거점</li>
-			<li>townend->전쟁범죄의 수용소</li>
-			<li>townend->끔찍한 처형장</li>
-			<li>townend->역겨운 정신병자 소굴</li>
-			<li>townend->포로 노예화 수용소</li>
-   		</rulesStrings>
+        		<li>townend->약쟁이들의 낙원</li>
+       			<li>townend->부패한 기지</li>
+				<li>townend->약탈품 보관 거점</li>
+				<li>townend->억압당하는 마을</li>
+				<li>townend->과격파 수용소</li>
+				<li>townend->변절자들의 집결지</li>
+				<li>townend->막장스러운 기지</li>
+				<li>townend->노획물자 보관 거점지</li>
+				<li>townend->군벌 훈련 기지</li>
+				<li>townend->약물 제조공장</li>
+				<li>townend->반인륜적인 곳</li>
+				<li>townend->군벌 훈련 집결지</li>
+				<li>townend->강제징용의 중심지</li>
+				<li>townend->쾌락주의 전초기지</li>
+				<li>townend->부역자 마을</li>
+				<li>townend->불법 밀수 중심지</li>
+				<li>townend->군벌 점거 마을</li>
+				<li>townend->약탈자 요새</li>
+					<li>townend->흑사병의 땅</li>
+				<li>townend->군벌 처형장</li>
+				<li>townend->쓰레기 수용소</li>
+				<li>townend->불법 무기 제조공장</li>
+				<li>townend->갈취당하는 마을</li>
+				<li>townend->군벌 신병 훈련소</li>
+				<li>townend->프로파간다 요새</li>
+			    <li>townend->군벌 협조자 모집소</li>
+				<li>townend->기술 유출 작전기지</li>
+				<li>townend->소년병 강제징집 수용소</li>
+				<li>townend->제 1 군벌 연병장</li>
+				<li>townend->제 2 군벌 연병장</li>
+				<li>townend->제 3 군벌 연병장</li>
+				<li>townend->제 4 군벌 연병장</li>
+				<li>townend->땅굴 암시장</li>
+				<li>townend->생화학무기 제조 거점</li>
+				<li>townend->노획품 보관 거점</li>
+				<li>townend->전쟁범죄의 수용소</li>
+				<li>townend->끔찍한 처형장</li>
+				<li>townend->역겨운 정신병자 소굴</li>
+				<li>townend->포로 노예화 수용소</li>
+   			</rulesStrings>
    		</rulePack>
  	</RulePackDef>
 

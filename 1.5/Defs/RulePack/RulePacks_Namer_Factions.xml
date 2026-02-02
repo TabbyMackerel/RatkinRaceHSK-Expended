@@ -209,6 +209,7 @@
    			</rulesStrings>
    		</rulePack>
  	</RulePackDef>
+	
 <!-- 랫킨 피난민 연합 세력 이름 -->
 	<RulePackDef>
 		<defName>NamerFaction_RatkinRefugeeUnion</defName>

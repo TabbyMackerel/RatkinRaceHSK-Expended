@@ -6,7 +6,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_ATLOU</defName>
 		<label>첨단 기술 유출 작전 소속 부대원들</label>
-		<commonality>0.12</commonality>
+		<commonality>0.05</commonality>
     	<requestable>false</requestable>
 		<stockGenerators>
 
@@ -114,7 +114,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebelUnethical_Technology_Smuggler</defName>
 		<label>노획 기술 밀수업자</label>
-		<commonality>0.2</commonality>
+		<commonality>0.12/commonality>
     	<requestable>false</requestable>
 		<stockGenerators>
 

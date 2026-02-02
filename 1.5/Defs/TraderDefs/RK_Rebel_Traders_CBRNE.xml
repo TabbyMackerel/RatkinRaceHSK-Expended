@@ -6,7 +6,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_CBRNE</defName>
 		<label>대량살상무기 방위산업체</label>
-		<commonality>0.06</commonality>
+		<commonality>0.03</commonality>
     	<requestable>false</requestable>
 		<stockGenerators>
 
@@ -14,7 +14,6 @@
               <thingDef>Silver</thingDef>
               <countRange>3000~7500</countRange>
             </li>
-
 
 
       		<li MayRequire="XxNelsonxX.Parabellum" Class="StockGenerator_SingleDef">

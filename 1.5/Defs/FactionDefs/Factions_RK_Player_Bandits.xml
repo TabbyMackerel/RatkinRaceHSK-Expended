@@ -6,10 +6,10 @@
 		<label>랫킨 도적 은신처</label>
 		<description>살아남으려고 극단적인 생존주의를 중요하게 여긴 나머지, 결국 동족과 행성의 이웃 세력들에게도 약탈과 살인 등의 수단과 방법을 가리지 않고 선을 넘은 나머지, 결국 이제는 환영받지 못하는 도적단이 된 랫킨들의 은신처입니다.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind></basicMemberKind>
+		<basicMemberKind>Ratkin_Bandit_Player</basicMemberKind>
 		<pawnSingular>랫킨 도적</pawnSingular>
 		<pawnsPlural>랫킨 도적단</pawnsPlural>
-		<techLevel>Medieval</techLevel>
+		<techLevel>Industrial</techLevel>
 		<backstoryCategories>
 			<li>Offworld</li>
 		</backstoryCategories>

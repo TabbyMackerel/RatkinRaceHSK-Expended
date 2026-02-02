@@ -141,31 +141,31 @@
     	<rulePack>
       		<rulesStrings>
 		
-				<li>Bunker->벙커</li>
+<!--				<li>Bunker->벙커</li>
 				<li>Tochka->토치카</li>
 				<li>Base_of_Operations->작전기지</li>
-				<li>off_limit->제한구역</li>
+				<li>off_limit->제한구역</li>-->
 
 				<!-- 쥐를 포함한 설치류가 매개체인 세균 및 바이러스 -->
 
-				<li>disease->오르토한타<li> <!--Orthohanta-->
-				<li>disease->한타바이러스<li> <!--Hantavirus-->
-				<li>disease->신놈브레<li> <!--Sin Nombre-->
-				<li>disease->서울바이러스<li> <!--Seoul virus-->
-				<li>disease->안데스바이러스<li> <!--Andes virus-->
-				<li>disease->뉴욕바이러스<li> <!--New York virus-->
-				<li>disease->푸말라바이러스<li> <!--Puumala virus-->
-				<li>disease->옥스본바이러스<li> <!--Oxbow virus-->
-				<li>disease->한탄바이러스<li> <!--Hantaan virus-->
-				<li>disease->페스트<li> <!--Pest-->
-				<li>disease->장티푸스<li> <!--Typhoid-->
-				<li>disease->살모넬라<li> <!--Salmonella-->
-				<li>disease->렙토스피라<li> <!--Leptospira-->
+	<!--			<li>disease->오르토한타<li> Orthohanta-->
+	<!--			<li>disease->한타바이러스<li> Hantavirus-->
+	<!--			<li>disease->신놈브레<li> Sin Nombre-->
+	<!--			<li>disease->서울바이러스<li> Seoul virus-->
+	<!--			<li>disease->안데스바이러스<li> Andes virus-->
+	<!--			<li>disease->뉴욕바이러스<li> New York virus-->
+	<!--			<li>disease->푸말라바이러스<li> Puumala virus-->
+	<!--			<li>disease->옥스본바이러스<li> Oxbow virus-->
+	<!--			<li>disease->한탄바이러스<li> Hantaan virus-->
+	<!--			<li>disease->페스트<li> Pest-->
+	<!--			<li>disease->장티푸스<li> Typhoid-->
+	<!--			<li>disease->살모넬라<li> Salmonella-->
+	<!--			<li>disease->렙토스피라<li> Leptospira-->
 
-				<li>townend->[Bunker] [disease]<li>
+	<!--			<li>townend->[Bunker] [disease]<li>
 				<li>townend->[Tochka] [disease]<li>
 				<li>townend->[Base_of_Operations] [disease]<li>
-				<li>townend->[off_limit] [disease]<li>
+				<li>townend->[off_limit] [disease]<li>-->	
 
         		<li>townend->약쟁이들의 낙원</li>
        			<li>townend->부패한 기지</li>

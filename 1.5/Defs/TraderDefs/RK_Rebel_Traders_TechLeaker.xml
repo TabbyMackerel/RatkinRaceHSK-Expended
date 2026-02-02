@@ -114,7 +114,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebelUnethical_Technology_Smuggler</defName>
 		<label>노획 기술 밀수업자</label>
-		<commonality>0.12/commonality>
+		<commonality>0.12</commonality>
     	<requestable>false</requestable>
 		<stockGenerators>
 

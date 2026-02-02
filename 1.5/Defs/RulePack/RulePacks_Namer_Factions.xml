@@ -143,8 +143,8 @@
 		
 				<li>Bunker->벙커</li>
 				<li>Tochka->토치카</li>
-				<li>Base of Operations->작전기지</li>
-				<li>Off-limit Area->제한구역</li>
+				<li>Base_of_Operations->작전기지</li>
+				<li>off-limit->제한구역</li>
 
 				<!-- 쥐를 포함한 설치류가 매개체인 세균 및 바이러스 -->
 
@@ -162,10 +162,10 @@
 				<li>disease->살모넬라<li> <!--Salmonella-->
 				<li>disease->렙토스피라<li> <!--Leptospira-->
 
-				<li>WarloadBase_Name1->[Bunker] [disease]<li>
-				<li>WarloadBase_Name2->[Tochka] [disease]<li>
-				<li>WarloadBase_Name3->[Base of Operations] [disease]<li>
-				<li>WarloadBase_Name4->[Off-limit Area] [disease]<li>
+				<li>WarloadBase_Name_one->[Bunker] [disease]<li>
+				<li>WarloadBase_Name_two->[Tochka] [disease]<li>
+				<li>WarloadBase_Name_three->[Base of Operations] [disease]<li>
+				<li>WarloadBase_Name_four->[Off-limit Area] [disease]<li>
 
         		<li>townend->약쟁이들의 낙원</li>
        			<li>townend->부패한 기지</li>

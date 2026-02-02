@@ -15,7 +15,6 @@
               <countRange>3000~7500</countRange>
             </li>
 
-
       		<li MayRequire="XxNelsonxX.Parabellum" Class="StockGenerator_SingleDef">
          	  <thingDef>Pa_DBG</thingDef>
        	 	  <countRange>4~8</countRange>

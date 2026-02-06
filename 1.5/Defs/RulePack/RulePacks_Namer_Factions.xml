@@ -90,13 +90,25 @@
 			<li>townend->래트톤</li>
 			<li>townend->라이스톤</li>
 			<li>townend->세이프우드</li>
-			<li>townend->라드킨그라드</li>
+			<li>townend->라트킨그라드</li>
 			<li>townend->하우스랫 타운</li>
 			<li>townend->테일빌</li>
 			<li>townend->베리버러</li>
 			<li>townend->렌틸스크</li>
 			<li>townend->세인트단델라이언</li>
 			<li>townend->로스 파블로</li>
+			<li>townend->로덴트부르크</li>
+			<li>townend->마우스체스터</li>
+			<li>townend->햄스테르담</li>
+			<li>townend->라키나가르</li>
+			<li>townend->머쉬포드</li>
+			<li>townend->마멋푸라</li>
+			<li>townend->코코아도르프</li>
+			<li>townend->피너트고로드</li>
+			<li>townend->로스테르담</li>
+			<li>townend->래키니아마바드</li>
+			<li>townend->숏테일마바드</li>
+			<li>townend->튤립포드</li>
     	  </rulesStrings>
    		</rulePack>
  	</RulePackDef>

@@ -28,14 +28,14 @@
 
       		<li Class="StockGenerator_SingleDef">
          	  <thingDef>Schematic</thingDef>
-       	 	  <countRange>4~8</countRange>
+       	 	  <countRange>6~12</countRange>
      		</li>
 
       		<li Class="StockGenerator_Techprints">
         	  <countChances>
           		<li>
-           		  <count>8</count>
-            	  <chance>2.5</chance>
+           		  <count>4</count>
+            	  <chance>75</chance>
           		</li>
         	  </countChances>
       		</li>

@@ -40,20 +40,21 @@
         	  </countChances>
       		</li>
 
-            <li Class="StockGenerator_MarketValue">
+            <li Class="StockGenerator_Category">
               <tradeTag>WeaponRanged</tradeTag>
               <maxTechLevelGenerate>Spacer</maxTechLevelGenerate>
-              <countRange>2~5</countRange>
+			  <thingDefCountRange>1~3</thingDefCountRange>
+			  <totalPriceRange>4500~25000</totalPriceRange>
+			  <countRange>1~5</countRange>
             </li>
 
             <li Class="StockGenerator_Category">
               <categoryDef>WeaponsMelee</categoryDef>
               <maxTechLevelGenerate>Spacer</maxTechLevelGenerate>
-              <thingDefCountRange>1~5</thingDefCountRange>
-              <totalPriceRange>600~2000</totalPriceRange>
-              <countRange>2~4</countRange>
+              <thingDefCountRange>1~2</thingDefCountRange>
+              <totalPriceRange>7500~15000</totalPriceRange>
+              <countRange>1~3</countRange>
             </li>
-
       		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
         	  <thingDef>Mechlink</thingDef>
         	  <countRange>1~3</countRange>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
  	<PawnKindDef Name="RatkinPirateBase" Abstract="True">
 	    <race>Ratkin</race>
 		<defaultFactionType>Pirate</defaultFactionType>

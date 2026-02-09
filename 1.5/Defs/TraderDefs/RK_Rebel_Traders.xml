@@ -49,9 +49,11 @@
         	  <countRange>4~8</countRange>
       		</li>
       		<li Class="StockGenerator_MarketValue">
-        	  <tradeTag>Armor</tradeTag>
-        	  <countRange>3~6</countRange>
-      		</li>
+				<tradeTag>Armor</tradeTag>
+				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+				<totalPriceRange>1700~7500</totalPriceRange>
+				<countRange>2~4</countRange>
+			</li>
 			<li Class="StockGenerator_Tag">
 				<tradeTag>WeaponRanged</tradeTag>
 				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>

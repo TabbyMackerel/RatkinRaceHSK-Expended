@@ -52,7 +52,7 @@
         	  <tradeTag>Armor</tradeTag>
         	  <countRange>3~6</countRange>
       		</li>
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Tag">
 				<tradeTag>WeaponRanged</tradeTag>
 				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
 				<totalPriceRange>600~5000</totalPriceRange>
@@ -221,9 +221,6 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>HealrootTincture</thingDef>
 			</li>
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
-			</li>
 
 		</stockGenerators>
 	</TraderKindDef>
@@ -329,9 +326,6 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Novel</thingDef>
 			</li>
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
-			</li>
 			<li Class="StockGenerator_BuyTradeTag">
 				<tag>ExoticMisc</tag>
 			</li>
@@ -434,11 +428,13 @@
      		   <tradeTag>CE_AutoEnableTrade</tradeTag>
   		       <thingDefCountRange>2~5</thingDefCountRange>
      		   <totalPriceRange>250~2500</totalPriceRange>
-      		  <countRange>80~500</countRange>
+      		   <countRange>80~500</countRange>
     		</li>
 			<li Class="StockGenerator_MarketValue">
-				<categoryDef>Armor</categoryDef>
-				<countRange>3~8</countRange>
+				<tradeTag>Armor</tradeTag>
+				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+				<totalPriceRange>4500~10000</totalPriceRange>
+				<countRange>3~6</countRange>
 			</li>
 			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Art</tradeTag>
@@ -455,7 +451,7 @@
 				<tradeTag>WeaponRanged</tradeTag>
 				<price>Cheap</price>
 				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
-				<totalPriceRange>700~8000</totalPriceRange>
+				<totalPriceRange>850~8000</totalPriceRange>
 				<countRange>6~12</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
@@ -480,11 +476,11 @@
        		   <thingDefCountRange>3~6</thingDefCountRange>
         	   <totalPriceRange>250~650</totalPriceRange>
       		</li>
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Category">
 				<categoryDef>WeaponsMelee</categoryDef>
 				<price>Cheap</price>
-				<totalPriceRange>250~5000</totalPriceRange>
 				<thingDefCountRange>5~20</thingDefCountRange>
+				<totalPriceRange>250~5000</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Slaves">
 				<countRange>4~8</countRange>

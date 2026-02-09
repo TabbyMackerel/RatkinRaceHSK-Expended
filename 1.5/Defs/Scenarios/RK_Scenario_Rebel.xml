@@ -221,7 +221,6 @@
 					<visible>false</visible>
 					<thingDef>ShipMechChunk</thingDef>
 					<count>10</count>
-					<allowRoofed>false</allowRoofed>
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>

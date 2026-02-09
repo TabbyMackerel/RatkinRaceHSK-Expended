@@ -21,9 +21,10 @@
 				<categoryDef>Ammo</categoryDef>
 				<thingDefCountRange>100~600</thingDefCountRange>
 			</li>  -->
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Category">
 				<tradeTag>Armor</tradeTag>
 				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+				<totalPriceRange>1200~5000</totalPriceRange>
 				<countRange>2~4</countRange>
 			</li>
 <!--		<li Class="StockGenerator_Tag">
@@ -61,11 +62,6 @@
 				<tradeTag>SimpleCrate</tradeTag>
 				<thingDefCountRange>1~2</thingDefCountRange>
 				<countRange>1~3</countRange>
-			</li>
-			<li Class="StockGenerator_Category">
-				<tradeTag>Armor</tradeTag>
-				<TechLevelGenerate>Industrial</TechLevelGenerate>
-				<countRange>4~8</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<tradeTag>Armor</tradeTag>
@@ -138,9 +134,6 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>HealrootTincture</thingDef>
 			</li>
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
-			</li>
 			<li Class="StockGenerator_BuyTradeTag">
 				<tag>ImplantEmpireCommon</tag>
 			</li>
@@ -204,9 +197,6 @@
 			</li>			
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>HealrootTincture</thingDef>
-			</li>
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
 			</li>
 		</stockGenerators>
 	</TraderKindDef>
@@ -309,7 +299,7 @@
 				<thingDefCountRange>1~4</thingDefCountRange>
 				<totalPriceRange>100~2000</totalPriceRange>
 			</li>
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Category">
 				<categoryDef>WeaponMelee</categoryDef>
 				<price>Cheap</price>
 				<totalPriceRange>300~1500</totalPriceRange>
@@ -318,8 +308,9 @@
 			<li Class="StockGenerator_Slaves">
 				<countRange>2~8</countRange>
 			</li>
+
 			<li Class="StockGenerator_BuyExpensiveSimple" />
-			<li Class="StockGenerator_BuyExpensiveSimple" />
+
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Drugs</thingDef>
 			</li>

@@ -315,9 +315,6 @@
 				<thingDef>HealrootTincture</thingDef>
 			</li>
 			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
-			</li>
-			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>TextBook</thingDef>
 			</li>
 			<li Class="StockGenerator_BuySingleDef">

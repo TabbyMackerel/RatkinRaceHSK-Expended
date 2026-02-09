@@ -49,14 +49,16 @@
         	  <countRange>4~8</countRange>
       		</li>
       		<li Class="StockGenerator_MarketValue">
-        	  <tradeTag>Armor</tradeTag>
-        	  <countRange>3~6</countRange>
-      		</li>
-			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Armor</tradeTag>
+				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+				<totalPriceRange>1700~7500</totalPriceRange>
+				<countRange>2~4</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
 				<tradeTag>WeaponRanged</tradeTag>
 				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
 				<totalPriceRange>600~5000</totalPriceRange>
-				<countRange>3~9</countRange>
+				<countRange>3~6</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>WeaponsMelee</categoryDef>
@@ -221,9 +223,6 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>HealrootTincture</thingDef>
 			</li>
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
-			</li>
 
 		</stockGenerators>
 	</TraderKindDef>
@@ -317,9 +316,6 @@
 				<thingDef>HealrootTincture</thingDef>
 			</li>
 			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
-			</li>
-			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>TextBook</thingDef>
 			</li>
 			<li Class="StockGenerator_BuySingleDef">
@@ -327,9 +323,6 @@
 			</li>
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>Novel</thingDef>
-			</li>
-			<li Class="StockGenerator_BuySingleDef">
-				<thingDef>Neutroae</thingDef>
 			</li>
 			<li Class="StockGenerator_BuyTradeTag">
 				<tag>ExoticMisc</tag>
@@ -391,7 +384,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_LootTrafficker</defName>
 		<label>밀매상</label>
-		<commonality>1</commonality>
+		<commonality>0.45</commonality>
 		<requestable>false</requestable>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
@@ -435,8 +428,10 @@
       		  <countRange>80~500</countRange>
     		</li>
 			<li Class="StockGenerator_MarketValue">
-				<categoryDef>Armor</categoryDef>
-				<countRange>3~8</countRange>
+				<tradeTag>Armor</tradeTag>
+				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
+				<totalPriceRange>4500~10000</totalPriceRange>
+				<countRange>3~6</countRange>
 			</li>
 			<li Class="StockGenerator_MarketValue">
 				<tradeTag>Art</tradeTag>
@@ -453,7 +448,7 @@
 				<tradeTag>WeaponRanged</tradeTag>
 				<price>Cheap</price>
 				<maxTechLevelGenerate>Industrial</maxTechLevelGenerate>
-				<totalPriceRange>700~8000</totalPriceRange>
+				<totalPriceRange>850~8000</totalPriceRange>
 				<countRange>6~12</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
@@ -478,11 +473,11 @@
        		   <thingDefCountRange>3~6</thingDefCountRange>
         	   <totalPriceRange>250~650</totalPriceRange>
       		</li>
-			<li Class="StockGenerator_MarketValue">
+			<li Class="StockGenerator_Category">
 				<categoryDef>WeaponsMelee</categoryDef>
 				<price>Cheap</price>
-				<totalPriceRange>250~5000</totalPriceRange>
 				<thingDefCountRange>5~20</thingDefCountRange>
+				<totalPriceRange>250~5000</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Slaves">
 				<countRange>4~8</countRange>

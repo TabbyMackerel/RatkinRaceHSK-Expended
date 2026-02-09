@@ -146,14 +146,12 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>ScatterThingsNearPlayerStart</def>
 				<thingDef>Bronze</thingDef>
-				<count>250</count>
-				<allowRoofed>false</allowRoofed>		
+				<count>250</count>		
 			</li>	
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>ScatterThingsNearPlayerStart</def>
 				<thingDef>Bamboo</thingDef>
 				<count>150</count>
-				<allowRoofed>false</allowRoofed>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>ScatterThingsNearPlayerStart</def>

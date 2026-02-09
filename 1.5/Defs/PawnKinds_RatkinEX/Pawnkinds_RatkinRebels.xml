@@ -1330,7 +1330,6 @@
 		<defName>RK_Rebel_Juggernaut_PM</defName>
 		<label>랫킨 저거넛 포인트맨</label>
 		<combatPower>575</combatPower>
-		<canBeSapper>true</canBeSapper>
 		<apparelRequired>
 			<li>RK_MaskB</li>
 			<li>RK_BattleSuitB</li>
@@ -1668,8 +1667,6 @@
 			<li>RK_Cardigan</li>
 			<li>RK_CrossBack</li>
 			<li>RK_WoodenShield</li>
-		</apparelRequired>
-		<apparelRequired>
 			<li>RK_Loadbearing</li>
 		</apparelRequired>
 		<isFighter>true</isFighter>

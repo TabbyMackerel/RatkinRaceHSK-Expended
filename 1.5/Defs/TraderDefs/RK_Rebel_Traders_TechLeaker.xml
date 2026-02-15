@@ -107,7 +107,8 @@
             <li Class="StockGenerator_BuyTradeTag">
               <tag>Artifact</tag>
             </li>
-
+			
+		</stockGenerators>
 	</TraderKindDef>
 	
 	<!-- 랫킨 비윤리적인 반군-->

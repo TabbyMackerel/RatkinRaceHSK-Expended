@@ -40,7 +40,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Silver</thingDef>
-					<count>650</count>
+					<count>1000</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -59,23 +59,47 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
+					<thingDef>RK_Rifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_303British_FMJ</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RF_Gun_Tecnine</thingDef>
+					<count>2</count>
+				</li>
+					<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
 					<thingDef>Ammo_9x19mmPara_FMJ</thingDef>
 					<count>300</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>RF_Gun_93R</thingDef>
-					<count>2</count>
-				</li>	
+					<thingDef>Gun_RKShotgun</thingDef>
+				</li>				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_Backpack</thingDef>
+					<stuff>Leather_Plain</stuff>
+					<count>4</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_12Gauge_Buck</thingDef>
+					<count>80</count>
+				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MedicineHerbal</thingDef>
-					<count>12</count>
+					<count>25</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MedicineIndustrial</thingDef>
-					<count>15</count>
+					<count>10</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -86,45 +110,42 @@
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Plasteel</thingDef>
 					<count>80</count>
+					<allowRoofed>True</allowRoofed>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Bronze</thingDef>
 					<count>140</count>
+					<allowRoofed>True</allowRoofed>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>MeleeWeapon_Dagger</thingDef>
+					<thingDef>RK_OneHanded</thingDef>
 					<stuff>Plasteel</stuff>
-                    <count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+					<thingDef>RK_Dagger</thingDef>
 					<stuff>Bronze</stuff>
-                    <count>2</count>
+					<count>3</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
-					<stuff>Bronze</stuff>
-                    <count>2</count>
+					<thingDef>TFJ_Tool_Paxe</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
 					<stuff>Bronze</stuff>
-                    <count>2</count>
+					<count>1</count>
 				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>Plasteel</thingDef>
-					<count>80</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>Bronze</thingDef>
-					<count>175</count>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+					<stuff>Bronze</stuff>
+                    <count>1</count>
 				</li>
 
 				<!-- Player starting things -->
@@ -150,15 +171,25 @@
 					<def>ScatterThingsAnywhere</def>
 					<visible>false</visible>
 					<thingDef>ShipChunk</thingDef>
-					<count>14</count>
+					<count>12</count>
 					<allowRoofed>false</allowRoofed>
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<visible>false</visible>
 					<thingDef>ShipMechChunk</thingDef>
-					<count>10</count>
+					<count>7</count>
 					<allowRoofed>false</allowRoofed>
+				</li>				
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Plasteel</thingDef>
+					<count>90</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Bronze</thingDef>
+					<count>180</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
@@ -178,7 +209,7 @@
 					<visible>false</visible>
 					<thingDef>BlocksSandstone</thingDef>
 					<count>30</count>
-				</li>
+				</li>				
 				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
 					<factionDef>RatkinRebel</factionDef>
 					<affectStartingGoodwill>True</affectStartingGoodwill>

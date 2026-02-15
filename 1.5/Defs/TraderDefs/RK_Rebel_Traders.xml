@@ -345,7 +345,7 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 				<price>Cheap</price>
-				<totalPriceRange>500~1500</totalPriceRange>
+				<totalPriceRange>1500~3850</totalPriceRange>
 			</li>
 
 			<li Class="StockGenerator_BuyExpensiveSimple" />

@@ -386,8 +386,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_LootTrafficker</defName>
 		<label>밀매상</label>
-		<commonality>1</commonality>
-		<requestable>false</requestable>
+		<commonality>0.5</commonality>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>

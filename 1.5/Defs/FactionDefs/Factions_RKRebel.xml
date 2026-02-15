@@ -80,7 +80,7 @@
 		<caravanTraderKinds>
 			<li>Caravan_RatkinRebel_DrugTrader</li>
 			<li>Caravan_RatkinRebel_LootTrafficker</li>
-			<li>Caravan_RatkinRebelUnethical_Technology_Smuggler</li>
+			<li>Caravan_RatkinRebelUnethical_TechnologySmuggler</li>
 		</caravanTraderKinds>
 		<xenotypeSet>
 		  <xenotypeChances>

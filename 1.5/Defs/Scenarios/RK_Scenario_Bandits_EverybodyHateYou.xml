@@ -112,13 +112,13 @@
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Plasteel</thingDef>
 					<count>80</count>
-					<allowRoofed>True</allowRoofed>
+					<allowRoofed>false</allowRoofed>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Bronze</thingDef>
 					<count>140</count>
-					<allowRoofed>True</allowRoofed>
+					<allowRoofed>false</allowRoofed>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>

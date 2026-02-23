@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RK_Bandits_Hideout.label>Логово бандитов Раткинов</RK_Bandits_Hideout.label>
+  <RK_Bandits_Hideout.description>Логово отверженных, переступивших черту ради радикального выживания. Изгнанные собственным народом за грабежи и убийства, эти Раткины стали паразитами на теле планеты. Теперь они лишь тени гражданской войны, несущие смерть.</RK_Bandits_Hideout.description>
+  <RK_Bandits_Hideout.pawnSingular>бандит</RK_Bandits_Hideout.pawnSingular>
+  <RK_Bandits_Hideout.pawnsPlural>бандитская свора</RK_Bandits_Hideout.pawnsPlural>
+  
+</LanguageData>

@@ -304,6 +304,15 @@
     <RK_RebelUnethical_WarloadMember.labelFemale>female ratkin warload member</RK_RebelUnethical_WarloadMember.labelFemale>
     <RK_RebelUnethical_WarloadMember.labelFemalePlural>female ratkin warload members</RK_RebelUnethical_WarloadMember.labelFemalePlural>
 
+    <!-- 군벌 랫킨 시나리오(플레이어) -->
+    <!-- 플레이어 랫킨 단원 -->
+    <RK_RebelUnethical_WarloadMember_Player.label>ratkin warlord member</RK_RebelUnethical_WarloadMember_Player.label>
+    <RK_RebelUnethical_WarloadMember_Player.labelPlural>ratkin warlord members</RK_RebelUnethical_WarloadMember_Player.labelPlural>
+    <RK_RebelUnethical_WarloadMember_Player.labelMale>male ratkin warlord member</RK_RebelUnethical_WarloadMember_Player.labelMale>
+    <RK_RebelUnethical_WarloadMember_Player.labelMalePlural>male ratkin warlord members</RK_RebelUnethical_WarloadMember_Player.labelMalePlural>
+    <RK_RebelUnethical_WarloadMember_Player.labelFemale>female ratkin warlord member</RK_RebelUnethical_WarloadMember_Player.labelFemale>
+    <RK_RebelUnethical_WarloadMember_Player.labelFemalePlural>female ratkin warlord members</RK_RebelUnethical_WarloadMember_Player.labelFemalePlural>
+    
     <!-- 군벌 전투원 -->
     <RK_RebelUnethical_WarloadSoldier.label>ratkin warload soldier</RK_RebelUnethical_WarloadSoldier.label>
     <RK_RebelUnethical_WarloadSoldier.labelPlural>ratkin warload soldiers</RK_RebelUnethical_WarloadSoldier.labelPlural>

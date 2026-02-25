@@ -66,6 +66,81 @@
         	  <countRange>2~3</countRange>
       		</li>
 			
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>FSX</thingDef>
+				<countRange>
+					<min>50</min>
+					<max>100</max>
+				</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Prometheum</thingDef>
+				<countRange>
+					<min>50</min>
+					<max>100</max>
+				</countRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Ammo</tradeTag>
+				<countRange>
+					<min>1000</min>
+					<max>3000</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>6</min>
+					<max>12</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_MediumAmmo</tradeTag>
+				<countRange>
+					<min>350</min>
+					<max>700</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>5</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_HeavyAmmo</tradeTag>
+				<countRange>
+					<min>150</min>
+					<max>300</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>Ammo</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>0</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Turret</tradeTag>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>2</min>
+					<max>4</max>
+				</countRange>
+			</li>
+
       		<!-- Buying -->
       		<li Class="StockGenerator_BuyExpensiveSimple" />
 

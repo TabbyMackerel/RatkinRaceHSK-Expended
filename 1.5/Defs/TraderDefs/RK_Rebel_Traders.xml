@@ -107,7 +107,80 @@
           		  <li MayRequire="Ludeon.RimWorld.Anomaly">Shell_Deadlife</li>
         		</excludedThingDefs>
 				<countRange>5~25</countRange>
-			</li>			
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>FSX</thingDef>
+				<countRange>
+					<min>50</min>
+					<max>100</max>
+				</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Prometheum</thingDef>
+				<countRange>
+					<min>15</min>
+					<max>35</max>
+				</countRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Ammo</tradeTag>
+				<countRange>
+					<min>750</min>
+					<max>2250</max>
+				</countRange>
+				<thingDefCountRange>
+					<min>4</min>
+					<max>8</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_MediumAmmo</tradeTag>
+				<countRange>
+					<min>250</min>
+					<max>500</max>
+				</countRange>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_HeavyAmmo</tradeTag>
+				<countRange>
+					<min>75</min>
+					<max>150</max>
+				</countRange>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>3</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>Ammo</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>0</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Turret</tradeTag>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>3</max>
+				</countRange>
+			</li>
+
      		<li Class="StockGenerator_SingleDef">
         	    <thingDef>Chemfuel</thingDef>
         	    <countRange>100~400</countRange>
@@ -345,7 +418,34 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 				<price>Cheap</price>
-				<totalPriceRange>1500~3850</totalPriceRange>
+				<thingDefCountRange>4~8</thingDefCountRange>
+				<totalPriceRange>1500~4000</totalPriceRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Ammo</tradeTag>
+				<countRange>
+					<min>500</min>
+					<max>750</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_MediumAmmo</tradeTag>
+				<countRange>
+					<min>200</min>
+					<max>300</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>2</max>
+				</thingDefCountRange>
 			</li>
 
 			<li Class="StockGenerator_BuyExpensiveSimple" />
@@ -395,7 +495,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 				<price>Cheap</price>
-				<totalPriceRange>500~1500</totalPriceRange>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<totalPriceRange>800~2200</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>Apparel</categoryDef>
@@ -480,8 +581,86 @@
 				<thingDefCountRange>5~20</thingDefCountRange>
 				<totalPriceRange>250~5000</totalPriceRange>
 			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>FSX</thingDef>
+				<countRange>
+					<min>35</min>
+					<max>200</max>
+				</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Prometheum</thingDef>
+				<countRange>
+					<min>15</min>
+					<max>70</max>
+				</countRange>
+				<price>Cheap</price>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Ammo</tradeTag>
+				<countRange>
+					<min>1000</min>
+					<max>2750</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>7</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_MediumAmmo</tradeTag>
+				<countRange>
+					<min>750</min>
+					<max>1500</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>5</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_HeavyAmmo</tradeTag>
+				<countRange>
+					<min>250</min>
+					<max>500</max>
+				</countRange>
+				<price>Cheap</price>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>6</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>Ammo</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>0</max>
+				</thingDefCountRange>
+			</li>
+
+			<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Turret</tradeTag>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>4</max>
+				</countRange>
+			</li>
+
 			<li Class="StockGenerator_Slaves">
-				<countRange>4~8</countRange>
+				<countRange>2~8</countRange>
 			</li>
 
       		<li Class="StockGenerator_Tag">

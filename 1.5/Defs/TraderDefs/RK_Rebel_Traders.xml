@@ -109,7 +109,7 @@
 				<countRange>5~25</countRange>
 			</li>
 
-			<li Class="StockGenerator_SingleDef">
+<!--			<li Class="StockGenerator_SingleDef">
 				<thingDef>FSX</thingDef>
 				<countRange>
 					<min>50</min>
@@ -179,7 +179,7 @@
 					<min>1</min>
 					<max>3</max>
 				</countRange>
-			</li>
+			</li>-->
 
      		<li Class="StockGenerator_SingleDef">
         	    <thingDef>Chemfuel</thingDef>
@@ -582,7 +582,7 @@
 				<totalPriceRange>250~5000</totalPriceRange>
 			</li>
 
-			<li Class="StockGenerator_SingleDef">
+<!--			<li Class="StockGenerator_SingleDef">
 				<thingDef>FSX</thingDef>
 				<countRange>
 					<min>35</min>
@@ -657,7 +657,7 @@
 					<min>1</min>
 					<max>4</max>
 				</countRange>
-			</li>
+			</li>-->
 
 			<li Class="StockGenerator_Slaves">
 				<countRange>2~8</countRange>

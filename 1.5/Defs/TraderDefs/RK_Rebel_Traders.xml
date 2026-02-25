@@ -603,34 +603,34 @@
 			<li Class="StockGenerator_Tag">
 				<tradeTag>CE_Ammo</tradeTag>
 				<countRange>
-					<min>1000</min>
-					<max>2750</max>
+					<min>800</min>
+					<max>1500</max>
 				</countRange>
 				<price>Cheap</price>
 				<thingDefCountRange>
-					<min>3</min>
-					<max>7</max>
+					<min>2</min>
+					<max>6</max>
 				</thingDefCountRange>
 			</li>
 
 			<li Class="StockGenerator_Tag">
 				<tradeTag>CE_MediumAmmo</tradeTag>
 				<countRange>
-					<min>750</min>
-					<max>1500</max>
+					<min>300</min>
+					<max>600</max>
 				</countRange>
 				<price>Cheap</price>
 				<thingDefCountRange>
 					<min>2</min>
-					<max>5</max>
+					<max>4</max>
 				</thingDefCountRange>
 			</li>
 
 			<li Class="StockGenerator_Tag">
 				<tradeTag>CE_HeavyAmmo</tradeTag>
 				<countRange>
-					<min>250</min>
-					<max>500</max>
+					<min>75</min>
+					<max>120</max>
 				</countRange>
 				<price>Cheap</price>
 				<thingDefCountRange>
@@ -645,18 +645,6 @@
 					<min>0</min>
 					<max>0</max>
 				</thingDefCountRange>
-			</li>
-
-			<li Class="StockGenerator_Tag">
-				<tradeTag>CE_Turret</tradeTag>
-				<thingDefCountRange>
-					<min>1</min>
-					<max>2</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>4</max>
-				</countRange>
 			</li>
 
 			<li Class="StockGenerator_Slaves">

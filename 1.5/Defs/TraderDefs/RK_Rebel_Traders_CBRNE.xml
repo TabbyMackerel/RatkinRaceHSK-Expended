@@ -66,7 +66,7 @@
         	  <countRange>2~3</countRange>
       		</li>
 			
-<!--			<li Class="StockGenerator_SingleDef">
+			<li Class="StockGenerator_SingleDef">
 				<thingDef>FSX</thingDef>
 				<countRange>
 					<min>50</min>
@@ -139,7 +139,7 @@
 					<min>2</min>
 					<max>4</max>
 				</countRange>
-			</li>-->
+			</li>
 
       		<!-- Buying -->
       		<li Class="StockGenerator_BuyExpensiveSimple" />

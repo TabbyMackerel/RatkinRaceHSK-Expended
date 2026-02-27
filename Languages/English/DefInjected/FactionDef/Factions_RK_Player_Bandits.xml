@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RK_Bandits_Hideout.label>Ratkin Bandit Hideout</RK_Bandits_Hideout.label>
+  <RK_Bandits_Hideout.description>A hideout of Ratkins who turned into unwelcome bandits through extreme survivalism, pillaging, and murder.</RK_Bandits_Hideout.description>
+  <RK_Bandits_Hideout.pawnSingular>bandit member</RK_Bandits_Hideout.pawnSingular>
+  <RK_Bandits_Hideout.pawnsPlural>bandit members</RK_Bandits_Hideout.pawnsPlural>
+
+</LanguageData>

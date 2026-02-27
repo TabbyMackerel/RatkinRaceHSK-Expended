@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RK_Rebel_Player_Warlord.label>Отряд полевого командира Раткинов</RK_Rebel_Player_Warlord.label>
+  <RK_Rebel_Player_Warlord.description>Парамилитарная ячейка, отколовшаяся от былой революции. Ослеплённые жаждой власти и наживы, они превратились в беспринципных наёмников. Эти полуавтономные отряды не гнушаются самыми грязными методами ради личной выгоды.</RK_Rebel_Player_Warlord.description>
+  <RK_Rebel_Player_Warlord.pawnSingular>боевик</RK_Rebel_Player_Warlord.pawnSingular>
+  <RK_Rebel_Player_Warlord.pawnsPlural>грязное отребье командира</RK_Rebel_Player_Warlord.pawnsPlural>
+
+</LanguageData>

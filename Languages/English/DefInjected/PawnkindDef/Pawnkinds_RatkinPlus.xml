@@ -26,6 +26,15 @@
     <Ratkin_Thug.labelFemale>female ratkin thug</Ratkin_Thug.labelFemale>
     <Ratkin_Thug.labelFemalePlural>female ratkin thugs</Ratkin_Thug.labelFemalePlural>
 
+    <!-- 랫킨 도적단 시나리오(플레이어)-->
+    <!-- 랫킨 도적 -->
+    <Ratkin_Bandit_Player.label>ratkin bandit member</Ratkin_Bandit_Player.label>
+    <Ratkin_Bandit_Player.labelPlural>ratkin bandit members</Ratkin_Bandit_Player.labelPlural>
+    <Ratkin_Bandit_Player.labelMale>male ratkin bandit member</Ratkin_Bandit_Player.labelMale>
+    <Ratkin_Bandit_Player.labelMalePlural>male ratkin bandit members</Ratkin_Bandit_Player.labelMalePlural>
+    <Ratkin_Bandit_Player.labelFemale>female ratkin bandit member</Ratkin_Bandit_Player.labelFemale>
+    <Ratkin_Bandit_Player.labelFemalePlural>female ratkin bandit members</Ratkin_Bandit_Player.labelFemalePlural>
+
     <!-- 랫킨 탈영병 -->
     <!-- 탈영 전투원 -->
     <RatkinCombatant_Deserter.label>ratkin deserter combatant</RatkinCombatant_Deserter.label>

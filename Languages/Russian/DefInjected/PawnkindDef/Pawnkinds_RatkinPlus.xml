@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Отступник -->
+<!-- Отступник -->
 <Ratkin_Deviator.label>раткин-отступник</Ratkin_Deviator.label>
 <Ratkin_Deviator.labelPlural>раткины-отступники</Ratkin_Deviator.labelPlural>
 <Ratkin_Deviator.labelMale>раткин-отступник</Ratkin_Deviator.labelMale>
@@ -24,6 +24,13 @@
 <Ratkin_Thug.labelMalePlural>раткины-громилы</Ratkin_Thug.labelMalePlural>
 <Ratkin_Thug.labelFemale>раткин-громила</Ratkin_Thug.labelFemale>
 <Ratkin_Thug.labelFemalePlural>раткины-громилы</Ratkin_Thug.labelFemalePlural>
+
+<Ratkin_Bandit_Player.label>бандит</Ratkin_Bandit_Player.label>
+<Ratkin_Bandit_Player.labelPlural>бандиты</Ratkin_Bandit_Player.labelPlural>
+<Ratkin_Bandit_Player.labelMale>бандит</Ratkin_Bandit_Player.labelMale>
+<Ratkin_Bandit_Player.labelMalePlural>бандиты</Ratkin_Bandit_Player.labelMalePlural>
+<Ratkin_Bandit_Player.labelFemale>бандитка</Ratkin_Bandit_Player.labelFemale>
+<Ratkin_Bandit_Player.labelFemalePlural>бандитки</Ratkin_Bandit_Player.labelFemalePlural>
 
 <!-- Дезертир-боевик -->
 <RatkinCombatant_Deserter.label>раткин-дезертир</RatkinCombatant_Deserter.label>

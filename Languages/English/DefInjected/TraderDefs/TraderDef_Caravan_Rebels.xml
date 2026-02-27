@@ -6,8 +6,13 @@
 	<Caravan_RatkinRebel_CombatTrader.label>war material merchant</Caravan_RatkinRebel_CombatTrader.label>
 
     <!-- 식량물자 상단 -->
-
     <Caravan_RatkinRebel_FoodTrader.label>food supplies merchant</Caravan_RatkinRebel_FoodTrader.label>
+
+	<!-- 대량살상무기 방위산업체 -->
+    <Caravan_RatkinRebel_CBRNE.label>CBRNE Defense Contractor</Caravan_RatkinRebel_CBRNE.label>
+
+    <!-- 첨단 기술 유출 작전부대 (= Advanced Technology Leaks Operations Unit) -->
+    <Caravan_RatkinRebel_ATLOU.label>Advanced Tech-Leak Ops Unit</Caravan_RatkinRebel_ATLOU.label>
 
     <!-- 랫킨 비윤리적인 반군(군벌) -->
     <!-- 마약상 -->
@@ -16,4 +21,7 @@
     <!-- 밀매상 -->
     <Caravan_RatkinRebel_LootTrafficker.label>bootleggers</Caravan_RatkinRebel_LootTrafficker.label>
 
+    <!-- 노획 기술 밀수꾼 -->
+    <Caravan_RatkinRebelUnethical_TechnologySmuggler.label>Warlord Tech-Smuggling Cell</Caravan_RatkinRebelUnethical_TechnologySmuggler.label>
+    
 </LanguageData>

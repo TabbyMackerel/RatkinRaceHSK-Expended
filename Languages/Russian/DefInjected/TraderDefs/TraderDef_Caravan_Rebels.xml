@@ -6,8 +6,13 @@
 	<Caravan_RatkinRebel_CombatTrader.label>торговец военными материалами</Caravan_RatkinRebel_CombatTrader.label>
 
     <!-- торговый караван с продовольствием -->
-
     <Caravan_RatkinRebel_FoodTrader.label>торговец продовольствием</Caravan_RatkinRebel_FoodTrader.label>
+
+	<!-- 대량살상무기 방위산업체 -->
+    <Caravan_RatkinRebel_CBRNE.label>Оборонный подрядчик ОМП</Caravan_RatkinRebel_CBRNE.label>
+
+    <!-- 첨단 기술 유출 작전부대 (= Advanced Technology Leaks Operations Unit) -->
+    <Caravan_RatkinRebel_ATLOU.label>Оперативники по утечке передовых технологий</Caravan_RatkinRebel_ATLOU.label>
 
     <!-- раткинские беспринципные повстанцы (военачальники) -->
     <!-- наркоторговец -->
@@ -15,5 +20,8 @@
 
     <!-- контрабандист -->
     <Caravan_RatkinRebel_LootTrafficker.label>контрабандист</Caravan_RatkinRebel_LootTrafficker.label>
+
+    <!-- 노획 기술 밀수꾼 -->
+    <Caravan_RatkinRebelUnethical_TechnologySmuggler.label>Технологические контрабандисты</Caravan_RatkinRebelUnethical_TechnologySmuggler.label>
 
 </LanguageData>

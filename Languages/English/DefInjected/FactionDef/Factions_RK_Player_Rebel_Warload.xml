@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RK_Rebel_Player_Warlord.label>Ratkin Warlord Company</RK_Rebel_Player_Warlord.label>
+  <RK_Rebel_Player_Warlord.description>A semi-independent unit under a warlord that has devolved from the revolution to self-interest and unethical profiteering.</RK_Rebel_Player_Warlord.description>
+  <RK_Rebel_Player_Warlord.pawnSingular>warlord member</RK_Rebel_Player_Warlord.pawnSingular>
+  <RK_Rebel_Player_Warlord.pawnsPlural>warlord members</RK_Rebel_Player_Warlord.pawnsPlural>
+	
+</LanguageData>

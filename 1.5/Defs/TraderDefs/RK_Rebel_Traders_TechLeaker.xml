@@ -6,7 +6,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebel_ATLOU</defName>
 		<label>첨단 기술 유출 작전 소속 부대원들</label>
-		<commonality>0.05</commonality>
+		<commonality>0.04</commonality>
     	<requestable>false</requestable>
 		<stockGenerators>
 
@@ -18,17 +18,20 @@
       		<li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
          	  <thingDef>PsychicAmplifier</thingDef>
        	 	  <countRange>1~3</countRange>
+			  <price>Expensive</price>
      		</li>
 
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_Category">
               <categoryDef>NeurotrainersPsycast</categoryDef>
-              <thingDefCountRange>3~4</thingDefCountRange>
+              <thingDefCountRange>2~3</thingDefCountRange>
               <countRange>1~2</countRange>
+			  <price>Expensive</price>
             </li>
 
       		<li Class="StockGenerator_SingleDef">
          	  <thingDef>Schematic</thingDef>
        	 	  <countRange>3~6</countRange>
+			  <price>Expensive</price>
      		</li>
 
       		<li Class="StockGenerator_Techprints">
@@ -38,6 +41,7 @@
             	  <chance>75</chance>
           		</li>
         	  </countChances>
+			  <price>Expensive</price>
       		</li>
 
             <li Class="StockGenerator_Tag">
@@ -46,6 +50,7 @@
 			  <thingDefCountRange>1~3</thingDefCountRange>
 			  <totalPriceRange>10000~27500</totalPriceRange>
 			  <countRange>3~5</countRange>
+			  <price>Expensive</price>
             </li>
 
             <li Class="StockGenerator_Category">
@@ -54,23 +59,27 @@
               <thingDefCountRange>1~2</thingDefCountRange>
               <totalPriceRange>4500~25000</totalPriceRange>
               <countRange>1~3</countRange>
+			  <price>Expensive</price>
             </li>
 
       		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
         	  <thingDef>Mechlink</thingDef>
         	  <countRange>1~3</countRange>
+			  <price>Expensive</price>
       		</li>
 
      		 <!-- Genepacks -->
       		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
         	  <thingDef>Genepack</thingDef>
         	  <countRange>2~4</countRange>
+			  <price>Expensive</price>
       		</li>
 
       		<!-- Archite capsules -->
      		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
        		  <thingDef>ArchiteCapsule</thingDef>
         	  <countRange>1~2</countRange>
+			  <price>Expensive</price>
       		</li>
 
       		<!-- Buying -->
@@ -116,7 +125,7 @@
 	<TraderKindDef>
 		<defName>Caravan_RatkinRebelUnethical_TechnologySmuggler</defName>
 		<label>노획 기술 밀수업자</label>
-		<commonality>0.14</commonality>
+		<commonality>0.10</commonality>
     	<requestable>false</requestable>
 		<stockGenerators>
 
@@ -128,26 +137,30 @@
       		<li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
          	  <thingDef>PsychicAmplifier</thingDef>
        	 	  <countRange>-2~2</countRange>
+			  <price>Expensive</price>
      		</li>
 
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_Category">
               <categoryDef>NeurotrainersPsycast</categoryDef>
               <thingDefCountRange>1~2</thingDefCountRange>
               <countRange>-1~1</countRange>
+			  <price>Expensive</price>
             </li>
             
       		<li Class="StockGenerator_SingleDef">
          	  <thingDef>Schematic</thingDef>
        	 	  <countRange>1~3</countRange>
+			  <price>Expensive</price>
      		</li>
 
       		<li Class="StockGenerator_Techprints">
         	  <countChances>
           		<li>
            		  <count>2</count>
-            	  <chance>50</chance>
+            	  <chance>35</chance>
           		</li>
         	  </countChances>
+			  <price>Expensive</price>
       		</li>
 
             <li Class="StockGenerator_Tag">
@@ -169,18 +182,21 @@
       		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
         	  <thingDef>Mechlink</thingDef>
         	  <countRange>-1~1</countRange>
+			  <price>Expensive</price>
       		</li>
 
      		 <!-- Genepacks -->
       		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
         	  <thingDef>Genepack</thingDef>
         	  <countRange>1~2</countRange>
+			  <price>Expensive</price>
       		</li>
 
       		<!-- Archite capsules -->
      		<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
        		  <thingDef>ArchiteCapsule</thingDef>
         	  <countRange>-1~1</countRange>
+			  <price>Expensive</price>
       		</li>
 
       		<!-- Buying -->

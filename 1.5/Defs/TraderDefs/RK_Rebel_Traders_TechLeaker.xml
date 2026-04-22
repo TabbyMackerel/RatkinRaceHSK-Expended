@@ -38,7 +38,7 @@
         	  <countChances>
           		<li>
            		  <count>4</count>
-            	  <chance>75</chance>
+            	  <chance>0.7</chance>
           		</li>
         	  </countChances>
 			  <price>Expensive</price>
@@ -157,7 +157,7 @@
         	  <countChances>
           		<li>
            		  <count>2</count>
-            	  <chance>35</chance>
+            	  <chance>0.35</chance>
           		</li>
         	  </countChances>
 			  <price>Expensive</price>

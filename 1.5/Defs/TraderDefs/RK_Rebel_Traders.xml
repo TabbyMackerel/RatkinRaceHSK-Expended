@@ -31,8 +31,8 @@
       		<li Class="StockGenerator_Techprints">
         	  <countChances>
           		<li>
-                  <count>2</count>
-                  <chance>5</chance>
+                  <count>1</count>
+                  <chance>0.1</chance>
           		</li>
         	  </countChances>
 			  <price>Expensive</price>

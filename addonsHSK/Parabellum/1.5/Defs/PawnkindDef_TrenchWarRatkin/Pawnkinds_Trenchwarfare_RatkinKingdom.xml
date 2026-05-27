@@ -49,7 +49,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_Infantry</defName>
 		<label>랫킨 왕실군 소속 참호전 소총병</label>
-		<combatPower>110</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -79,7 +79,7 @@
 				</primaryMagazineCount>
 				<sidearms>
 				<li>
-					<generateChance>0.18</generateChance>
+					<generateChance>0.10</generateChance>
 					<sidearmMoney>
 						<min>18</min>
 						<max>32</max>
@@ -116,7 +116,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_Sniper</defName>
 		<label>랫킨 왕실군 소속 참호전 저격수</label>
-		<combatPower>125</combatPower>
+		<combatPower>135</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -167,7 +167,7 @@
 		<label>랫킨 왕실군 소속 참호전 공병</label>
 		<race>Ratkin</race>
 		<defaultFactionType>Rakinia</defaultFactionType>
-		<combatPower>100</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -198,8 +198,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>6</min>
-					<max>12</max>
+					<min>4</min>
+					<max>9</max>
 				</primaryMagazineCount>
 				<forcedSidearm>
 					<sidearmMoney>
@@ -235,8 +235,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>6</min>
-					<max>12</max>
+					<min>4</min>
+					<max>9</max>
 				</primaryMagazineCount>
 				<forcedSidearm>
 					<sidearmMoney>
@@ -265,7 +265,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_LightMachineGunner</defName>
 		<label>랫킨 왕실군 소속 참호전 화력지원 사수</label>
-		<combatPower>165</combatPower>
+		<combatPower>180</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -317,7 +317,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_Trench_CQB</defName>
 		<label>랫킨 왕실군 소속 참호전 근접전투병</label>
-		<combatPower>125</combatPower>
+		<combatPower>135</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -347,7 +347,7 @@
 				</primaryMagazineCount>
 				<sidearms>
 				<li>
-					<generateChance>0.5</generateChance>
+					<generateChance>0.12</generateChance>
 					<sidearmMoney>
 						<min>40</min>
 						<max>100</max>
@@ -357,11 +357,11 @@
 					</weaponTags>
 					<magazineCount>
 						<min>1</min>
-						<max>3</max>
+						<max>2</max>
 					</magazineCount>
 				</li>
 				<li>
-					<generateChance>0.25</generateChance>
+					<generateChance>0.05</generateChance>
 					<sidearmMoney>
 						<min>100</min>
 						<max>150</max>
@@ -370,8 +370,8 @@
 						<li>RK_TrenchWarGrenadeAdvanced</li>
 					</weaponTags>
 					<magazineCount>
-						<min>2</min>
-						<max>3</max>
+						<min>1</min>
+						<max>2</max>
 					</magazineCount>
 				</li>
 				</sidearms>

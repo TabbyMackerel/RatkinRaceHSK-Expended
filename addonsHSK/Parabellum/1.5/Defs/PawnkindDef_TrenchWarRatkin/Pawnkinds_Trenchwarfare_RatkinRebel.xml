@@ -48,7 +48,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_Infantry</defName>
 		<label>랫킨 반군 소속 참호전 소총병</label>
-		<combatPower>110</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -79,7 +79,7 @@
 				</primaryMagazineCount>
 				<sidearms>
 				<li>
-					<generateChance>0.18</generateChance>
+					<generateChance>0.10</generateChance>
 					<sidearmMoney>
 						<min>18</min>
 						<max>32</max>
@@ -116,7 +116,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_ShockTrooper</defName>
 		<label>랫킨 반군 소속 참호전 돌격병</label>
-		<combatPower>125</combatPower>
+		<combatPower>145</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -198,7 +198,7 @@
 		<label>랫킨 반군 소속 참호전 공병</label>
 		<race>Ratkin</race>
 		<defaultFactionType>RatkinRebel</defaultFactionType>
-		<combatPower>110</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -228,8 +228,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>6</min>
-					<max>12</max>
+					<min>4</min>
+					<max>9</max>
 				</primaryMagazineCount>
 				<forcedSidearm>
 					<sidearmMoney>
@@ -265,8 +265,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>6</min>
-					<max>12</max>
+					<min>4</min>
+					<max>9</max>
 				</primaryMagazineCount>
 				<forcedSidearm>
 						<sidearmMoney>
@@ -295,7 +295,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_NoMansLandGunner</defName>
 		<label>랫킨 반군 소속 참호전 무인지대 사수</label>
-		<combatPower>180</combatPower>
+		<combatPower>225</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -334,7 +334,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>5~6</range>
+				<range>3~5</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -347,7 +347,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_Trench_CQB</defName>
 		<label>랫킨 반군 소속 참호전 근접전투병</label>
-		<combatPower>125</combatPower>
+		<combatPower>135</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -377,7 +377,7 @@
 				</primaryMagazineCount>
 				<sidearms>
 				<li>
-					<generateChance>0.5</generateChance>
+					<generateChance>0.12</generateChance>
 					<sidearmMoney>
 						<min>40</min>
 						<max>100</max>
@@ -387,11 +387,11 @@
 					</weaponTags>
 					<magazineCount>
 						<min>1</min>
-						<max>3</max>
+						<max>2</max>
 					</magazineCount>
 				</li>
 				<li>
-					<generateChance>0.25</generateChance>
+					<generateChance>0.05</generateChance>
 					<sidearmMoney>
 						<min>100</min>
 						<max>150</max>
@@ -400,8 +400,8 @@
 						<li>RK_TrenchWarGrenadeAdvanced</li>
 					</weaponTags>
 					<magazineCount>
-						<min>2</min>
-						<max>3</max>
+						<min>1</min>
+						<max>2</max>
 					</magazineCount>
 				</li>
 				</sidearms>

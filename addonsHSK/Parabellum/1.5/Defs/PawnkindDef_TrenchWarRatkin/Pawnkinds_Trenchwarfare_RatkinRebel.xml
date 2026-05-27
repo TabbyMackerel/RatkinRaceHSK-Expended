@@ -48,7 +48,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_Infantry</defName>
 		<label>랫킨 반군 소속 참호전 소총병</label>
-		<combatPower>110</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -116,7 +116,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_ShockTrooper</defName>
 		<label>랫킨 반군 소속 참호전 돌격병</label>
-		<combatPower>125</combatPower>
+		<combatPower>145</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -198,7 +198,7 @@
 		<label>랫킨 반군 소속 참호전 공병</label>
 		<race>Ratkin</race>
 		<defaultFactionType>RatkinRebel</defaultFactionType>
-		<combatPower>110</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -295,7 +295,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_NoMansLandGunner</defName>
 		<label>랫킨 반군 소속 참호전 무인지대 사수</label>
-		<combatPower>180</combatPower>
+		<combatPower>225</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>
@@ -347,7 +347,7 @@
 	<PawnKindDef ParentName="RK_RebelBase_Parabellum_TrenchWarfareBase">
 		<defName>RK_Rebel_Trenchwar_Trench_CQB</defName>
 		<label>랫킨 반군 소속 참호전 근접전투병</label>
-		<combatPower>125</combatPower>
+		<combatPower>135</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniformB</li>

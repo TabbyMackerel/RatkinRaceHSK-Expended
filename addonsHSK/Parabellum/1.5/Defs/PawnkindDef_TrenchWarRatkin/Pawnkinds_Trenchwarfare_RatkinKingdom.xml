@@ -49,7 +49,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_Infantry</defName>
 		<label>랫킨 왕실군 소속 참호전 소총병</label>
-		<combatPower>110</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -116,7 +116,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_Sniper</defName>
 		<label>랫킨 왕실군 소속 참호전 저격수</label>
-		<combatPower>125</combatPower>
+		<combatPower>135</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -167,7 +167,7 @@
 		<label>랫킨 왕실군 소속 참호전 공병</label>
 		<race>Ratkin</race>
 		<defaultFactionType>Rakinia</defaultFactionType>
-		<combatPower>100</combatPower>
+		<combatPower>120</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -265,7 +265,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_LightMachineGunner</defName>
 		<label>랫킨 왕실군 소속 참호전 화력지원 사수</label>
-		<combatPower>165</combatPower>
+		<combatPower>180</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>
@@ -317,7 +317,7 @@
 	<PawnKindDef ParentName="RK_Kingdom_Parabellum_TrenchWarfareBase">
 		<defName>RK_Kingdom_Trenchwar_Trench_CQB</defName>
 		<label>랫킨 왕실군 소속 참호전 근접전투병</label>
-		<combatPower>125</combatPower>
+		<combatPower>135</combatPower>
 		<isFighter>true</isFighter>		
 		<apparelRequired>
 			<li>RK_OrderUniform</li>

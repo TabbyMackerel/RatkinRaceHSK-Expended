@@ -815,6 +815,16 @@
 			<Baseline_Ratkin MayRequire="Ludeon.RimWorld.Biotech">999</Baseline_Ratkin>
 		  </xenotypeChances>
 		</xenotypeSet>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>7~12</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>5~10</range>
+			</li>
+		</skills>
 	</PawnKindDef>
 
 <!-- 플레이어 소속 특수부대원 -->
@@ -822,7 +832,7 @@
 		<defName>RK_Rebel_SpecOpts_Player</defName>
 		<label>랫킨 반군 특수부대원</label>
 		<race>Ratkin</race>
-		<combatPower>150</combatPower>
+		<combatPower>200</combatPower>
 		<isFighter>true</isFighter>
 		<apparelRequired>
 			<li>Apparel_FlakJacket</li>
@@ -847,8 +857,6 @@
 			<li>RK_RebelSquad</li>
 			<li>RK_RebelSMG</li>
 			<li>RK_RebelST</li>
-			<li>TierOneRifle</li>
-			<li>TierOneSMG</li>
 			<li>TierTwoSMG</li>
 		</weaponTags>
 		<weaponMoney>
@@ -861,11 +869,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>7~12</range>
+				<range>5~14</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>5~10</range>
+				<range>4~10</range>
 			</li>
 		</skills>
 		<modExtensions>
